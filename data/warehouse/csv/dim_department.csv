@@ -1,0 +1,10 @@
+department_key,department_code,department_name,division,head_of_department,cost_center
+-1,UNK,Unknown,Unknown,Unknown,Unknown
+1,SLS,Sales,Commercial,Rudi Hartono,CC-100
+2,MKT,Marketing,Commercial,Maya Sari,CC-110
+3,ITD,Information Technology,Technology,Andi Wijaya,CC-120
+4,PRD,Product,Technology,Dewi Lestari,CC-130
+5,FIN,Finance,Corporate,Hendra Gunawan,CC-140
+6,HRD,Human Capital,Corporate,Sri Wahyuni,CC-150
+7,OPS,Operations,Operations,Bambang Susilo,CC-160
+8,CSV,Customer Service,Operations,Rina Kartika,CC-170

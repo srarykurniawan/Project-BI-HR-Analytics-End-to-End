@@ -1,0 +1,414 @@
+// =====================================================================
+// DAX_measures.dax  -  HR Analytics (PT Nusantara Digital Solusi)
+// ---------------------------------------------------------------------
+// Cara pakai:
+//   1. Buat tabel kosong untuk menampung measure:
+//        Home > Enter Data > nama tabel: _Measures > Load
+//   2. Klik kanan _Measures > New measure > copy-paste satu blok measure.
+//   3. Isi "Display folder" (tab Model view > Properties) sesuai judul [Folder].
+//   4. Atur format (%, angka, Rp) sesuai komentar "Format".
+//   Alternatif cepat: Tabular Editor (gratis) > buka model > paste semua sekaligus.
+//
+// Catatan model:
+//   - dim_date sudah ditandai "Mark as date table" (kolom dim_date[date], tipe Date).
+//   - Relasi fact_recruitment[filled_date_key] -> dim_date[date_key] dibuat INAKTIF.
+//   - kpi_target tidak berelasi (disconnected), dibaca via LOOKUPVALUE.
+// =====================================================================
+
+
+// ============================ [01 Headcount] ============================
+
+Headcount =
+// Snapshot: jumlah karyawan aktif pada akhir bulan terakhir di periode terpilih
+VAR _lastSnapshot = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+RETURN
+    CALCULATE (
+        COUNTROWS ( fact_headcount_monthly ),
+        fact_headcount_monthly[date_key] = _lastSnapshot
+    )
+// Format: Whole number
+
+Avg Headcount =
+// Rata-rata headcount akhir bulan dalam periode (penyebut turnover)
+AVERAGEX ( VALUES ( dim_date[year_month] ), [Headcount] )
+// Format: 0.0
+
+Headcount PY =
+CALCULATE ( [Headcount], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Headcount YoY % =
+DIVIDE ( [Headcount] - [Headcount PY], [Headcount PY] )
+// Format: Percentage 1 decimal
+
+New Hires =
+CALCULATE ( COUNTROWS ( fact_employee_movement ), fact_employee_movement[movement_type] = "Hire" )
+
+Terminations =
+CALCULATE ( COUNTROWS ( fact_employee_movement ), fact_employee_movement[movement_type] = "Termination" )
+
+Net Headcount Change =
+[New Hires] - [Terminations]
+
+Hire Rate =
+DIVIDE ( [New Hires], [Avg Headcount] )
+// Format: Percentage
+
+
+// ============================ [02 Turnover & Retention] ============================
+
+Turnover Rate =
+// Terminasi / rata-rata headcount (untuk 1 tahun penuh = turnover tahunan)
+DIVIDE ( [Terminations], [Avg Headcount] )
+// Format: Percentage 1 decimal
+
+Voluntary Terminations =
+CALCULATE ( [Terminations], fact_employee_movement[termination_type] = "Voluntary" )
+
+Involuntary Terminations =
+CALCULATE ( [Terminations], fact_employee_movement[termination_type] = "Involuntary" )
+
+Voluntary Turnover Rate =
+DIVIDE ( [Voluntary Terminations], [Avg Headcount] )
+
+Turnover Rate (Annualized) =
+// Untuk periode < 1 tahun (misal Q1 atau YTD) supaya bisa dibandingkan dengan target tahunan
+VAR _months = COUNTROWS ( FILTER ( VALUES ( dim_date[year_month] ), NOT ISBLANK ( [Headcount] ) ) )
+RETURN DIVIDE ( [Turnover Rate] * 12, _months )
+
+Turnover Rate R12M =
+// Rolling 12 bulan sampai bulan terakhir di konteks (bagus untuk grafik tren)
+VAR _end = MAX ( dim_date[date] )
+VAR _window = DATESINPERIOD ( dim_date[date], _end, -12, MONTH )
+RETURN
+    DIVIDE ( CALCULATE ( [Terminations], _window ), CALCULATE ( [Avg Headcount], _window ) )
+
+Turnover Rate PY =
+CALCULATE ( [Turnover Rate], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Regrettable Terminations =
+// Resign sukarela dengan rating terakhir >= 4 (talenta bagus yang hilang)
+CALCULATE ( [Terminations], fact_employee_movement[is_regrettable] = 1 )
+
+Regrettable Turnover % =
+DIVIDE ( [Regrettable Terminations], [Terminations] )
+
+Early Turnover % =
+// % terminasi dengan masa kerja < 12 bulan (indikasi masalah rekrutmen/onboarding)
+DIVIDE ( CALCULATE ( [Terminations], fact_employee_movement[is_early_turnover] = 1 ), [Terminations] )
+
+Avg Tenure at Exit (Months) =
+CALCULATE (
+    AVERAGE ( fact_employee_movement[tenure_months_at_event] ),
+    fact_employee_movement[movement_type] = "Termination"
+)
+
+Retention Rate =
+// Karyawan di awal periode yang masih ada di akhir periode / karyawan di awal periode
+VAR _minDate  = MIN ( dim_date[date] )
+VAR _startEom = EOMONTH ( _minDate, -1 )
+VAR _startKey = YEAR ( _startEom ) * 10000 + MONTH ( _startEom ) * 100 + DAY ( _startEom )
+VAR _endKey   = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+VAR _startEmp =
+    CALCULATETABLE ( VALUES ( fact_headcount_monthly[employee_key] ),
+        REMOVEFILTERS ( dim_date ), fact_headcount_monthly[date_key] = _startKey )
+VAR _endEmp =
+    CALCULATETABLE ( VALUES ( fact_headcount_monthly[employee_key] ),
+        REMOVEFILTERS ( dim_date ), fact_headcount_monthly[date_key] = _endKey )
+RETURN
+    DIVIDE ( COUNTROWS ( INTERSECT ( _startEmp, _endEmp ) ), COUNTROWS ( _startEmp ) )
+// Format: Percentage 1 decimal
+
+
+// ============================ [03 Demografi] ============================
+
+Female % =
+DIVIDE ( CALCULATE ( [Headcount], dim_employee[gender] = "Female" ), [Headcount] )
+
+Avg Age =
+VAR _last = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+RETURN CALCULATE ( AVERAGE ( fact_headcount_monthly[age] ), fact_headcount_monthly[date_key] = _last )
+// Format: 0.0
+
+Avg Tenure (Years) =
+VAR _last = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+RETURN CALCULATE ( AVERAGE ( fact_headcount_monthly[tenure_months] ), fact_headcount_monthly[date_key] = _last ) / 12
+// Format: 0.0
+
+Manager Ratio =
+// Jumlah staf per atasan (level Supervisor ke atas)
+VAR _mgr = CALCULATE ( [Headcount], dim_position[job_level] IN { "L3", "L4", "L5" } )
+RETURN DIVIDE ( [Headcount] - _mgr, _mgr )
+// Format: 0.0 "x"
+
+
+// ============================ [04 Kompensasi] ============================
+
+Total Labor Cost =
+// Gross pay + iuran BPJS perusahaan
+SUM ( fact_payroll[total_labor_cost] )
+// Format: Currency Rp, display units Billions (M) - lihat panduan
+
+Gross Payroll =
+SUM ( fact_payroll[gross_pay] )
+
+Overtime Pay =
+SUM ( fact_payroll[overtime_pay] )
+
+Overtime % of Payroll =
+DIVIDE ( [Overtime Pay], [Gross Payroll] )
+
+Labor Cost per Employee =
+DIVIDE ( [Total Labor Cost], [Avg Headcount] )
+
+Labor Cost YoY % =
+VAR _py = CALCULATE ( [Total Labor Cost], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+RETURN DIVIDE ( [Total Labor Cost] - _py, _py )
+
+Avg Monthly Base Salary =
+VAR _last = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+RETURN CALCULATE ( AVERAGE ( fact_headcount_monthly[monthly_base_salary] ), fact_headcount_monthly[date_key] = _last )
+
+Gender Pay Gap % =
+// (Rata-rata gaji pria - wanita) / rata-rata gaji pria. Pakai bersama slicer level jabatan
+// untuk melihat gap "apple-to-apple".
+VAR _m = CALCULATE ( [Avg Monthly Base Salary], dim_employee[gender] = "Male" )
+VAR _f = CALCULATE ( [Avg Monthly Base Salary], dim_employee[gender] = "Female" )
+RETURN DIVIDE ( _m - _f, _m )
+
+Compa-Ratio =
+// Gaji aktual / titik tengah band jabatan. 1.00 = tepat di tengah band
+VAR _last = CALCULATE ( MAX ( fact_headcount_monthly[date_key] ) )
+RETURN
+    CALCULATE (
+        AVERAGEX ( fact_headcount_monthly,
+            DIVIDE ( fact_headcount_monthly[monthly_base_salary], RELATED ( dim_position[salary_mid] ) ) ),
+        fact_headcount_monthly[date_key] = _last
+    )
+// Format: 0.00
+
+
+// ============================ [05 Kehadiran] ============================
+
+Scheduled Days =
+COUNTROWS ( fact_attendance )
+
+Absenteeism Rate =
+// Hari absen tidak terencana (sakit + mangkir) / hari kerja terjadwal
+DIVIDE ( SUM ( fact_attendance[is_absent_unplanned] ), [Scheduled Days] )
+// Format: Percentage 2 decimal
+
+Late Arrival Rate =
+DIVIDE ( SUM ( fact_attendance[is_late] ), SUM ( fact_attendance[is_present] ) )
+
+Avg Late Minutes =
+CALCULATE ( AVERAGE ( fact_attendance[late_minutes] ), fact_attendance[is_late] = 1 )
+
+Total Overtime Hours =
+SUM ( fact_attendance[overtime_hours] )
+
+Overtime Hours per Employee =
+DIVIDE ( [Total Overtime Hours], [Avg Headcount] )
+
+WFH % =
+DIVIDE ( SUM ( fact_attendance[is_wfh] ), SUM ( fact_attendance[is_present] ) )
+
+Avg Daily Work Hours =
+CALCULATE ( AVERAGE ( fact_attendance[work_hours] ), fact_attendance[is_present] = 1 )
+
+Leave Days =
+SUM ( fact_attendance[is_leave] )
+
+
+// ============================ [06 Kinerja] ============================
+
+Avg Performance Rating =
+AVERAGE ( fact_performance[rating] )
+// Format: 0.00
+
+High Performer % =
+DIVIDE ( SUM ( fact_performance[is_high_performer] ), COUNTROWS ( fact_performance ) )
+
+Low Performer % =
+DIVIDE ( SUM ( fact_performance[is_low_performer] ), COUNTROWS ( fact_performance ) )
+
+Avg Goal Achievement % =
+AVERAGE ( fact_performance[goal_achievement_pct] ) / 100
+
+
+// ============================ [07 Engagement] ============================
+
+Avg Engagement Score =
+AVERAGE ( fact_engagement[engagement_score] )
+// Format: 0.00
+
+eNPS =
+// % Promoter (9-10) - % Detractor (0-6); skala -100 s/d +100
+VAR _valid = CALCULATE ( COUNTROWS ( fact_engagement ), fact_engagement[enps_category] <> "Invalid" )
+VAR _pro   = CALCULATE ( COUNTROWS ( fact_engagement ), fact_engagement[enps_category] = "Promoter" )
+VAR _det   = CALCULATE ( COUNTROWS ( fact_engagement ), fact_engagement[enps_category] = "Detractor" )
+RETURN DIVIDE ( _pro - _det, _valid ) * 100
+// Format: 0.0
+
+Survey Responses =
+DISTINCTCOUNT ( fact_engagement[employee_key] )
+
+Survey Response Rate =
+// Responden / headcount akhir Oktober (bulan survei)
+DIVIDE ( [Survey Responses], CALCULATE ( [Headcount], dim_date[month] = 10 ) )
+
+
+// ============================ [08 Training] ============================
+
+Training Hours =
+SUM ( fact_training[completed_hours] )
+
+Training Hours per Employee =
+DIVIDE ( [Training Hours], [Avg Headcount] )
+// Format: 0.0
+
+Training Cost =
+SUM ( fact_training[cost_idr] )
+
+Training Cost per Employee =
+DIVIDE ( [Training Cost], [Avg Headcount] )
+
+Training Completion Rate =
+// Selesai / (selesai + tidak selesai); sesi yang masih berjalan tidak dihitung
+DIVIDE (
+    SUM ( fact_training[is_completed] ),
+    CALCULATE ( COUNTROWS ( fact_training ), fact_training[status] <> "In Progress" )
+)
+
+Training Participants =
+DISTINCTCOUNT ( fact_training[employee_key] )
+
+Avg Post-Test Score =
+AVERAGE ( fact_training[post_test_score] )
+
+
+// ============================ [09 Rekrutmen] ============================
+// Rekrutmen diukur pada TANGGAL TERISI (filled date) -> pakai relasi inaktif
+
+Requisitions Opened =
+COUNTROWS ( fact_recruitment )
+
+Hires Filled =
+CALCULATE (
+    COUNTROWS ( fact_recruitment ),
+    fact_recruitment[is_filled] = 1,
+    USERELATIONSHIP ( fact_recruitment[filled_date_key], dim_date[date_key] )
+)
+
+Avg Time to Fill (Days) =
+CALCULATE (
+    AVERAGE ( fact_recruitment[time_to_fill_days] ),
+    fact_recruitment[is_filled] = 1,
+    USERELATIONSHIP ( fact_recruitment[filled_date_key], dim_date[date_key] )
+)
+// Format: 0.0
+
+Cost per Hire =
+CALCULATE (
+    DIVIDE ( SUM ( fact_recruitment[recruitment_cost] ), COUNTROWS ( fact_recruitment ) ),
+    fact_recruitment[is_filled] = 1,
+    USERELATIONSHIP ( fact_recruitment[filled_date_key], dim_date[date_key] )
+)
+
+Offer Acceptance Rate =
+DIVIDE ( SUM ( fact_recruitment[offers_accepted] ), SUM ( fact_recruitment[offers_made] ) )
+
+Applicants per Requisition =
+DIVIDE ( SUM ( fact_recruitment[applicants] ), [Requisitions Opened] )
+
+Open Requisitions =
+CALCULATE ( COUNTROWS ( fact_recruitment ), fact_recruitment[status] = "Open", REMOVEFILTERS ( dim_date ) )
+
+Funnel Applicants   = SUM ( fact_recruitment[applicants] )
+Funnel Screened     = SUM ( fact_recruitment[screened] )
+Funnel Interviewed  = SUM ( fact_recruitment[interviewed] )
+Funnel Offers       = SUM ( fact_recruitment[offers_made] )
+Funnel Hired        = SUM ( fact_recruitment[offers_accepted] )
+
+
+// ============================ [10 Target & Status KPI] ============================
+// Pola umum: ambil target tahun terpilih dari tabel kpi_target
+
+Selected Year =
+MAX ( dim_date[year] )
+
+Target Turnover =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "TURNOVER", kpi_target[year], [Selected Year] )
+
+Target Voluntary Turnover =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "VOL_TURNOVER", kpi_target[year], [Selected Year] )
+
+Target Absenteeism =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "ABSENT", kpi_target[year], [Selected Year] )
+
+Target Late Rate =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "LATE", kpi_target[year], [Selected Year] )
+
+Target Time to Fill =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "TTF", kpi_target[year], [Selected Year] )
+
+Target Cost per Hire =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "CPH", kpi_target[year], [Selected Year] )
+
+Target eNPS =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "ENPS", kpi_target[year], [Selected Year] )
+
+Target Engagement =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "ENGAGE", kpi_target[year], [Selected Year] )
+
+Target Training Hours =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "TRAIN_HRS", kpi_target[year], [Selected Year] )
+
+Target Headcount =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "HEADCOUNT", kpi_target[year], [Selected Year] )
+
+Target Offer Acceptance =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "OFFER_ACC", kpi_target[year], [Selected Year] )
+
+Target High Performer =
+LOOKUPVALUE ( kpi_target[target_value], kpi_target[kpi_code], "HIGH_PERF", kpi_target[year], [Selected Year] )
+
+// --- Status (dipakai sebagai subtitle kartu KPI) ---
+Turnover Status =
+IF ( ISBLANK ( [Target Turnover] ), BLANK (),
+     IF ( [Turnover Rate] <= [Target Turnover], "▲ On target", "▼ Di atas target" )
+     & "  (target " & FORMAT ( [Target Turnover], "0%" ) & ")" )
+
+eNPS Status =
+IF ( ISBLANK ( [Target eNPS] ), BLANK (),
+     IF ( [eNPS] >= [Target eNPS], "▲ On target", "▼ Di bawah target" )
+     & "  (target " & FORMAT ( [Target eNPS], "0" ) & ")" )
+
+// --- Warna untuk conditional formatting (Format > Font color / Background > fx > Field value) ---
+Color Turnover =
+IF ( [Turnover Rate] <= [Target Turnover], "#0ca30c", "#d03b3b" )
+
+Color Absenteeism =
+IF ( [Absenteeism Rate] <= [Target Absenteeism], "#0ca30c", "#d03b3b" )
+
+Color Late Rate =
+IF ( [Late Arrival Rate] <= [Target Late Rate], "#0ca30c", "#d03b3b" )
+
+Color eNPS =
+IF ( [eNPS] >= [Target eNPS], "#0ca30c", "#d03b3b" )
+
+Color Time to Fill =
+IF ( [Avg Time to Fill (Days)] <= [Target Time to Fill], "#0ca30c", "#d03b3b" )
+
+Color Cost per Hire =
+IF ( [Cost per Hire] <= [Target Cost per Hire], "#0ca30c", "#d03b3b" )
+
+
+// ============================ [11 Label Dinamis] ============================
+
+Title Page =
+"HR Analytics  |  " &
+IF ( HASONEVALUE ( dim_date[year] ), "Tahun " & VALUES ( dim_date[year] ), "Semua Tahun" ) &
+IF ( HASONEVALUE ( dim_department[department_name] ), "  |  " & VALUES ( dim_department[department_name] ), "" )
+
+Data As Of =
+"Data per " & FORMAT ( DATE ( 2025, 12, 31 ), "dd mmm yyyy" )

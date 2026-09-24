@@ -1,0 +1,41 @@
+position_code,position_title,job_family,job_level,level_name,grade,salary_min,salary_max
+SLS-L1,Sales Executive,Sales,L1,Staff,8,6000000,9000000
+SLS-L2,Senior Sales Executive,Sales,L2,Senior Staff,10,9000000,14000000
+SLS-L3,Sales Supervisor,Sales,L3,Supervisor,12,14000000,20000000
+SLS-L4,Sales Manager,Sales,L4,Manager,14,22000000,35000000
+SLS-L5,Head of Sales,Sales,L5,Senior Manager,16,38000000,55000000
+MKT-L1,Marketing Specialist,Marketing,L1,Staff,8,6300000,9450000
+MKT-L2,Senior Marketing Specialist,Marketing,L2,Senior Staff,10,9450000,14700000
+MKT-L3,Marketing Supervisor,Marketing,L3,Supervisor,12,14700000,21000000
+MKT-L4,Marketing Manager,Marketing,L4,Manager,14,23100000,36750000
+MKT-L5,Head of Marketing,Marketing,L5,Senior Manager,16,39900000,57750000
+ITD-L1,Software Engineer,Information Technology,L1,Staff,8,7500000,11250000
+ITD-L2,Senior Software Engineer,Information Technology,L2,Senior Staff,10,11250000,17500000
+ITD-L3,Tech Lead,Information Technology,L3,Supervisor,12,17500000,25000000
+ITD-L4,IT Manager,Information Technology,L4,Manager,14,27500000,43750000
+ITD-L5,Head of Technology,Information Technology,L5,Senior Manager,16,47500000,68750000
+PRD-L1,Product Analyst,Product,L1,Staff,8,7199999,10799999
+PRD-L2,Senior Product Analyst,Product,L2,Senior Staff,10,10799999,16800000
+PRD-L3,Product Lead,Product,L3,Supervisor,12,16800000,24000000
+PRD-L4,Product Manager,Product,L4,Manager,14,26400000,42000000
+PRD-L5,Head of Product,Product,L5,Senior Manager,16,45600000,66000000
+FIN-L1,Accountant,Finance,L1,Staff,8,6600000,9900000
+FIN-L2,Senior Accountant,Finance,L2,Senior Staff,10,9900000,15400000
+FIN-L3,Finance Supervisor,Finance,L3,Supervisor,12,15400000,22000000
+FIN-L4,Finance Manager,Finance,L4,Manager,14,24200000,38500000
+FIN-L5,Head of Finance,Finance,L5,Senior Manager,16,41800000,60500000
+HRD-L1,HR Officer,Human Capital,L1,Staff,8,6000000,9000000
+HRD-L2,Senior HR Officer,Human Capital,L2,Senior Staff,10,9000000,14000000
+HRD-L3,HR Supervisor,Human Capital,L3,Supervisor,12,14000000,20000000
+HRD-L4,HR Manager,Human Capital,L4,Manager,14,22000000,35000000
+HRD-L5,Head of Human Capital,Human Capital,L5,Senior Manager,16,38000000,55000000
+OPS-L1,Operations Staff,Operations,L1,Staff,8,5400000,8100000
+OPS-L2,Senior Operations Staff,Operations,L2,Senior Staff,10,8100000,12600000
+OPS-L3,Operations Supervisor,Operations,L3,Supervisor,12,12600000,18000000
+OPS-L4,Operations Manager,Operations,L4,Manager,14,19800000,31500000
+OPS-L5,Head of Operations,Operations,L5,Senior Manager,16,34200000,49500000
+CSV-L1,Customer Service Agent,Customer Service,L1,Staff,8,5100000,7649999
+CSV-L2,Senior CS Agent,Customer Service,L2,Senior Staff,10,7649999,11900000
+CSV-L3,CS Team Leader,Customer Service,L3,Supervisor,12,11900000,17000000
+CSV-L4,CS Manager,Customer Service,L4,Manager,14,18700000,29750000
+CSV-L5,Head of Customer Experience,Customer Service,L5,Senior Manager,16,32299999,46750000

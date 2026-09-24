@@ -1,0 +1,42 @@
+position_key,position_code,position_title,job_family,job_level,level_name,grade,salary_min,salary_max,salary_mid
+-1,UNK,Unknown,Unknown,Unknown,Unknown,,,,
+1,SLS-L1,Sales Executive,Sales,L1,Staff,8,6000000,9000000,7500000.0
+2,SLS-L2,Senior Sales Executive,Sales,L2,Senior Staff,10,9000000,14000000,11500000.0
+3,SLS-L3,Sales Supervisor,Sales,L3,Supervisor,12,14000000,20000000,17000000.0
+4,SLS-L4,Sales Manager,Sales,L4,Manager,14,22000000,35000000,28500000.0
+5,SLS-L5,Head of Sales,Sales,L5,Senior Manager,16,38000000,55000000,46500000.0
+6,MKT-L1,Marketing Specialist,Marketing,L1,Staff,8,6300000,9450000,7875000.0
+7,MKT-L2,Senior Marketing Specialist,Marketing,L2,Senior Staff,10,9450000,14700000,12075000.0
+8,MKT-L3,Marketing Supervisor,Marketing,L3,Supervisor,12,14700000,21000000,17850000.0
+9,MKT-L4,Marketing Manager,Marketing,L4,Manager,14,23100000,36750000,29925000.0
+10,MKT-L5,Head of Marketing,Marketing,L5,Senior Manager,16,39900000,57750000,48825000.0
+11,ITD-L1,Software Engineer,Information Technology,L1,Staff,8,7500000,11250000,9375000.0
+12,ITD-L2,Senior Software Engineer,Information Technology,L2,Senior Staff,10,11250000,17500000,14375000.0
+13,ITD-L3,Tech Lead,Information Technology,L3,Supervisor,12,17500000,25000000,21250000.0
+14,ITD-L4,IT Manager,Information Technology,L4,Manager,14,27500000,43750000,35625000.0
+15,ITD-L5,Head of Technology,Information Technology,L5,Senior Manager,16,47500000,68750000,58125000.0
+16,PRD-L1,Product Analyst,Product,L1,Staff,8,7199999,10799999,8999999.0
+17,PRD-L2,Senior Product Analyst,Product,L2,Senior Staff,10,10799999,16800000,13799999.5
+18,PRD-L3,Product Lead,Product,L3,Supervisor,12,16800000,24000000,20400000.0
+19,PRD-L4,Product Manager,Product,L4,Manager,14,26400000,42000000,34200000.0
+20,PRD-L5,Head of Product,Product,L5,Senior Manager,16,45600000,66000000,55800000.0
+21,FIN-L1,Accountant,Finance,L1,Staff,8,6600000,9900000,8250000.0
+22,FIN-L2,Senior Accountant,Finance,L2,Senior Staff,10,9900000,15400000,12650000.0
+23,FIN-L3,Finance Supervisor,Finance,L3,Supervisor,12,15400000,22000000,18700000.0
+24,FIN-L4,Finance Manager,Finance,L4,Manager,14,24200000,38500000,31350000.0
+25,FIN-L5,Head of Finance,Finance,L5,Senior Manager,16,41800000,60500000,51150000.0
+26,HRD-L1,HR Officer,Human Capital,L1,Staff,8,6000000,9000000,7500000.0
+27,HRD-L2,Senior HR Officer,Human Capital,L2,Senior Staff,10,9000000,14000000,11500000.0
+28,HRD-L3,HR Supervisor,Human Capital,L3,Supervisor,12,14000000,20000000,17000000.0
+29,HRD-L4,HR Manager,Human Capital,L4,Manager,14,22000000,35000000,28500000.0
+30,HRD-L5,Head of Human Capital,Human Capital,L5,Senior Manager,16,38000000,55000000,46500000.0
+31,OPS-L1,Operations Staff,Operations,L1,Staff,8,5400000,8100000,6750000.0
+32,OPS-L2,Senior Operations Staff,Operations,L2,Senior Staff,10,8100000,12600000,10350000.0
+33,OPS-L3,Operations Supervisor,Operations,L3,Supervisor,12,12600000,18000000,15300000.0
+34,OPS-L4,Operations Manager,Operations,L4,Manager,14,19800000,31500000,25650000.0
+35,OPS-L5,Head of Operations,Operations,L5,Senior Manager,16,34200000,49500000,41850000.0
+36,CSV-L1,Customer Service Agent,Customer Service,L1,Staff,8,5100000,7649999,6374999.5
+37,CSV-L2,Senior CS Agent,Customer Service,L2,Senior Staff,10,7649999,11900000,9774999.5
+38,CSV-L3,CS Team Leader,Customer Service,L3,Supervisor,12,11900000,17000000,14450000.0
+39,CSV-L4,CS Manager,Customer Service,L4,Manager,14,18700000,29750000,24225000.0
+40,CSV-L5,Head of Customer Experience,Customer Service,L5,Senior Manager,16,32299999,46750000,39524999.5

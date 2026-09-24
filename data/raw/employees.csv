@@ -1,0 +1,877 @@
+employee_id,full_name,gender,birth_date,marital_status,education,email,phone,department,position_code,location,employment_type,hire_date,termination_date,termination_type,termination_reason,monthly_salary
+EMP00001,Hadi Santoso,M,1993-02-19,Married,S1,hadi.santoso001@nusantaradigital.co.id,+62 857-1688-3758,CSV,CSV-L1,DKI Jakarta,Permanent,2013-11-14,2023-08-28,Voluntary,Personal / Family,6680000
+EMP00002,Siti Wijaya,female,1991-10-02,Married,S2,siti.wijaya002@nusantaradigital.co.id,+62 852-7773-1876,OPS,OPS-L2,DKI Jakarta,Permanent,2019-07-31,,,,10120000
+EMP00003,Anisa Tanjung,female,09-Aug-1993,Married,SMA/SMK,anisa.tanjung003@nusantaradigital.co.id,+62 880-7537-6282,fin,FIN-L1,jakarta ,Permanent,25-Jul-2020,,,,8540000
+EMP00004,Aditya Utami,Pria,02-Jan-1991,Married,S1,aditya.utami004@nusantaradigital.co.id,+62 849-3952-4911,Operations,OPS-L2,DKI Jakarta,Permanent,03-Jan-2018,06-Jun-2023,Voluntary,Career Growth,10700000
+EMP00005,  amelia saputra ,Female,1993-10-15,Single,SMA/SMK,amelia.saputra005@nusantaradigital.co.id,+62 813-3858-3626,CSV,CSV-L1,Jakarta,Permanent,2020-08-22,,,,7070000
+EMP00006,Kurniawan Syahputra,L,27-Mar-1997,Married,S1,kurniawan.syahputra006@nusantaradigital.co.id,+62 820-8510-7514,SLS,SLS-L1,Jakarta,Contract,14-Jul-2021,29-Sep-2024,Voluntary,Work-Life Balance,8560000
+EMP00007,Sari Ramadhan,P,1992-05-25,Single,S1,sari.ramadhan007@nusantaradigital.co.id,+62 825-1033-1869,ITD,ITD-L1,Surabaya,Permanent,2020-03-28,,,,10800000
+EMP00008,Gita Tanjung,Perempuan,08-Jan-1992,Single,S1,gita.tanjung008@nusantaradigital.co.id,+62 858-8774-5314,FIN,FIN-L1,Surabaya,Permanent,25-Jun-2021,,,,7940000
+EMP00009,Wahyu Syahputra,Male,05/03/1993,Married,SMA/SMK,wahyu.syahputra009@nusantaradigital.co.id,+62 864-4363-8734,Customer Service,CSV-L1,BDG,Permanent,07/04/2019,,,,6480000
+EMP00010,Muhammad Hasibuan,male,1989-06-29,Single,S1,muhammad.hasibuan010@nusantaradigital.co.id,+62 845-8268-5679,SLS,SLS-L2,Jakarta Selatan,Contract,2013-09-29,2023-04-20,Involuntary,Restructuring,Rp 11.620.000
+EMP00011,Eko Situmorang,Laki-laki,24-Apr-1997,Married,D3,eko.situmorang011@nusantaradigital.co.id,+62 891-8019-7182,CSV,CSV-L1,Makassar,Permanent,17-Apr-2022,,,,7400000
+EMP00012,Teguh Pangaribuan,Male,09/01/1989,Single,SMA/SMK,teguh.pangaribuan012@nusantaradigital.co.id,+62 817-2111-2380,MKT,MKT-L1,BDG,Permanent,06/01/2019,,,,8280000
+EMP00013,Agus Pangaribuan,L,1995-07-22,Married,SMA/SMK,agus.pangaribuan013@nusantaradigital.co.id,+62 829-7946-1507,MKT,MKT-L2,Surabaya,Permanent,2019-02-19,,,,13030000
+EMP00014,Fajar Kusuma,Laki-laki,1997-12-19,Single,S1,fajar.kusuma014@nusantaradigital.co.id,+62 838-5208-7992,CSV,CSV-L1,surabaya,Permanent,2022-02-02,2023-04-27,Voluntary,Management Issues,5510000
+EMP00015,Adi Firmansyah,Laki-laki,1998-08-20,Single,S1,adi.firmansyah015@nusantaradigital.co.id,+62 838-7091-8637,prd,PRD-L1,Jakarta Selatan,Permanent,2019-03-01,,,,8040000
+EMP00016,Indah Permata,Perempuan,26/07/1998,Married,S1,indah.permata016@nusantaradigital.co.id,+62 876-9450-1871,SLS,SLS-L1,medan,Permanent,07/11/2021,,,,8030000
+EMP00017,Lestari Saputra,P,2000-09-19,Married,S1,lestari.saputra017@nusantaradigital.co.id,+62 864-9092-5721,HRD,HRD-L1,bandung ,Permanent,2021-02-11,,,,9680000
+EMP00018,Amelia Daeng,Perempuan,1993-05-17,Single,D3,amelia.daeng018@nusantaradigital.co.id,+62 896-2020-5241,CSV,CSV-L1,JKT,Permanent,2018-07-29,2023-12-07,Voluntary,Management Issues,7130000
+EMP00019,Sari Permata,P,07-Mar-1978,Married,S2,sari.permata019@nusantaradigital.co.id,+62 897-9544-9959,FIN,FIN-L4,jakarta ,Permanent,27-Jul-2018,,,,Rp 36.190.000
+EMP00020,Intan Susanti,P,30/04/1990,Single,S1,intan.susanti020@nusantaradigital.co.id,+62 871-9639-3334,Customer Service,CSV-L1,Jakarta Selatan,Permanent,01/09/2013,16/06/2023,Voluntary,Better Compensation,7000000
+EMP00021,  taufik syahputra ,L,1998-02-21,Married,D3,taufik.syahputra021@nusantaradigital.co.id,+62 816-5936-6038,Operations,OPS-L1,MDN,Permanent,2018-04-12,,,,7320000
+EMP00022,Rahma Wijaya,Wanita,15/09/1999,Single,S2,rahma.wijaya022@nusantaradigital.co.id,+62 884-3495-9374,SLS,SLS-L1,Bandung,Contract,17/02/2021,,,,8610000
+EMP00023,Budi Sinaga,male,1991-01-07,Married,D3,budi.sinaga023@nusantaradigital.co.id,+62 812-1870-2133,SLS,SLS-L2,MKS,Permanent,2018-11-20,2025-02-20,Voluntary,Better Compensation,Rp 12.920.000
+EMP00024,Rizki Hidayat,male,07-Feb-1990,MARRIED,S1,rizki.hidayat024@nusantaradigital.co.id,+62 883-4251-8267,Customer Service,CSV-L1,jakarta ,Permanent,11-Aug-2017,,,,7700000
+EMP00025,  joko saputra ,male,1985-02-10,Married,S2,joko.saputra025@nusantaradigital.co.id,+62 867-3680-3096,Marketing,MKT-L3,jakarta ,Permanent,2019-04-20,,,,17930000
+EMP00026,Yusuf Utami,L,1993-07-21,DIVORCED,S1,yusuf.utami026@nusantaradigital.co.id,+62 874-7601-5301,CSV,CSV-L2,YOGYAKARTA,Permanent,2017-05-12,2025-07-16,Voluntary,Better Compensation,12320000
+EMP00027,Wahyu Sinaga,Pria,30/03/1989,Married,S1,wahyu.sinaga027@nusantaradigital.co.id,+62 826-6500-3269,ITD,ITD-L4,jakarta ,Permanent,28/04/2022,,,,43220000
+EMP00028,Yusuf Purnomo,M,1995-08-22,Married,S1,yusuf.purnomo028@nusantaradigital.co.id,+62 879-2169-8074,mkt,MKT-L1,Jakarta Selatan,Permanent,2018-07-19,,,,"7,440,000.00"
+EMP00029,Rian Situmorang,M,1992-06-24,Married,D3,rian.situmorang029@nusantaradigital.co.id,+62 833-6078-3922,ITD,ITD-L2,JKT,Permanent,2020-04-28,,,,15950000
+EMP00030,Yusuf Pangaribuan,L,1987-08-26,Married,S1,yusuf.pangaribuan030@nusantaradigital.co.id,+62 831-2543-6747,SLS,SLS-L2,bandung ,Permanent,2020-09-04,,,,Rp 14.400.000
+EMP00031,Sari Nugroho,P,2030-05-12,Single,SMA/SMK,sari.nugroho031@nusantaradigital.co.id,+62 847-2175-5112,MKT,MKT-L1,Yogya,Permanent,2016-04-18,,,,9650000
+EMP00032,Amelia Halim,Female,21/06/1995,Married,S1,amelia.halim032@nusantaradigital.co.id,+62 859-2638-4107,CSV,CSV-L1,Bandung,Permanent,16/02/2022,24/11/2023,Involuntary,Restructuring,7220000
+EMP00033,MUHAMMAD SYAHPUTRA,Male,1996-02-19,Single,S1,muhammad.syahputra033@nusantaradigital.co.id,+62 873-5938-9805,ITD,ITD-L1,Bandung,Permanent,2022-01-21,2025-09-12,Involuntary,Misconduct,10300000
+EMP00034,Laras Rahman,female,2000-07-06,Married,S1,laras.rahman034@nusantaradigital.co.id,+62 834-9418-3429,CSV,CSV-L1,Medan,Permanent,2020-10-26,,,,6620000
+EMP00035,Rian Rahman,M,1992-04-30,Divorced,S1,rian.rahman035@nusantaradigital.co.id,+62 879-5768-3187,sls,SLS-L3,Makasar,Permanent,2020-12-15,2023-11-18,Involuntary,Poor Performance,19190000
+EMP00036,Dimas Hakim,Laki-laki,1992-10-31,Married,S1,,+62 898-2729-8885,CSV,CSV-L2,Jogja,Permanent,2022-08-15,2023-02-09,Involuntary,Poor Performance,Rp 8.980.000
+EMP00037,  joko sinaga ,Pria,1989-02-12,Married,S1,joko.sinaga037@nusantaradigital.co.id,+62 879-9345-5939,sls,SLS-L3,JKT,Permanent,2022-02-14,,,,20090000
+EMP00038,Oki Rahman,Male,10/10/1986,Married,S1,oki.rahman038@nusantaradigital.co.id,+62 893-3243-8091,ITD,ITD-L1,jakarta ,Permanent,18/12/2018,,,,Rp 9.790.000
+EMP00039,Galih Simanjuntak,M,1998-04-12,Married,S1,galih.simanjuntak039@nusantaradigital.co.id,+62 853-1437-5400,prd,PRD-L1,bandung ,Permanent,2022-03-25,,,,9420000
+EMP00040,Salsabila Simanjuntak,Perempuan,17-Oct-1993,Married,S1,salsabila.simanjuntak040@nusantaradigital.co.id,+62 839-5724-5949,ITD,ITD-L1,MDN,Permanent,19-Mar-2020,,,,10870000
+EMP00041,Reza Utami,L,1997-02-09,Married,D3,reza.utami041@nusantaradigital.co.id,+62 845-1211-2088,OPS,OPS-L1,DKI Jakarta,Permanent,2020-08-01,2024-06-16,Voluntary,Better Compensation,5850000
+EMP00042,Bunga Syahputra,P,1992-06-25,Single,S1,bunga.syahputra042@nusantaradigital.co.id,+62 847-9492-5660,MKT,MKT-L2,Yogyakarta,Permanent,2022-07-16,2023-12-23,Voluntary,Work-Life Balance,12810000
+EMP00043,Muhammad Setiawan,Laki-laki,1996-12-27,Married,SMA/SMK,muhammad.setiawan043@nusantaradigital.co.id,+62 843-5456-2942,FIN,FIN-L1,JKT,Permanent,2022-06-04,2025-07-29,Voluntary,Better Compensation,8170000
+EMP00044,Yusuf Sinaga,male,1993-10-26,Married,S1,yusuf.sinaga044@nusantaradigital.co.id,+62 864-2417-9964,HRD,HRD-L1,Surabaya,Contract,2019-03-19,,,,8250000
+EMP00045,Lukman Setiawan,M,27/04/1988,Married,S1,lukman.setiawan045@nusantaradigital.co.id,+62 834-2379-9993,OPS,OPS-L1,Jakarta,Permanent,19/05/2015,24/11/2024,Involuntary,Misconduct,8020000
+EMP00046,MAYA MAPPASESSU,Wanita,2002-04-28,MARRIED,S1,maya.mappasessu046@nusantaradigital.co.id,+62 835-1807-8368,OPS,OPS-L1,Surabaya,Permanent,2022-10-30,,,,6570000
+EMP00047,Hadi Pratama,male,1989-09-18,Married,S1,,+62 848-7962-6706,Operations,OPS-L1,Yogya,Contract,2017-07-21,,,,8520000
+EMP00048,Irfan Rahman,male,17/04/1994,Single,S1,irfan.rahman048@nusantaradigital.co.id,+62 824-6439-3335,OPS,OPS-L1,MDN,Permanent,12/09/2016,,,,Rp 7.120.000
+EMP00049,Eko Situmorang,M,1994-02-19,Single,S1,eko.situmorang049@nusantaradigital.co.id,+62 846-9405-2929,Information Technology,ITD-L3,jakarta ,Contract,2015-11-29,,,,"25,830,000.00"
+EMP00050,Vina Simanjuntak,Female,1987-05-10,Married,S1,vina.simanjuntak050@nusantaradigital.co.id,+62 841-6953-6372,ITD,ITD-L3,Jakarta,Permanent,2021-07-16,,,,22960000
+EMP00051,Muhammad Nasution,Laki-laki,26-Jan-1994,Married,S1,muhammad.nasution051@nusantaradigital.co.id,+62 896-2268-2318,Operations,OPS-L1,jakarta ,Permanent,25-Feb-2022,,,,6810000
+EMP00052,Hadi Purnomo,M,17-Mar-1989,Married,S1,hadi.purnomo052@nusantaradigital.co.id,+62 890-7904-9751,CSV,CSV-L3,Jakarta Selatan,Permanent,07-Sep-2016,12-Apr-2023,Voluntary,Better Compensation,12600000
+EMP00053,Laras Harahap,Wanita,1993-02-17,Single,S1,laras.harahap053@nusantaradigital.co.id,+62 840-5202-8545,OPS,OPS-L2,JKT,Permanent,2022-01-02,,,,11550000
+EMP00054,Ilham Situmorang,Male,1992-03-08,Married,S1,ilham.situmorang054@nusantaradigital.co.id,+62 826-6813-9262,CSV,CSV-L2,SBY,Permanent,2021-10-09,,,,12470000
+EMP00055,Amelia Susanti,Female,07/11/1995,Married,S1,amelia.susanti055@nusantaradigital.co.id,+62 846-8579-9652,CSV,CSV-L1,jakarta ,Permanent,02/07/2021,,,,5990000
+EMP00056,Wahyu Sinaga,male,1995-01-03,Married,S1,wahyu.sinaga056@nusantaradigital.co.id,+62 817-6718-4342,SLS,SLS-L1,bandung ,Permanent,2017-01-19,,,,Rp 8.200.000
+EMP00057,Rina Nugroho,P,1994-06-29,Married,S1,rina.nugroho057@nusantaradigital.co.id,+62 839-5897-7206,PRD,PRD-L1,JKT,Permanent,2018-10-25,,,,Rp 10.780.000
+EMP00058,Oki Situmorang,M,26-Mar-1987,Single,S1,oki.situmorang058@nusantaradigital.co.id,+62 862-1796-8574,PRD,PRD-L1,BDG,Permanent,17-Apr-2014,,,,9750000
+EMP00059,Rizki Rahman,male,27-Apr-1989,Married,S1,rizki.rahman059@nusantaradigital.co.id,+62 855-4940-8257,ITD,ITD-L2,jakarta ,Permanent,21-Jul-2017,26-May-2024,Involuntary,Poor Performance,Rp 14.580.000
+EMP00060,Eko Maharani,Pria,1968-05-15,Single,S2,eko.maharani060@nusantaradigital.co.id,+62 837-1871-8674,itd,ITD-L1,DKI Jakarta,Permanent,2020-08-03,2024-06-30,Retirement,Retirement,10540000
+EMP00061,Aditya Firmansyah,M,17/02/1990,Married,S2,aditya.firmansyah061@nusantaradigital.co.id,+62 837-5531-1944,PRD,PRD-L2,Bandung,Permanent,16/01/2015,,,,"16,760,000.00"
+EMP00062,Wahyu Halim,Male,1997-01-21,Single,D3,wahyu.halim062@nusantaradigital.co.id,+62 874-6146-6466,MKT,MKT-L1,Yogyakarta,Permanent,2021-12-16,2024-11-16,Involuntary,Poor Performance,Rp 7.910.000
+EMP00063,Kurniawan Kusuma,M,1993-12-23,Married,SMA/SMK,kurniawan.kusuma063@nusantaradigital.co.id,+62 851-2971-5999,itd,ITD-L1,Medan,Permanent,2018-12-29,,,,11020000
+EMP00064,Putra Pratama,male,1991-12-08,Single,S1,putra.pratama064@nusantaradigital.co.id,+62 879-3577-5248,OPS,OPS-L1,jakarta ,Permanent,2021-06-01,,,,"8,230,000.00"
+EMP00065,Hendra Mappasessu,Male,10/02/1998,Single,SMA/SMK,hendra.mappasessu065@nusantaradigital.co.id,+62 849-1498-2390,itd,ITD-L1,Jakarta,Permanent,02/07/2018,,,,"9,370,000.00"
+EMP00066,Novi Wijaya,Female,1991-03-09,MARRIED,S1,novi.wijaya066@nusantaradigital.co.id,+62 866-5524-2223,sls,SLS-L3,Yogya,Permanent,2019-07-07,,,,17170000
+EMP00067,Siti Wijaya,Wanita,1999-03-22,Single,S1,siti.wijaya067@nusantaradigital.co.id,+62 868-7395-9386,OPS,OPS-L1,MKS,Permanent,2022-03-27,,,,7040000
+EMP00068,Gilang Pratama,Laki-laki,25-May-1997,Single,S1,gilang.pratama068@nusantaradigital.co.id,+62 845-9703-6403,itd,ITD-L2,Yogya,Permanent,07-May-2022,01-Apr-2023,Voluntary,Career Growth,16620000
+EMP00069,Sari Anggraini,female,1997-12-04,Married,S1,sari.anggraini069@nusantaradigital.co.id,+62 857-5428-1189,Finance,FIN-L1,MKS,Permanent,2020-03-02,,,,9390000
+EMP00070,Citra Ramadhan,P,26/01/2000,SINGLE,D3,citra.ramadhan070@nusantaradigital.co.id,+62 878-5683-7340,OPS,OPS-L1,JKT,Permanent,02/03/2020,18/02/2023,Voluntary,Career Growth,6340000
+EMP00071,Bunga Santoso,P,12/10/1983,Single,S1,bunga.santoso071@nusantaradigital.co.id,+62 869-2949-5473,SLS,SLS-L4,surabaya,Permanent,09/02/2010,,,,31130000
+EMP00072,Fajar Susanti,L,17/12/1991,Married,D3,fajar.susanti072@nusantaradigital.co.id,+62 849-1322-8110,FIN,FIN-L1,Jakarta,Permanent,06/09/2017,29/11/2025,Voluntary,Career Growth,8980000
+EMP00073,Kartika Hakim,P,1981-03-02,Married,S2,kartika.hakim073@nusantaradigital.co.id,+62 890-6185-6040,Information Technology,ITD-L4,jakarta ,Permanent,2020-08-28,,,,41230000
+EMP00074,Rizki Kusuma,Male,1989-09-14,Single,S1,rizki.kusuma074@nusantaradigital.co.id,+62 818-4194-7642,CSV,CSV-L1,Surabaya,Permanent,2016-07-29,,,,7250000
+EMP00075,Anisa Daeng,P,1993-08-16,Married,S1,anisa.daeng075@nusantaradigital.co.id,+62 865-9120-3014,PRD,PRD-L1,Makasar,Permanent,2014-07-03,,,,10610000
+EMP00076,Novi Wibowo,Perempuan,1979-08-09,Single,S1,novi.wibowo076@nusantaradigital.co.id,+62 878-2768-1139,ITD,ITD-L3,Medan,Permanent,2013-08-26,,,,Rp 21.820.000
+EMP00077,Rina Sinaga,female,28-Apr-1999,Single,D3,rina.sinaga077@nusantaradigital.co.id,+62 873-1644-3141,FIN,FIN-L1,DKI Jakarta,Permanent,25-Jun-2021,,,,8650000
+EMP00078,Mega Anggraini,Wanita,03-Sep-1980,Divorced,D3,mega.anggraini078@nusantaradigital.co.id,+62 823-1331-3038,CSV,CSV-L3,Bandung,Permanent,29-May-2021,14-Apr-2023,Voluntary,Better Compensation,13430000
+EMP00079,Lestari Wijaya,P,1980-12-10,Divorced,S1,lestari.wijaya079@nusantaradigital.co.id,+62 850-6427-8110,csv,CSV-L4,jakarta ,Permanent,2022-05-15,2025-06-20,Voluntary,Personal / Family,Rp 25.250.000
+EMP00080,Gilang Hidayat,Laki-laki,1989-04-25,Divorced,S1,gilang.hidayat080@nusantaradigital.co.id,+62 828-5582-7212,OPS,OPS-L3,surabaya,Permanent,2022-04-22,,,,Rp 14.690.000
+EMP00081,Anisa Daeng,F,03/09/1999,Married,S1,anisa.daeng081@nusantaradigital.co.id,+62 855-4864-6248,SLS,SLS-L1,Makassar,Permanent,09/11/2020,,,,8920000
+EMP00082,Yusuf Harahap,male,27/03/1995,Single,SMA/SMK,yusuf.harahap082@nusantaradigital.co.id,+62 843-4244-1287,Marketing,MKT-L1,Jakarta Selatan,Permanent,17/08/2022,,,,Rp 8.300.000
+EMP00083,Dian Lubis,female,28-Apr-1993,Single,S1,dian.lubis083@nusantaradigital.co.id,+62 864-5185-6051,Human Capital,HRD-L2,Surabaya,Permanent,12-Jul-2021,,,,11750000
+EMP00084,Mega Pangaribuan,Wanita,05/02/1983,Single,S1,mega.pangaribuan084@nusantaradigital.co.id,+62 879-7454-5300,Product,PRD-L1,Bandung,Permanent,03/12/2012,,,,Rp 8.550.000
+EMP00085,Rina Tanjung,F,30-Sep-1984,Married,S1,rina.tanjung085@nusantaradigital.co.id,+62 811-5906-7356,ops,OPS-L3,Jakarta Selatan,Permanent,24-Aug-2019,27-Feb-2024,Voluntary,Personal / Family,13490000
+EMP00086,Salsabila Santoso,F,24-Jun-1985,Single,S1,salsabila.santoso086@nusantaradigital.co.id,+62 863-3577-9456,ITD,ITD-L3,jakarta ,Permanent,31-Aug-2015,27-Jun-2024,Voluntary,Work-Life Balance,22910000
+EMP00087,Gilang Wijaya,M,2000-10-02,Single,S1,gilang.wijaya087@nusantaradigital.co.id,+62 845-9841-4622,HRD,HRD-L1,Jakarta Selatan,Permanent,2021-04-29,2025-03-29,Voluntary,Management Issues,"8,060,000.00"
+EMP00088,REZA SINAGA,L,30/06/1999,DIVORCED,S1,reza.sinaga088@nusantaradigital.co.id,+62 814-8511-5260,SLS,SLS-L1,medan,Contract,18/10/2019,17/11/2024,Voluntary,Better Compensation,7090000
+EMP00089,  rizki syahputra ,Pria,1994-06-12,Divorced,S1,rizki.syahputra089@nusantaradigital.co.id,+62 842-7652-6782,SLS,SLS-L1,medan,Permanent,2021-01-14,,,,"7,950,000.00"
+EMP00090,Anisa Hasibuan,female,10/10/1991,MARRIED,D3,anisa.hasibuan090@nusantaradigital.co.id,+62 859-8547-5534,csv,CSV-L2,jakarta ,Permanent,28/08/2021,12/04/2023,Voluntary,Better Compensation,10360000
+EMP00091,Putra Setiawan,Laki-laki,07-Mar-1998,Single,S1,putra.setiawan091@nusantaradigital.co.id,+62 862-6819-8243,ops,OPS-L1,jakarta ,Permanent,30-Jun-2020,,,,8630000
+EMP00092,Adi Daeng,Pria,1995-10-01,Married,S1,adi.daeng092@nusantaradigital.co.id,+62 836-4263-2594,FIN,FIN-L1,bandung ,Contract,2019-08-14,,,,7190000
+EMP00093,Dedi Situmorang,Pria,03-Jan-1982,Married,S1,dedi.situmorang093@nusantaradigital.co.id,+62 861-5754-6707,MKT,MKT-L4,Jakarta Selatan,Permanent,08-Mar-2020,16-Nov-2023,Voluntary,Career Growth,24370000
+EMP00094,  rizki halim ,Pria,07/01/1996,Married,D3,rizki.halim094@nusantaradigital.co.id,+62 839-5514-2996,MKT,MKT-L1,JKT,Permanent,14/12/2017,,,,8490000
+EMP00095,Gilang Maharani,male,28/08/1997,Single,S1,gilang.maharani095@nusantaradigital.co.id,+62 855-7231-1601,SLS,SLS-L2,Surabaya,Permanent,07/11/2019,,,,13300000
+EMP00096,Rizki Nasution,Male,1976-06-17,Married,S2,rizki.nasution096@nusantaradigital.co.id,+62 884-9995-1486,Marketing,MKT-L4,JKT,Contract,2010-02-09,,,,33000000
+EMP00097,Arif Wibowo,Male,20/04/1997,Single,S1,arif.wibowo097@nusantaradigital.co.id,+62 885-7293-7197,ITD,ITD-L3,BDG,Permanent,14/10/2022,17/12/2023,Voluntary,Better Compensation,24060000
+EMP00098,  novi suryadi ,Female,1968-12-15,Married,S1,novi.suryadi098@nusantaradigital.co.id,+62 885-2372-8476,Customer Service,CSV-L1,jakarta ,Permanent,2022-07-05,2025-01-31,Retirement,Retirement,6230000
+EMP00099,Eko Syahputra,Pria,1991-05-08,DIVORCED,S2,eko.syahputra099@nusantaradigital.co.id,+62 894-1352-5079,OPS,OPS-L2,Makassar,Permanent,2017-03-22,,,,Rp 12.730.000
+EMP00100,INTAN WIJAYA,P,1991-11-13,Married,S1,intan.wijaya100@nusantaradigital.co.id,+62 887-5831-1215,Sales,SLS-L1,bandung ,Permanent,2020-12-31,,,,8420000
+EMP00101,Rina Nugroho,Female,08-Feb-1990,Single,S1,rina.nugroho101@nusantaradigital.co.id,+62 837-7435-1807,ops,OPS-L1,Medan,Permanent,09-Apr-2020,,,,6940000
+EMP00102,Aditya Nugroho,L,1993-04-27,Single,S1,aditya.nugroho102@nusantaradigital.co.id,+62 874-6946-3353,OPS,OPS-L2,DKI Jakarta,Permanent,2021-08-02,2025-09-29,Involuntary,Misconduct,"10,130,000.00"
+EMP00103,  wahyu syahputra ,Pria,1982-08-31,Married,S1,wahyu.syahputra103@nusantaradigital.co.id,+62 882-4405-9428,OPS,OPS-L1,surabaya,Permanent,2011-07-03,2024-02-10,Involuntary,Misconduct,7040000
+EMP00104,Rahma Anggraini,Female,08-May-1993,Single,S1,rahma.anggraini104@nusantaradigital.co.id,+62 873-9967-2917,MKT,MKT-L1,Jakarta,Permanent,05-Jul-2018,15-Oct-2024,Voluntary,Work-Life Balance,7800000
+EMP00105,Fitri Situmorang,Wanita,1986-09-22,Divorced,S1,fitri.situmorang105@nusantaradigital.co.id,+62 897-4781-4918,CSV,CSV-L1,bandung ,Permanent,2014-08-24,,,,5580000
+EMP00106,Tari Maharani,F,22-May-1990,Married,S1,,+62 846-6163-8295,CSV,CSV-L1,BDG,Permanent,24-Jun-2020,,,,5870000
+EMP00107,Yuni Suryadi,female,15-Jan-1967,Single,SMA/SMK,yuni.suryadi107@nusantaradigital.co.id,+62 863-2847-4380,Sales,SLS-L1,Jakarta,Permanent,26-Jan-2022,28-Feb-2023,Retirement,Retirement,7520000
+EMP00108,Aditya Wibowo,Laki-laki,1991-04-12,Married,S1,aditya.wibowo108@nusantaradigital.co.id,+62 813-1461-4910,PRD,PRD-L2,bandung ,Permanent,2022-05-02,,,,Rp 15.390.000
+EMP00109,Ratna Setiawan,female,30/06/1991,Married,S1,ratna.setiawan109@nusantaradigital.co.id,+62 847-4944-1664,FIN,FIN-L1,Jakarta,Permanent,02/05/2018,,,,9330000
+EMP00110,Nadia Nugroho,P,1994-09-06,Divorced,SMA/SMK,nadia.nugroho110@nusantaradigital.co.id,+62 861-3001-2605,MKT,MKT-L1,Yogyakarta,Contract,2017-09-19,2023-06-27,Involuntary,Misconduct,6580000
+EMP00111,  dedi purnomo ,L,1989-08-18,Married,S1,dedi.purnomo111@nusantaradigital.co.id,+62 873-6228-3421,Sales,SLS-L2,jakarta ,Contract,2010-02-09,,,,Rp 15.130.000
+EMP00112,Rina Purnomo,F,1993-01-24,Married,D3,rina.purnomo112@nusantaradigital.co.id,+62 872-8918-3227,Marketing,MKT-L1,BDG,Contract,2022-09-25,,,,"7,270,000.00"
+EMP00113,Rina Syahputra,female,1994-12-16,Married,D3,rina.syahputra113@nusantaradigital.co.id,+62 834-1010-8686,ITD,ITD-L2,medan,Permanent,2022-09-10,2023-02-18,Involuntary,Misconduct,Rp 11.630.000
+EMP00114,Lestari Hakim,Wanita,29/07/1996,Married,D3,,+62 890-5344-9148,SLS,SLS-L2,DKI Jakarta,Permanent,10/08/2022,,,,14630000
+EMP00115,Hadi Purnomo,M,1992-05-28,Married,S1,,+62 817-4845-7263,ITD,ITD-L3,Jakarta Selatan,Permanent,2022-08-15,,,,Rp 25.650.000
+EMP00116,Taufik Susanti,Laki-laki,1982-01-25,Married,S1,taufik.susanti116@nusantaradigital.co.id,+62 844-7954-8423,SLS,SLS-L5,JKT,Contract,2020-06-29,,,,42990000
+EMP00117,Hendra Utami,Pria,11-May-1993,Married,S2,hendra.utami117@nusantaradigital.co.id,+62 865-7742-2799,PRD,PRD-L1,JKT,Permanent,07-Oct-2015,15-Jan-2023,Involuntary,Misconduct,10080000
+EMP00118,Kartika Utami,P,1994-07-15,Married,D3,kartika.utami118@nusantaradigital.co.id,+62 825-8453-8181,ops,OPS-L1,MDN,Permanent,2020-06-09,2024-05-01,Voluntary,Better Compensation,6190000
+EMP00119,Muhammad Hidayat,male,23-Jul-1991,Single,S1,muhammad.hidayat119@nusantaradigital.co.id,+62 849-1706-6329,MKT,MKT-L1,DKI Jakarta,Contract,13-Sep-2018,22-Jan-2023,Voluntary,Work-Life Balance,6450000
+EMP00120,Rahma Suryadi,P,2000-06-12,Single,D3,rahma.suryadi120@nusantaradigital.co.id,+62 867-6346-3178,MKT,MKT-L1,YOGYAKARTA,Contract,2022-09-01,,,,Rp 7.270.000
+EMP00121,Dedi Daeng,Pria,1983-03-26,Divorced,S1,dedi.daeng121@nusantaradigital.co.id,+62 878-5813-3836,ITD,ITD-L1,Jakarta,Permanent,2010-02-09,2024-08-18,Voluntary,Work-Life Balance,9590000
+EMP00122,Teguh Simanjuntak,male,1992-05-24,Married,S1,teguh.simanjuntak122@nusantaradigital.co.id,+62 858-8152-4512,OPS,OPS-L2,Medan,Permanent,2020-08-18,2024-11-28,Voluntary,Career Growth,10460000
+EMP00123,Budi Nugroho,Pria,1989-06-23,MARRIED,SMA/SMK,budi.nugroho123@nusantaradigital.co.id,+62 895-4309-5033,ITD,ITD-L1,Surabaya,Permanent,2022-01-02,,,,10570000
+EMP00124,Anisa Harahap,female,1998-02-24,Married,SMA/SMK,anisa.harahap124@nusantaradigital.co.id,+62 897-7407-6158,Customer Service,CSV-L1,MKS,Permanent,2020-05-23,2024-06-01,Involuntary,Poor Performance,5780000
+EMP00125,Satria Nugroho,Laki-laki,09/11/1994,Married,S2,satria.nugroho125@nusantaradigital.co.id,+62 850-7775-8152,Operations,OPS-L2,JKT,Permanent,03/09/2019,,,,Rp 11.580.000
+EMP00126,Tari Syahputra,P,1990-04-10,Married,S1,tari.syahputra126@nusantaradigital.co.id,+62 846-3251-4275,CSV,CSV-L1,DKI Jakarta,Permanent,2016-12-14,2023-11-17,Voluntary,Further Study,5670000
+EMP00127,Yuni Siregar,Female,28/01/1997,Single,S1,yuni.siregar127@nusantaradigital.co.id,+62 861-4525-4022,SLS,SLS-L1,MKS,Permanent,25/01/2022,,,,7590000
+EMP00128,Hadi Permata,M,1987-11-15,Married,S1,hadi.permata128@nusantaradigital.co.id,+62 896-9723-5994,PRD,PRD-L1,surabaya,Permanent,2017-07-30,,,,10940000
+EMP00129,Eka Firmansyah,Wanita,1984-06-14,Married,D3,eka.firmansyah129@nusantaradigital.co.id,+62 898-5285-2962,HRD,HRD-L1,Jakarta Selatan,Contract,2010-02-09,,,,6420000
+EMP00130,Rina Wijaya,female,17-Nov-1998,Single,D3,rina.wijaya130@nusantaradigital.co.id,+62 868-7041-8288,ITD,ITD-L1,SBY,Permanent,13-Mar-2021,12-Oct-2023,Voluntary,Personal / Family,Rp 9.850.000
+EMP00131,Agus Kusuma,Pria,1972-01-06,Married,S2,agus.kusuma131@nusantaradigital.co.id,+62 829-8046-3130,SLS,SLS-L5,DKI Jakarta,Permanent,2010-10-30,,,,52870000
+EMP00132,Kurniawan Lubis,L,1989-02-13,Single,S1,kurniawan.lubis132@nusantaradigital.co.id,+62 891-6435-7083,ITD,ITD-L2,jakarta ,Permanent,2018-04-06,2025-02-28,Involuntary,Poor Performance,13430000
+EMP00133,Novi Saputra,P,22/03/1983,Single,S2,novi.saputra133@nusantaradigital.co.id,+62 814-7508-2721,SLS,SLS-L3,DKI Jakarta,Permanent,09/06/2011,23/11/2024,Voluntary,Career Growth,17720000
+EMP00134,Irfan Wijaya,Pria,1991-06-08,Married,S1,irfan.wijaya134@nusantaradigital.co.id,+62 836-2382-8633,ITD,ITD-L2,DKI Jakarta,Permanent,2018-04-02,2023-10-14,Involuntary,Misconduct,13660000
+EMP00135,Lestari Situmorang,P,1984-07-29,Married,S2,lestari.situmorang135@nusantaradigital.co.id,+62 858-6291-2276,SLS,SLS-L1,jakarta ,Permanent,2018-09-23,,,,Rp 7.090.000
+EMP00136,Budi Hakim,L,03/11/1994,Divorced,S1,budi.hakim136@nusantaradigital.co.id,+62 884-3555-3987,OPS,OPS-L2,SBY,Permanent,24/12/2018,,,,9670000
+EMP00137,Ilham Hidayat,L,1997-12-08,Married,S1,ilham.hidayat137@nusantaradigital.co.id,+62 847-9086-1833,SLS,SLS-L1,BDG,Permanent,2022-01-19,,,,9590000
+EMP00138,REZA RAHMAN,Laki-laki,1986-02-26,SINGLE,S1,reza.rahman138@nusantaradigital.co.id,+62 834-2238-5317,Human Capital,HRD-L4,Jakarta,Permanent,2020-03-25,,,,27640000
+EMP00139,Adi Permata,M,1994-12-09,Single,S1,adi.permata139@nusantaradigital.co.id,+62 816-7235-4309,Operations,OPS-L2,Yogya,Permanent,2020-01-30,,,,12900000
+EMP00140,Eko Harahap,M,13-Jan-1992,Single,SMA/SMK,,+62 852-7860-2452,Customer Service,CSV-L1,jakarta ,Permanent,05-Mar-2022,01-Oct-2024,Voluntary,Better Compensation,6010000
+EMP00141,Teguh Susanti,Laki-laki,16/01/1987,Married,D3,,+62 876-8706-7484,Sales,SLS-L3,Bandung,Contract,20/10/2018,,,,"18,590,000.00"
+EMP00142,Budi Saputra,M,1996-04-01,Single,D3,budi.saputra142@nusantaradigital.co.id,+62 813-2817-5459,CSV,CSV-L1,Surabaya,Permanent,2021-04-17,2023-11-29,Voluntary,Better Compensation,7480000
+EMP00143,Putra Nugroho,L,1969-10-15,Divorced,S1,putra.nugroho143@nusantaradigital.co.id,+62 827-5783-1454,OPS,OPS-L1,Yogyakarta,Permanent,2020-04-19,2025-11-30,Retirement,Retirement,Rp 8.360.000
+EMP00144,Wulan Hidayat,Wanita,15/04/1967,Married,S1,wulan.hidayat144@nusantaradigital.co.id,+62 854-4983-6577,ITD,ITD-L1,Jakarta,Permanent,13/02/2022,31/05/2023,Retirement,Retirement,9120000
+EMP00145,Eko Situmorang,Male,05/08/1991,Married,S1,eko.situmorang145@nusantaradigital.co.id,+62 888-9543-8861,OPS,OPS-L1,YOGYAKARTA,Permanent,21/09/2017,25/04/2023,Voluntary,Better Compensation,5960000
+EMP00146,Arif Harahap,L,1995-04-03,Married,S1,,+62 868-8662-5296,SLS,SLS-L3,YOGYAKARTA,Permanent,2019-07-29,,,,21960000
+EMP00147,Nadia Wibowo,Perempuan,1995-07-17,Married,D3,nadia.wibowo147@nusantaradigital.co.id,+62 868-9001-4821,CSV,CSV-L1,BDG,Permanent,2022-07-08,2023-10-11,Involuntary,Restructuring,6030000
+EMP00148,Salsabila Hidayat,female,02/10/1983,Married,S1,salsabila.hidayat148@nusantaradigital.co.id,+62 853-5999-8861,ops,OPS-L1,Jakarta Selatan,Permanent,20/05/2011,,,,8220000
+EMP00149,Aditya Ramadhan,L,25-Apr-1996,Married,S1,aditya.ramadhan149@nusantaradigital.co.id,+62 896-7170-5833,Sales,SLS-L1,medan,Permanent,15-Dec-2020,,,,6780000
+EMP00150,Taufik Wijaya,male,13/04/1984,Single,S1,,+62 875-7585-2682,OPS,OPS-L2,MDN,Permanent,26/04/2014,24/07/2025,Involuntary,Poor Performance,Rp 12.400.000
+EMP00151,Arif Wijaya,Male,19/11/1999,Married,S1,arif.wijaya151@nusantaradigital.co.id,+62 812-4096-3173,CSV,CSV-L1,bandung ,Permanent,09/04/2020,,,,7620000
+EMP00152,Sari Daeng,female,1991-06-15,Divorced,S1,sari.daeng152@nusantaradigital.co.id,+62 834-8919-6488,Human Capital,HRD-L1,Jakarta Selatan,Permanent,2021-07-09,2025-03-19,Voluntary,Relocation,7210000
+EMP00153,Agus Wibowo,Laki-laki,1988-10-05,Single,S1,agus.wibowo153@nusantaradigital.co.id,+62 845-9088-2653,OPS,OPS-L3,DKI Jakarta,Permanent,2016-07-11,,,,16550000
+EMP00154,Hendra Utami,M,1981-05-18,Married,S2,,+62 873-3688-9111,SLS,SLS-L5,jakarta ,Permanent,2020-06-17,,,,47060000
+EMP00155,  bunga permata ,female,1992-08-01,Single,D3,bunga.permata155@nusantaradigital.co.id,+62 878-3085-1081,PRD,PRD-L1,Surabaya,Permanent,2022-05-10,,,,8250000
+EMP00156,Yoga Wibowo,L,1982-04-02,Married,D3,yoga.wibowo156@nusantaradigital.co.id,+62 897-7232-6449,SLS,SLS-L3,Makasar,Permanent,2018-07-18,,,,18520000
+EMP00157,  irfan ramadhan ,Pria,29/03/1980,Single,S2,irfan.ramadhan157@nusantaradigital.co.id,+62 848-6972-7891,SLS,SLS-L5,Jakarta Selatan,Permanent,07/12/2019,,,,45250000
+EMP00158,Siti Permata,P,29/08/1991,Divorced,S1,siti.permata158@nusantaradigital.co.id,+62 897-9007-1661,CSV,CSV-L1,DKI Jakarta,Permanent,29/06/2012,22/07/2023,Voluntary,Relocation,6810000
+EMP00159,Novi Nugroho,Wanita,22-Nov-1996,Single,S1,novi.nugroho159@nusantaradigital.co.id,+62 821-2805-5236,OPS,OPS-L1,DKI Jakarta,Permanent,15-Sep-2020,,,,6910000
+EMP00160,Galih Siregar,male,1980-02-22,Married,S2,galih.siregar160@nusantaradigital.co.id,+62 851-5873-6154,Operations,OPS-L5,Jakarta Selatan,Permanent,2014-12-07,,,,39750000
+EMP00161,Siti Setiawan,Wanita,1983-04-10,Single,S1,siti.setiawan161@nusantaradigital.co.id,+62 840-4294-5669,Product,PRD-L1,MKS,Permanent,2010-02-09,2023-04-01,Voluntary,Work-Life Balance,8970000
+EMP00162,Irfan Setiawan,L,1992-12-23,Married,S1,irfan.setiawan162@nusantaradigital.co.id,+62 846-1262-5078,PRD,PRD-L1,jakarta ,Permanent,2015-03-29,,,,9150000
+EMP00163,Wahyu Pratama,Laki-laki,1999-05-19,Single,SMA/SMK,wahyu.pratama163@nusantaradigital.co.id,+62 823-5320-6994,ITD,ITD-L1,DKI Jakarta,Contract,2021-11-24,2023-04-17,Involuntary,Restructuring,9340000
+EMP00164,Eko Wibowo,male,11-Sep-1985,Married,S2,eko.wibowo164@nusantaradigital.co.id,+62 886-3263-5482,Sales,SLS-L5,jakarta ,Contract,31-May-2019,02-Oct-2023,Voluntary,Career Growth,46320000
+EMP00165,Fajar Hakim,M,06-Feb-1986,Married,S1,fajar.hakim165@nusantaradigital.co.id,+62 892-3152-6293,Finance,FIN-L1,SBY,Permanent,30-Jul-2010,,,,"9,620,000.00"
+EMP00166,Joko Maharani,Pria,1998-12-12,Married,D3,joko.maharani166@nusantaradigital.co.id,+62 816-5630-1656,HRD,HRD-L1,DKI Jakarta,Permanent,2019-08-12,2024-02-04,Voluntary,Relocation,8420000
+EMP00167,Citra Daeng,F,1984-08-22,Single,S1,citra.daeng167@nusantaradigital.co.id,+62 830-5318-8672,CSV,CSV-L4,Jakarta Selatan,Permanent,2019-05-28,,,,24240000
+EMP00168,  rahma kusuma ,Wanita,1989-01-29,MARRIED,S1,rahma.kusuma168@nusantaradigital.co.id,+62 855-3081-2820,MKT,MKT-L2,DKI Jakarta,Permanent,2017-04-09,,,,13860000
+EMP00169,Yusuf Nugroho,Pria,2001-07-01,Single,S2,yusuf.nugroho169@nusantaradigital.co.id,+62 874-2198-1776,Sales,SLS-L1,Jakarta,Permanent,2022-02-06,2025-02-25,Involuntary,Poor Performance,7420000
+EMP00170,Reza Tanjung,male,1986-10-21,MARRIED,S1,reza.tanjung170@nusantaradigital.co.id,+62 827-6464-5423,SLS,SLS-L2,Makasar,Permanent,2020-07-16,,,,14050000
+EMP00171,Eko Anggraini,M,1995-05-17,Single,D3,eko.anggraini171@nusantaradigital.co.id,+62 850-6842-8190,OPS,OPS-L1,Makasar,Permanent,2021-11-05,,,,7840000
+EMP00172,Eka Siregar,F,1997-06-03,Single,S1,eka.siregar172@nusantaradigital.co.id,+62 883-1342-4459,OPS,OPS-L1,DKI Jakarta,Permanent,2022-12-17,2024-10-19,Voluntary,Better Compensation,7540000
+EMP00173,Laras Setiawan,F,1994-05-27,Single,S1,laras.setiawan173@nusantaradigital.co.id,+62 836-2469-6055,OPS,OPS-L1,JKT,Permanent,2019-08-10,2024-04-12,Voluntary,Career Growth,7210000
+EMP00174,Arif Tanjung,male,1998-11-13,Married,S1,arif.tanjung174@nusantaradigital.co.id,+62 897-3514-7283,CSV,CSV-L2,Jakarta,Permanent,2019-09-11,,,,11010000
+EMP00175,Oki Susanti,L,02-Sep-1982,Married,S1,oki.susanti175@nusantaradigital.co.id,+62 892-6688-8533,CSV,CSV-L3,Bandung,Permanent,04-Jun-2019,10-Jun-2025,Involuntary,Poor Performance,14310000
+EMP00176,Bunga Harahap,P,1987-04-24,Married,S1,bunga.harahap176@nusantaradigital.co.id,+62 871-9283-1399,ITD,ITD-L4,JKT,Permanent,2021-07-26,,,,45620000
+EMP00177,Hendra Susanti,Male,23-Aug-1996,Married,D3,hendra.susanti177@nusantaradigital.co.id,+62 820-1283-3652,Sales,SLS-L1,JKT,Permanent,13-Jul-2019,19-Dec-2023,Voluntary,Better Compensation,6610000
+EMP00178,Teguh Wijaya,Male,1987-01-23,Married,D3,teguh.wijaya178@nusantaradigital.co.id,+62 853-6553-2549,ops,OPS-L3,Jakarta,Contract,2022-10-22,,,,19140000
+EMP00179,Dedi Purnomo,L,1985-12-17,Divorced,S2,dedi.purnomo179@nusantaradigital.co.id,+62 873-2894-1064,SLS,SLS-L4,Jakarta,Permanent,2017-08-30,,,,30860000
+EMP00180,Dewi Mappasessu,Perempuan,2001-02-11,Single,SMA/SMK,dewi.mappasessu180@nusantaradigital.co.id,+62 884-8817-5595,csv,CSV-L1,Surabaya,Permanent,2022-12-16,2023-06-16,Voluntary,Management Issues,5680000
+EMP00181,Anisa Maharani,P,26/09/1990,Single,D3,anisa.maharani181@nusantaradigital.co.id,+62 833-9858-8150,SLS,SLS-L2,Jakarta,Permanent,18/04/2018,,,,10960000
+EMP00182,Rahma Purnomo,Female,1993-03-26,Married,S1,rahma.purnomo182@nusantaradigital.co.id,+62 830-2807-1533,OPS,OPS-L1,jakarta ,Permanent,2018-05-03,,,,Rp 7.050.000
+EMP00183,Wulan Nugroho,female,09-Mar-1991,Single,SMA/SMK,wulan.nugroho183@nusantaradigital.co.id,+62 841-7806-7750,FIN,FIN-L1,Surabaya,Permanent,26-Aug-2015,,,,9060000
+EMP00184,ADI RAHMAN,Pria,1995-06-29,Single,S1,adi.rahman184@nusantaradigital.co.id,+62 894-4283-4523,CSV,CSV-L1,jakarta ,Permanent,2022-02-25,2025-02-09,Voluntary,Better Compensation,8170000
+EMP00185,Muhammad Hidayat,L,30-Jan-1994,Single,SMA/SMK,muhammad.hidayat185@nusantaradigital.co.id,+62 865-7008-7806,OPS,OPS-L1,BDG,Permanent,19-Apr-2022,08-Apr-2023,Voluntary,Career Growth,6870000
+EMP00186,Arif Hidayat,M,1967-12-15,Divorced,S1,arif.hidayat186@nusantaradigital.co.id,+62 852-3266-3872,OPS,OPS-L1,Surabaya,Permanent,2022-05-07,2024-01-31,Retirement,Retirement,8540000
+EMP00187,Muhammad Saputra,L,22/12/2000,Single,SMA/SMK,muhammad.saputra187@nusantaradigital.co.id,+62 848-2171-5901,CSV,CSV-L1,Bandung,Permanent,07/03/2021,25/06/2024,Voluntary,Better Compensation,7070000
+EMP00188,Agus Hidayat,M,1998-12-30,Single,SMA/SMK,agus.hidayat188@nusantaradigital.co.id,+62 845-7994-6483,PRD,PRD-L1,jakarta ,Permanent,2019-10-18,,,,9290000
+EMP00189,Hadi Simanjuntak,male,1992-02-18,Single,D3,hadi.simanjuntak189@nusantaradigital.co.id,+62 893-7115-5088,Information Technology,ITD-L3,Jakarta Selatan,Permanent,2021-05-21,2024-07-13,Voluntary,Management Issues,20510000
+EMP00190,Gilang Firmansyah,Laki-laki,12-Jun-1996,SINGLE,S1,gilang.firmansyah190@nusantaradigital.co.id,+62 879-2243-5275,OPS,OPS-L1,Medan,Permanent,16-May-2018,,,,7200000
+EMP00191,Mega Maharani,female,1989-06-01,Married,S1,,+62 892-4082-5355,PRD,PRD-L1,jakarta ,Permanent,2021-02-15,,,,"10,290,000.00"
+EMP00192,Adi Firmansyah,L,26-Feb-1981,Married,S2,adi.firmansyah192@nusantaradigital.co.id,+62 893-5807-9088,sls,SLS-L5,Surabaya,Permanent,15-Oct-2021,12-Sep-2023,Voluntary,Better Compensation,40550000
+EMP00193,Wahyu Saputra,Laki-laki,1991-01-10,Married,S1,wahyu.saputra193@nusantaradigital.co.id,+62 871-9793-1474,SLS,SLS-L2,jakarta ,Permanent,2020-09-30,,,,10680000
+EMP00194,Irfan Kusuma,M,1993-12-21,Single,S1,irfan.kusuma194@nusantaradigital.co.id,+62 812-4938-3070,CSV,CSV-L4,JKT,Permanent,2018-11-11,,,,27090000
+EMP00195,Salsabila Mappasessu,Perempuan,1968-05-15,Single,S1,salsabila.mappasessu195@nusantaradigital.co.id,+62 875-9006-4029,OPS,OPS-L2,JKT,Permanent,2018-05-21,2024-06-30,Retirement,Retirement,9740000
+EMP00196,Lestari Syahputra,female,1994-01-07,Married,S2,lestari.syahputra196@nusantaradigital.co.id,+62 881-3637-3224,Operations,OPS-L2,Makasar,Permanent,2015-09-07,,,,9390000
+EMP00197,Hadi Situmorang,Male,23/01/1985,Single,S1,hadi.situmorang197@nusantaradigital.co.id,+62 826-9328-5893,HRD,HRD-L3,bandung ,Permanent,06/09/2014,,,,19210000
+EMP00198,Ratna Purnomo,P,28-Jan-1991,Married,S2,ratna.purnomo198@nusantaradigital.co.id,+62 845-8580-4900,HRD,HRD-L1,Makassar,Contract,23-Aug-2019,,,,7670000
+EMP00199,Taufik Utami,M,1989-06-23,Married,SMA/SMK,taufik.utami199@nusantaradigital.co.id,+62 862-5947-7112,HRD,HRD-L1,Jakarta Selatan,Permanent,2021-04-02,,,,8540000
+EMP00200,Eko Mappasessu,M,1997-03-09,MARRIED,S2,eko.mappasessu200@nusantaradigital.co.id,+62 827-1031-9468,MKT,MKT-L2,Jakarta Selatan,Permanent,2021-06-09,,,,11970000
+EMP00201,Bunga Mappasessu,Female,1999-11-19,DIVORCED,S1,bunga.mappasessu201@nusantaradigital.co.id,+62 888-6867-1755,Finance,FIN-L1,medan,Permanent,2020-06-01,,,,7130000
+EMP00202,Rahma Ramadhan,Female,1992-12-26,Married,S1,rahma.ramadhan202@nusantaradigital.co.id,+62 885-2368-8126,SLS,SLS-L2,bandung ,Contract,2019-11-04,2024-04-10,Voluntary,Career Growth,12550000
+EMP00203,Sari Mappasessu,F,30-Sep-2001,Single,D3,sari.mappasessu203@nusantaradigital.co.id,+62 847-7441-9966,Operations,OPS-L1,jakarta ,Permanent,18-Jul-2022,,,,6100000
+EMP00204,Vina Purnomo,F,26/09/1984,Single,D3,vina.purnomo204@nusantaradigital.co.id,+62 811-8296-1753,SLS,SLS-L1,Jakarta Selatan,Contract,15/08/2014,,,,9530000
+EMP00205,Muhammad Anggraini,Male,1998-04-30,Married,SMA/SMK,muhammad.anggraini205@nusantaradigital.co.id,+62 892-2289-1419,CSV,CSV-L1,Yogyakarta,Permanent,2022-03-12,,,,6250000
+EMP00206,Dimas Tanjung,male,16/05/1993,Single,D3,dimas.tanjung206@nusantaradigital.co.id,+62 898-8395-7950,Sales,SLS-L1,Jakarta,Permanent,04/04/2020,,,,8860000
+EMP00207,Indah Setiawan,Perempuan,07/05/1995,Married,D3,indah.setiawan207@nusantaradigital.co.id,+62 821-1866-3209,CSV,CSV-L1,Surabaya,Permanent,18/03/2021,02/03/2024,Voluntary,Work-Life Balance,Rp 6.270.000
+EMP00208,TEGUH LUBIS,Pria,20/07/1980,Single,S2,teguh.lubis208@nusantaradigital.co.id,+62 891-9010-9432,ITD,ITD-L3,surabaya,Permanent,09/02/2010,,,,27570000
+EMP00209,Rangga Rahman,M,1998-12-02,Single,D3,rangga.rahman209@nusantaradigital.co.id,+62 844-3166-1362,HRD,HRD-L1,Jakarta Selatan,Permanent,2021-01-11,,,,8170000
+EMP00210,Budi Anggraini,Pria,1993-01-13,MARRIED,S2,budi.anggraini210@nusantaradigital.co.id,+62 838-8995-2418,OPS,OPS-L3,jakarta ,Permanent,2021-02-22,,,,16830000
+EMP00211,Wahyu Maharani,male,1993-08-29,SINGLE,D3,wahyu.maharani211@nusantaradigital.co.id,+62 842-2377-4864,OPS,OPS-L1,Jakarta Selatan,Permanent,2017-05-06,,,,"7,970,000.00"
+EMP00212,Yoga Situmorang,Laki-laki,1996-02-03,Single,S1,yoga.situmorang212@nusantaradigital.co.id,+62 818-2570-5652,Information Technology,ITD-L2,Makassar,Permanent,2022-04-17,2025-05-21,Voluntary,Career Growth,16950000
+EMP00213,Rina Daeng,Wanita,1996-04-27,Married,S1,rina.daeng213@nusantaradigital.co.id,+62 896-8901-2538,Marketing,MKT-L1,Bandung,Permanent,2021-01-07,,,,9040000
+EMP00214,  muhammad rahman ,Laki-laki,1989-06-28,Single,SMA/SMK,muhammad.rahman214@nusantaradigital.co.id,+62 879-9914-5673,Customer Service,CSV-L1,Jakarta Selatan,Permanent,2013-05-02,,,,6240000
+EMP00215,Eka Pratama,F,28/06/1992,Married,S1,eka.pratama215@nusantaradigital.co.id,+62 888-5787-3507,PRD,PRD-L2,JKT,Permanent,25/03/2017,,,,15090000
+EMP00216,Lestari Hidayat,Perempuan,1900-01-01,Married,D3,lestari.hidayat216@nusantaradigital.co.id,+62 864-4928-3890,prd,PRD-L1,Makasar,Permanent,04-Feb-2018,,,,"10,330,000.00"
+EMP00217,Citra Rahman,P,1991-12-04,Married,S1,citra.rahman217@nusantaradigital.co.id,+62 848-9937-7653,FIN,FIN-L1,jakarta ,Permanent,2021-08-27,,,,7730000
+EMP00218,Budi Siregar,L,20-Nov-1993,Single,S1,budi.siregar218@nusantaradigital.co.id,+62 822-6523-2019,itd,ITD-L1,DKI Jakarta,Permanent,13-Nov-2019,,,,Rp 11.520.000
+EMP00219,Fitri Santoso,Perempuan,1985-12-07,MARRIED,S1,fitri.santoso219@nusantaradigital.co.id,+62 865-3186-7915,ITD,ITD-L1,JKT,Contract,2017-02-05,,,,8310000
+EMP00220,Tari Utami,Female,15-Feb-1989,Single,S1,tari.utami220@nusantaradigital.co.id,+62 832-2471-6521,CSV,CSV-L3,Jakarta Selatan,Permanent,30-Mar-2017,,,,13550000
+EMP00221,  rizki firmansyah ,Male,22-Sep-1994,Married,S1,rizki.firmansyah221@nusantaradigital.co.id,+62 857-7954-7081,ops,OPS-L1,BDG,Permanent,03-Apr-2020,,,,6520000
+EMP00222,Amelia Lubis,female,11-Jan-1995,Single,S1,amelia.lubis222@nusantaradigital.co.id,+62 837-6473-6715,CSV,CSV-L1,DKI Jakarta,Permanent,09-Oct-2020,,,,6920000
+EMP00223,Amelia Kusuma,Female,02/02/2001,Divorced,S1,amelia.kusuma223@nusantaradigital.co.id,+62 844-9532-5292,SLS,SLS-L1,bandung ,Permanent,02/12/2021,,,,8420000
+EMP00224,Hadi Simanjuntak,L,01-Aug-1983,Single,S2,hadi.simanjuntak224@nusantaradigital.co.id,+62 848-2362-5500,SLS,SLS-L4,Jakarta Selatan,Permanent,03-Oct-2017,,,,33670000
+EMP00225,Mega Syahputra,female,1999-08-08,Married,S2,mega.syahputra225@nusantaradigital.co.id,+62 827-2808-7694,SLS,SLS-L1,Makassar,Contract,2022-09-21,2024-03-17,Involuntary,Misconduct,7950000
+EMP00226,Citra Tanjung,female,13/04/1989,MARRIED,D3,citra.tanjung226@nusantaradigital.co.id,+62 826-5741-7353,MKT,MKT-L1,Surabaya,Permanent,19/02/2022,,,,8270000
+EMP00227,  wahyu saputra ,L,1997-06-04,Single,S1,wahyu.saputra227@nusantaradigital.co.id,+62 822-1877-2179,MKT,MKT-L1,Yogyakarta,Contract,2018-01-07,2025-05-21,Voluntary,Career Growth,7980000
+EMP00228,Yuni Daeng,F,13/05/1989,Married,S1,yuni.daeng228@nusantaradigital.co.id,+62 862-8840-7961,FIN,FIN-L4,SBY,Permanent,26/09/2022,,,,30460000
+EMP00229,Hadi Tanjung,M,1991-10-04,Divorced,S1,hadi.tanjung229@nusantaradigital.co.id,+62 886-6434-5998,OPS,OPS-L1,Jakarta Selatan,Permanent,2014-03-31,,,,7580000
+EMP00230,Sari Daeng,Wanita,1995-10-14,Single,S1,sari.daeng230@nusantaradigital.co.id,+62 817-2397-4620,csv,CSV-L2,DKI Jakarta,Permanent,2022-09-08,,,,Rp 10.770.000
+EMP00231,Ayu Purnomo,Female,1994-03-16,Married,S1,ayu.purnomo231@nusantaradigital.co.id,+62 868-1678-2862,csv,CSV-L1,BDG,Contract,2021-03-07,2023-03-08,Voluntary,Personal / Family,6870000
+EMP00232,Hadi Tanjung,Laki-laki,1985-03-10,Married,S1,,+62 895-5012-7259,ITD,ITD-L2,Jakarta,Permanent,2015-02-01,,,,18030000
+EMP00233,Arif Ramadhan,male,1969-02-15,Married,S1,arif.ramadhan233@nusantaradigital.co.id,+62 826-3981-2357,CSV,CSV-L1,SBY,Permanent,2020-02-10,2025-03-31,Retirement,Retirement,6490000
+EMP00234,Taufik Pratama,Male,20/10/1982,Single,S1,taufik.pratama234@nusantaradigital.co.id,+62 811-7751-1361,Operations,OPS-L2,SBY,Permanent,09/02/2010,,,,11010000
+EMP00235,Mega Hakim,F,02-Dec-1999,SINGLE,S1,mega.hakim235@nusantaradigital.co.id,+62 827-7329-3694,CSV,CSV-L1,Jakarta Selatan,Contract,31-Jul-2022,23-May-2023,Voluntary,Better Compensation,6410000
+EMP00236,Taufik Permata,M,15-Feb-1988,Married,D3,,+62 874-3021-1250,HRD,HRD-L2,Jakarta Selatan,Permanent,11-Oct-2016,31-Dec-2023,Voluntary,Career Growth,11140000
+EMP00237,Teguh Nasution,male,1995-05-23,MARRIED,S1,teguh.nasution237@nusantaradigital.co.id,+62 874-1645-2007,HRD,HRD-L2,Jogja,Permanent,2022-12-13,,,,11570000
+EMP00238,Dewi Wijaya,Wanita,14/10/1993,Single,SMA/SMK,dewi.wijaya238@nusantaradigital.co.id,+62 867-3131-8278,OPS,OPS-L1,jakarta ,Permanent,05/11/2021,24/07/2024,Voluntary,Further Study,6640000
+EMP00239,Oki Siregar,Pria,1991-04-15,Married,S1,oki.siregar239@nusantaradigital.co.id,+62 817-3097-7990,MKT,MKT-L2,YOGYAKARTA,Permanent,2015-09-08,,,,"14,960,000.00"
+EMP00240,Bunga Hasibuan,P,1993-11-06,Single,S1,bunga.hasibuan240@nusantaradigital.co.id,+62 829-3928-6066,CSV,CSV-L1,MKS,Permanent,2019-07-23,,,,7090000
+EMP00241,Hendra Utami,Laki-laki,15-Dec-1969,Single,S1,hendra.utami241@nusantaradigital.co.id,+62 889-9466-9970,CSV,CSV-L1,Jakarta Selatan,Permanent,06-Jan-2020,,,,7720000
+EMP00242,Nadia Ramadhan,Perempuan,1997-06-28,MARRIED,S1,nadia.ramadhan242@nusantaradigital.co.id,+62 862-9082-7034,CSV,CSV-L1,DKI Jakarta,Permanent,2020-01-19,,,,6950000
+EMP00243,Lukman Simanjuntak,L,02/08/1987,Single,S1,lukman.simanjuntak243@nusantaradigital.co.id,+62 838-3932-6940,Operations,OPS-L1,jakarta ,Permanent,01/02/2011,,,,8070000
+EMP00244,Fajar Ramadhan,Pria,11-Oct-1974,Married,D3,fajar.ramadhan244@nusantaradigital.co.id,+62 862-7410-8884,ITD,ITD-L3,MKS,Permanent,17-May-2017,,,,22950000
+EMP00245,Vina Utami,F,1991-12-26,Married,D3,vina.utami245@nusantaradigital.co.id,+62 841-1344-7167,Sales,SLS-L1,JKT,Permanent,2019-04-27,,,,7950000
+EMP00246,Eka Sinaga,Perempuan,1984-02-06,Married,D3,eka.sinaga246@nusantaradigital.co.id,+62 816-6518-1740,CSV,CSV-L2,JKT,Permanent,2015-11-23,2024-07-23,Voluntary,Career Growth,10750000
+EMP00247,Rina Pangaribuan,P,09-Sep-1993,Married,D3,rina.pangaribuan247@nusantaradigital.co.id,+62 847-7377-1638,Operations,OPS-L1,JKT,Permanent,28-Dec-2019,,,,8090000
+EMP00248,Teguh Saputra,L,1995-03-28,Single,S1,teguh.saputra248@nusantaradigital.co.id,+62 820-4161-3931,FIN,FIN-L2,JKT,Permanent,2019-12-19,,,,13900000
+EMP00249,Intan Saputra,female,1999-10-10,Single,S1,intan.saputra249@nusantaradigital.co.id,+62 826-7192-5873,sls,SLS-L3,Surabaya,Permanent,2022-04-10,2023-01-07,Voluntary,Work-Life Balance,16140000
+EMP00250,Eka Nasution,Wanita,1993-04-13,Single,D3,eka.nasution250@nusantaradigital.co.id,+62 814-9250-3171,SLS,SLS-L1,Jakarta,Permanent,2021-03-02,,,,9030000
+EMP00251,Fikri Harahap,Laki-laki,1984-08-14,Married,S1,fikri.harahap251@nusantaradigital.co.id,+62 873-6708-8273,Sales,SLS-L4,DKI Jakarta,Permanent,2017-01-01,,,,40380000
+EMP00252,Wahyu Tanjung,Male,10/03/1994,Married,SMA/SMK,wahyu.tanjung252@nusantaradigital.co.id,+62 836-3774-7215,itd,ITD-L1,SBY,Permanent,30/09/2019,,,,12450000
+EMP00253,Novi Halim,P,1990-05-17,Married,S2,novi.halim253@nusantaradigital.co.id,+62 820-9799-4202,CSV,CSV-L3,Makasar,Permanent,2020-01-12,,,,17690000
+EMP00254,Joko Santoso,Laki-laki,1997-04-18,Single,S1,joko.santoso254@nusantaradigital.co.id,+62 827-3371-2805,Finance,FIN-L1,JKT,Permanent,2022-06-30,,,,9510000
+EMP00255,Intan Rahman,Perempuan,1992-01-01,Married,S1,intan.rahman255@nusantaradigital.co.id,+62 866-3463-7541,SLS,SLS-L1,Bandung,Permanent,2014-03-08,,,,7780000
+EMP00256,Ilham Utami,L,02-Mar-1994,Divorced,S1,ilham.utami256@nusantaradigital.co.id,+62 814-9052-4910,Operations,OPS-L1,JKT,Permanent,01-Sep-2014,,,,7770000
+EMP00257,Tiara Sinaga,Wanita,1992-08-23,Divorced,S1,tiara.sinaga257@nusantaradigital.co.id,+62 867-7992-3406,Information Technology,ITD-L2,Jakarta,Permanent,2020-07-31,,,,16010000
+EMP00258,Dimas Maharani,Male,29-Apr-1992,Single,S1,,+62 892-8895-2169,SLS,SLS-L2,Jakarta Selatan,Permanent,09-Mar-2022,10-Oct-2023,Voluntary,Personal / Family,9940000
+EMP00259,Dedi Utami,Laki-laki,1980-03-02,Divorced,S1,dedi.utami259@nusantaradigital.co.id,+62 863-5326-2120,ops,OPS-L5,DKI Jakarta,Permanent,2018-09-30,2023-03-21,Voluntary,Better Compensation,38190000
+EMP00260,Bayu Harahap,male,13-Aug-1983,Married,S1,bayu.harahap260@nusantaradigital.co.id,+62 833-5319-4718,Customer Service,CSV-L4,JKT,Permanent,26-Nov-2012,,,,29100000
+EMP00261,Intan Maharani,Female,1994-01-24,Single,S1,intan.maharani261@nusantaradigital.co.id,+62 843-1670-9915,Finance,FIN-L1,DKI Jakarta,Permanent,2018-08-17,2023-08-07,Voluntary,Better Compensation,Rp 6.680.000
+EMP00262,Novi Hasibuan,Perempuan,24/06/2002,Single,D3,novi.hasibuan262@nusantaradigital.co.id,+62 828-6899-5187,OPS,OPS-L1,DKI Jakarta,Permanent,12/09/2022,09/08/2024,Voluntary,Work-Life Balance,7400000
+EMP00263,Oki Firmansyah,Male,2000-02-04,Single,S1,,+62 890-6680-9398,PRD,PRD-L1,Jakarta,Permanent,2022-06-01,2023-08-26,Voluntary,Work-Life Balance,Rp 8.280.000
+EMP00264,Anisa Saputra,F,24-Dec-1996,MARRIED,S1,anisa.saputra264@nusantaradigital.co.id,+62 878-1270-8348,Sales,SLS-L1,MKS,Permanent,02-Apr-2022,,,,"6,440,000.00"
+EMP00265,HENDRA SIREGAR,Male,1990-05-12,Divorced,S1,hendra.siregar265@nusantaradigital.co.id,+62 817-4802-8403,OPS,OPS-L3,Jakarta,Permanent,2020-01-31,,,,15820000
+EMP00266,Laras Wijaya,Perempuan,1996-08-06,Married,S1,laras.wijaya266@nusantaradigital.co.id,+62 834-7057-5032,PRD,PRD-L1,JKT,Permanent,2022-05-31,,,,11080000
+EMP00267,Nurul Mappasessu,Female,1993-05-08,MARRIED,S1,nurul.mappasessu267@nusantaradigital.co.id,+62 859-4513-4903,sls,SLS-L2,DKI Jakarta,Permanent,2021-02-23,2024-10-25,Voluntary,Further Study,11290000
+EMP00268,Dian Permata,Perempuan,29-Sep-1999,Single,S1,dian.permata268@nusantaradigital.co.id,+62 886-4605-3103,Operations,OPS-L1,Makasar,Permanent,27-Jul-2021,,,,7430000
+EMP00269,Laras Utami,P,1968-10-15,Married,D3,laras.utami269@nusantaradigital.co.id,+62 848-6956-9582,Customer Service,CSV-L1,Jakarta Selatan,Permanent,2018-09-15,2023-04-08,Voluntary,Better Compensation,5900000
+EMP00270,Dedi Permata,Pria,1980-09-15,Married,S1,dedi.permata270@nusantaradigital.co.id,+62 862-1088-3334,ITD,ITD-L1,DKI Jakarta,Permanent,2014-01-13,2024-04-03,Involuntary,Restructuring,9620000
+EMP00271,Mega Suryadi,female,1997-10-04,Married,S1,mega.suryadi271@nusantaradigital.co.id,+62 843-7953-5303,Marketing,MKT-L1,surabaya,Permanent,2022-11-16,,,,Rp 7.850.000
+EMP00272,Rina Setiawan,Wanita,1987-04-18,Married,S1,rina.setiawan272@nusantaradigital.co.id,+62 861-3027-3546,PRD,PRD-L4,Jakarta Selatan,Permanent,2021-05-10,,,,43150000
+EMP00273,Arif Situmorang,Laki-laki,26-Nov-1988,Married,S1,,+62 878-8271-3041,ITD,ITD-L2,JKT,Permanent,07-Jan-2020,,,,18970000
+EMP00274,Amelia Harahap,Wanita,10/08/1997,Single,S1,amelia.harahap274@nusantaradigital.co.id,+62 868-7121-4790,Operations,OPS-L1,MDN,Permanent,05/03/2021,,,,6710000
+EMP00275,Gita Hakim,Female,1992-05-19,Married,D3,gita.hakim275@nusantaradigital.co.id,+62 828-6169-8128,itd,ITD-L1,DKI Jakarta,Permanent,2017-10-21,2023-04-15,Voluntary,Career Growth,8350000
+EMP00276,Putra Suryadi,M,1988-11-07,Married,S1,putra.suryadi276@nusantaradigital.co.id,+62 881-2270-4521,CSV,CSV-L1,DKI Jakarta,Permanent,2018-10-05,,,,Rp 6.490.000
+EMP00277,Novi Firmansyah,P,29/11/1997,Single,S1,novi.firmansyah277@nusantaradigital.co.id,+62 853-5577-1552,ITD,ITD-L1,JKT,Permanent,25/11/2018,08/01/2025,Voluntary,Work-Life Balance,8900000
+EMP00278,Yoga Tanjung,Male,1982-07-19,Married,S2,yoga.tanjung278@nusantaradigital.co.id,+62 844-1761-7343,itd,ITD-L4,Jakarta Selatan,Permanent,2018-05-28,,,,44900000
+EMP00279,Rangga Halim,L,28/02/1993,Married,S1,rangga.halim279@nusantaradigital.co.id,+62 866-3871-5269,ITD,ITD-L1,bandung ,Permanent,16/10/2019,07/11/2023,Voluntary,Better Compensation,8270000
+EMP00280,Laras Rahman,F,24/11/1989,Single,S1,laras.rahman280@nusantaradigital.co.id,+62 875-5025-1897,MKT,MKT-L5,jakarta ,Permanent,13/09/2020,11/02/2024,Voluntary,Better Compensation,43520000
+EMP00281,Nurul Firmansyah,Female,08-Apr-1996,Single,D3,nurul.firmansyah281@nusantaradigital.co.id,+62 892-3948-9124,SLS,SLS-L2,jakarta ,Permanent,28-Nov-2017,06-Apr-2023,Voluntary,Career Growth,12590000
+EMP00282,Rina Simanjuntak,F,18/08/1986,Married,S1,rina.simanjuntak282@nusantaradigital.co.id,+62 881-2386-7126,SLS,SLS-L4,Jakarta,Permanent,29/11/2021,,,,30410000
+EMP00283,Aditya Sinaga,Laki-laki,24/12/1998,MARRIED,S1,aditya.sinaga283@nusantaradigital.co.id,+62 886-7947-8170,OPS,OPS-L1,Jakarta,Contract,12/10/2022,21/07/2023,Involuntary,Poor Performance,7570000
+EMP00284,IRFAN DAENG,Laki-laki,1985-09-20,Married,D3,irfan.daeng284@nusantaradigital.co.id,+62 835-9254-3685,OPS,OPS-L2,MDN,Permanent,2016-04-19,2024-08-27,Voluntary,Career Growth,10180000
+EMP00285,Yuni Wibowo,Wanita,12/03/2001,Married,SMA/SMK,yuni.wibowo285@nusantaradigital.co.id,+62 883-7416-6048,SLS,SLS-L1,Jogja,Permanent,06/05/2021,,,,"8,760,000.00"
+EMP00286,Tari Pangaribuan,Female,1991-07-25,Married,S1,tari.pangaribuan286@nusantaradigital.co.id,+62 835-6524-9404,Sales,SLS-L2,JKT,Permanent,2017-04-18,,,,"13,010,000.00"
+EMP00287,Rahma Pangaribuan,P,29/08/1988,Married,D3,,+62 872-3373-5152,Sales,SLS-L1,JKT,Permanent,09/02/2010,07/06/2023,Voluntary,Career Growth,7860000
+EMP00288,Yoga Ramadhan,Laki-laki,1983-01-26,Married,S1,yoga.ramadhan288@nusantaradigital.co.id,+62 882-6885-7773,HRD,HRD-L5,Jakarta,Permanent,2022-09-04,,,,48900000
+EMP00289,Dedi Santoso,Laki-laki,1993-08-01,MARRIED,S1,dedi.santoso289@nusantaradigital.co.id,+62 846-8378-5034,Operations,OPS-L2,jakarta ,Permanent,2022-08-29,,,,11020000
+EMP00290,  dian tanjung ,F,1989-08-26,Married,S1,dian.tanjung290@nusantaradigital.co.id,+62 858-2762-7523,ITD,ITD-L5,jakarta ,Permanent,2021-12-05,,,,68410000
+EMP00291,Fajar Wijaya,Male,1985-12-18,Divorced,S2,fajar.wijaya291@nusantaradigital.co.id,+62 885-8111-6247,Information Technology,ITD-L3,Jakarta Selatan,Permanent,2021-04-11,,,,24640000
+EMP00292,Gita Firmansyah,Perempuan,1999-09-26,Single,S1,gita.firmansyah292@nusantaradigital.co.id,+62 822-8765-1103,OPS,OPS-L1,Surabaya,Permanent,2020-08-04,,,,7130000
+EMP00293,Muhammad Pratama,L,1996-03-04,DIVORCED,S1,muhammad.pratama293@nusantaradigital.co.id,+62 852-9420-4453,SLS,SLS-L2,JKT,Permanent,2022-12-27,,,,10710000
+EMP00294,  novi harahap ,P,06/01/1998,Divorced,S1,novi.harahap294@nusantaradigital.co.id,+62 892-6539-2717,MKT,MKT-L1,Jakarta,Permanent,25/09/2022,01/06/2023,Voluntary,Relocation,6900000
+EMP00295,Nadia Anggraini,Perempuan,12/10/2001,Married,S1,,+62 879-8495-5172,SLS,SLS-L1,DKI Jakarta,Permanent,01/11/2022,08/09/2023,Voluntary,Work-Life Balance,8030000
+EMP00296,Eko Halim,male,25/11/1994,Single,SMA/SMK,eko.halim296@nusantaradigital.co.id,+62 820-7594-5234,SLS,SLS-L1,Yogyakarta,Permanent,18/12/2018,,,,7680000
+EMP00297,Rangga Purnomo,M,14/09/1991,Single,S1,rangga.purnomo297@nusantaradigital.co.id,+62 853-7686-1425,Operations,OPS-L3,medan,Contract,27/03/2021,22/08/2023,Voluntary,Further Study,16320000
+EMP00298,Putra Wibowo,L,26-Apr-1989,Divorced,S1,putra.wibowo298@nusantaradigital.co.id,+62 846-8847-7706,CSV,CSV-L3,Jakarta Selatan,Permanent,17-Jun-2020,,,,18540000
+EMP00299,Intan Hakim,P,1969-05-15,Married,S1,intan.hakim299@nusantaradigital.co.id,+62 890-2010-2596,OPS,OPS-L1,Bandung,Permanent,2019-09-09,2025-05-08,Voluntary,Personal / Family,7750000
+EMP00300,Intan Hasibuan,Female,07/04/1996,Single,S1,intan.hasibuan300@nusantaradigital.co.id,+62 832-7646-2026,prd,PRD-L1,medan,Permanent,12/03/2021,,,,8670000
+EMP00301,Eka Simanjuntak,P,19-Dec-1995,Married,S1,eka.simanjuntak301@nusantaradigital.co.id,+62 870-6038-2521,CSV,CSV-L2,Jakarta Selatan,Permanent,20-Oct-2022,,,,11080000
+EMP00302,Ilham Situmorang,Laki-laki,18/12/1995,Married,S1,ilham.situmorang302@nusantaradigital.co.id,+62 870-9872-3575,SLS,SLS-L1,DKI Jakarta,Permanent,13/04/2022,,,,8800000
+EMP00303,Satria Ramadhan,male,1992-01-03,Married,S1,satria.ramadhan303@nusantaradigital.co.id,+62 865-3057-7390,SLS,SLS-L1,jakarta ,Permanent,2019-05-31,,,,8930000
+EMP00304,Putra Susanti,M,28-Nov-1998,Single,S2,putra.susanti304@nusantaradigital.co.id,+62 847-6054-9056,OPS,OPS-L1,Jakarta,Permanent,04-Feb-2019,,,,Rp 7.110.000
+EMP00305,Wulan Sinaga,Female,16/08/1998,Married,D3,wulan.sinaga305@nusantaradigital.co.id,+62 855-3053-6028,OPS,OPS-L1,Yogyakarta,Permanent,01/04/2019,,,,6490000
+EMP00306,Oki Hakim,M,17-Jun-1989,Divorced,S1,oki.hakim306@nusantaradigital.co.id,+62 821-8089-3164,sls,SLS-L1,Makasar,Permanent,20-Apr-2022,,,,9250000
+EMP00307,Kurniawan Santoso,Laki-laki,1995-01-15,Divorced,S1,kurniawan.santoso307@nusantaradigital.co.id,+62 822-6731-4259,PRD,PRD-L2,Yogyakarta,Permanent,2019-06-23,,,,16440000
+EMP00308,Hadi Ramadhan,L,1994-04-22,Single,SMA/SMK,hadi.ramadhan308@nusantaradigital.co.id,+62 891-8763-6967,HRD,HRD-L1,BDG,Permanent,2020-07-09,,,,9170000
+EMP00309,Bayu Wijaya,Laki-laki,22-Dec-2001,Single,D3,bayu.wijaya309@nusantaradigital.co.id,+62 811-3252-2090,Sales,SLS-L1,jakarta ,Permanent,22-Oct-2022,,,,9360000
+EMP00310,Irfan Utami,L,1988-07-20,Single,D3,irfan.utami310@nusantaradigital.co.id,+62 873-1251-9349,PRD,PRD-L1,jakarta ,Permanent,2014-01-30,,,,Rp 10.990.000
+EMP00311,Tiara Wibowo,F,03/12/1986,MARRIED,S1,tiara.wibowo311@nusantaradigital.co.id,+62 876-8214-8371,ITD,ITD-L3,JKT,Permanent,25/02/2021,,,,22130000
+EMP00312,  anisa suryadi ,Wanita,1967-12-15,Married,D3,anisa.suryadi312@nusantaradigital.co.id,+62 883-7941-1102,OPS,OPS-L1,Surabaya,Permanent,2020-09-24,2024-01-31,Retirement,Retirement,"7,190,000.00"
+EMP00313,Yoga Nasution,male,1989-06-28,Married,S1,yoga.nasution313@nusantaradigital.co.id,+62 836-2721-5669,OPS,OPS-L2,DKI Jakarta,Permanent,2022-05-11,,,,"12,410,000.00"
+EMP00314,Dian Nasution,Wanita,18/04/1991,SINGLE,S1,dian.nasution314@nusantaradigital.co.id,+62 816-5810-4665,ITD,ITD-L4,JKT,Permanent,18/06/2021,10/01/2025,Involuntary,Poor Performance,Rp 40.570.000
+EMP00315,Wahyu Wibowo,Male,25-Jan-1990,Single,S1,wahyu.wibowo315@nusantaradigital.co.id,+62 862-1144-1015,Operations,OPS-L3,surabaya,Permanent,01-Dec-2020,01-Jan-2023,Involuntary,Misconduct,17200000
+EMP00316,Hendra Utami,male,07-May-1985,Married,S1,hendra.utami316@nusantaradigital.co.id,+62 854-3359-9101,Product,PRD-L4,DKI Jakarta,Permanent,02-Dec-2020,,,,40610000
+EMP00317,CITRA SURYADI,Wanita,1983-12-07,Married,S1,citra.suryadi317@nusantaradigital.co.id,+62 862-3708-8234,MKT,MKT-L2,jakarta ,Permanent,2018-12-27,,,,11650000
+EMP00318,Citra Rahman,F,28-Apr-1997,Single,S1,citra.rahman318@nusantaradigital.co.id,+62 882-2374-9470,Sales,SLS-L1,Jakarta Selatan,Permanent,13-Jun-2022,,,,8420000
+EMP00319,Ratna Purnomo,Wanita,30-Oct-2000,Single,S1,ratna.purnomo319@nusantaradigital.co.id,+62 882-6097-7376,Customer Service,CSV-L1,jakarta ,Permanent,09-Dec-2021,27-Nov-2023,Involuntary,Misconduct,6100000
+EMP00320,Kurniawan Susanti,Male,1998-11-28,Married,S1,kurniawan.susanti320@nusantaradigital.co.id,+62 846-6152-1580,OPS,OPS-L3,medan,Permanent,2022-05-21,,,,17650000
+EMP00321,Intan Kusuma,Female,14/07/1989,Married,S1,intan.kusuma321@nusantaradigital.co.id,+62 819-7342-5786,SLS,SLS-L1,JKT,Permanent,25/03/2013,,,,8870000
+EMP00322,Novi Mappasessu,Wanita,14-Oct-1999,SINGLE,D3,novi.mappasessu322@nusantaradigital.co.id,+62 866-5212-3604,FIN,FIN-L2,Jogja,Contract,11-Aug-2022,,,,13860000
+EMP00323,Mega Ramadhan,Female,1998-01-24,Married,S1,mega.ramadhan323@nusantaradigital.co.id,+62 884-5842-7849,SLS,SLS-L2,Jakarta,Contract,2022-10-06,2024-08-18,Voluntary,Career Growth,"11,180,000.00"
+EMP00324,  galih saputra ,male,1983-04-06,Divorced,S1,galih.saputra324@nusantaradigital.co.id,+62 876-5892-2047,ITD,ITD-L4,DKI Jakarta,Permanent,2018-01-20,,,,"37,220,000.00"
+EMP00325,Putra Siregar,L,24-Sep-1995,Married,S1,putra.siregar325@nusantaradigital.co.id,+62 865-7533-5488,Sales,SLS-L2,Bandung,Permanent,09-Feb-2022,05-Feb-2024,Voluntary,Work-Life Balance,Rp 11.800.000
+EMP00326,CITRA SINAGA,female,18/02/1997,Married,S1,citra.sinaga326@nusantaradigital.co.id,+62 872-6922-5240,Marketing,MKT-L1,Jogja,Permanent,06/08/2020,23/02/2023,Voluntary,Management Issues,6800000
+EMP00327,  arif ramadhan ,male,19-Oct-1991,Married,S1,arif.ramadhan327@nusantaradigital.co.id,+62 872-1921-3432,Operations,OPS-L2,DKI Jakarta,Permanent,15-Aug-2020,,,,11430000
+EMP00328,Oki Purnomo,Male,1991-08-31,Married,S1,oki.purnomo328@nusantaradigital.co.id,+62 852-1066-1769,OPS,OPS-L2,Jakarta,Permanent,2022-10-30,2023-07-06,Voluntary,Better Compensation,10200000
+EMP00329,Amelia Simanjuntak,Female,1991-02-04,Single,S1,amelia.simanjuntak329@nusantaradigital.co.id,+62 819-7966-4273,OPS,OPS-L2,surabaya,Permanent,2019-12-25,,,,Rp 11.130.000
+EMP00330,Wahyu Sinaga,Pria,11-Feb-1989,MARRIED,D3,wahyu.sinaga330@nusantaradigital.co.id,+62 836-2643-4093,SLS,SLS-L1,SBY,Permanent,09-Feb-2010,,,,Rp 8.580.000
+EMP00331,Rizki Pangaribuan,Male,1992-11-22,Married,D3,rizki.pangaribuan331@nusantaradigital.co.id,+62 863-4201-3654,ITD,ITD-L2,Bandung,Permanent,2020-08-14,,,,19180000
+EMP00332,Gita Harahap,Female,1995-12-05,Married,SMA/SMK,gita.harahap332@nusantaradigital.co.id,+62 894-6907-4173,csv,CSV-L2,Yogyakarta,Permanent,2022-11-29,2023-07-31,Involuntary,Misconduct,9000000
+EMP00333,Nurul Hidayat,Wanita,1997-03-03,Single,S1,nurul.hidayat333@nusantaradigital.co.id,+62 852-4901-6424,CSV,CSV-L1,DKI Jakarta,Permanent,2020-06-26,,,,6240000
+EMP00334,Sari Permata,Perempuan,23-Dec-1992,Married,SMA/SMK,sari.permata334@nusantaradigital.co.id,+62 839-3574-9986,CSV,CSV-L2,Makasar,Permanent,23-Aug-2020,,,,"12,620,000.00"
+EMP00335,Anisa Wibowo,Female,1998-04-23,Single,S1,anisa.wibowo335@nusantaradigital.co.id,+62 852-3311-3079,HRD,HRD-L1,jakarta ,Permanent,2021-10-29,2023-10-28,Involuntary,Misconduct,"7,800,000.00"
+EMP00336,Aditya Setiawan,Pria,21/06/1993,Single,S1,aditya.setiawan336@nusantaradigital.co.id,+62 853-8695-4422,SLS,SLS-L1,DKI Jakarta,Permanent,04/11/2019,,,,9500000
+EMP00337,Ratna Permata,female,31/01/1999,Married,S1,ratna.permata337@nusantaradigital.co.id,+62 866-3274-8348,ITD,ITD-L2,Jakarta,Permanent,26/09/2019,,,,16520000
+EMP00338,Tari Halim,F,16-Sep-2002,Married,S1,tari.halim338@nusantaradigital.co.id,+62 832-9146-2015,CSV,CSV-L1,DKI Jakarta,Permanent,25-Oct-2022,,,,Rp 6.270.000
+EMP00339,Rangga Firmansyah,Male,1995-12-05,Single,S1,rangga.firmansyah339@nusantaradigital.co.id,+62 817-5063-5134,FIN,FIN-L1,Bandung,Contract,2021-10-31,,,,8580000
+EMP00340,Galih Santoso,Pria,1983-10-03,Divorced,S1,galih.santoso340@nusantaradigital.co.id,+62 867-2057-7615,CSV,CSV-L1,Medan,Permanent,2010-02-09,,,,8660000
+EMP00341,Rian Hasibuan,Laki-laki,05-Jun-1997,Married,D3,rian.hasibuan341@nusantaradigital.co.id,+62 814-8756-2953,SLS,SLS-L1,Jakarta,Permanent,26-Feb-2020,,,,"8,510,000.00"
+EMP00342,Oki Firmansyah,Laki-laki,13/08/1992,Single,S2,oki.firmansyah342@nusantaradigital.co.id,+62 882-2803-2701,CSV,CSV-L3,DKI Jakarta,Permanent,03/08/2022,16/03/2023,Involuntary,Poor Performance,12630000
+EMP00343,NOVI WIJAYA,F,2000-05-15,Single,D3,novi.wijaya343@nusantaradigital.co.id,+62 858-9634-1737,OPS,OPS-L1,bandung ,Permanent,2020-09-16,,,,8680000
+EMP00344,Gita Rahman,Perempuan,20/02/1989,Single,S2,gita.rahman344@nusantaradigital.co.id,+62 821-6644-2728,Customer Service,CSV-L2,Makassar,Permanent,04/02/2018,26/09/2023,Involuntary,Poor Performance,Rp 10.120.000
+EMP00345,Gita Susanti,P,01-Sep-1994,Married,D3,gita.susanti345@nusantaradigital.co.id,+62 811-1554-3539,itd,ITD-L1,Jakarta,Permanent,20-Jun-2020,,,,9250000
+EMP00346,Siti Simanjuntak,F,1999-10-01,Single,SMA/SMK,siti.simanjuntak346@nusantaradigital.co.id,+62 889-9982-3161,SLS,SLS-L1,bandung ,Permanent,2022-11-26,2024-04-19,Voluntary,Relocation,7380000
+EMP00347,Reza Mappasessu,male,09/07/1991,Married,S1,reza.mappasessu347@nusantaradigital.co.id,+62 818-1019-7340,CSV,CSV-L1,Surabaya,Permanent,27/05/2012,,,,8300000
+EMP00348,Nanda Susanti,M,1980-03-20,Married,S1,nanda.susanti348@nusantaradigital.co.id,+62 885-2414-1533,OPS,OPS-L2,Jakarta Selatan,Permanent,2010-02-09,2023-06-19,Voluntary,Further Study,9040000
+EMP00349,Citra Pangaribuan,Wanita,03/07/1979,SINGLE,S1,citra.pangaribuan349@nusantaradigital.co.id,+62 830-2774-9686,OPS,OPS-L3,Jogja,Permanent,11/09/2017,,,,Rp 14.550.000
+EMP00350,Kartika Suryadi,female,1994-08-14,Single,S1,kartika.suryadi350@nusantaradigital.co.id,+62 858-1881-9735,Marketing,MKT-L2,Bandung,Permanent,2021-11-15,,,,14990000
+EMP00351,Anisa Utami,female,1999-07-15,Single,D3,anisa.utami351@nusantaradigital.co.id,+62 874-5110-9197,hrd,HRD-L1,Jakarta Selatan,Permanent,2020-05-21,2024-06-18,Involuntary,Misconduct,7710000
+EMP00352,Tiara Rahman,P,1995-08-09,Married,S1,tiara.rahman352@nusantaradigital.co.id,+62 864-6015-4484,OPS,OPS-L2,jakarta ,Permanent,2021-03-22,2024-09-05,Involuntary,Restructuring,10350000
+EMP00353,Hendra Siregar,Laki-laki,26/03/1990,Single,SMA/SMK,hendra.siregar353@nusantaradigital.co.id,+62 893-5648-8525,Sales,SLS-L2,Jakarta Selatan,Permanent,14/02/2017,,,,11460000
+EMP00354,Eka Tanjung,F,1993-03-28,Married,S1,eka.tanjung354@nusantaradigital.co.id,+62 868-5642-8034,OPS,OPS-L1,DKI Jakarta,Permanent,2022-08-05,,,,6610000
+EMP00355,Dewi Mappasessu,P,1983-12-16,Married,S1,,+62 874-2792-7913,Customer Service,CSV-L4,DKI Jakarta,Permanent,2017-02-09,2023-01-09,Voluntary,Better Compensation,Rp 20.200.000
+EMP00356,Bayu Ramadhan,L,1998-06-08,Single,S1,bayu.ramadhan356@nusantaradigital.co.id,+62 874-9578-7752,CSV,CSV-L1,Jakarta,Permanent,2020-07-22,2024-03-27,Voluntary,Personal / Family,6080000
+EMP00357,Sari Rahman,Wanita,20-May-1990,Married,S1,sari.rahman357@nusantaradigital.co.id,+62 832-7921-7953,Information Technology,ITD-L2,DKI Jakarta,Permanent,12-May-2015,09-Mar-2024,Voluntary,Work-Life Balance,17460000
+EMP00358,Taufik Ramadhan,Laki-laki,1992-07-08,MARRIED,S1,taufik.ramadhan358@nusantaradigital.co.id,+62 831-3718-6526,Finance,FIN-L2,jakarta ,Permanent,2019-02-03,,,,12200000
+EMP00359,Irfan Kusuma,Laki-laki,1994-01-16,Single,S2,irfan.kusuma359@nusantaradigital.co.id,+62 816-3944-8144,ITD,ITD-L3,Jakarta Selatan,Permanent,2022-08-03,,,,22080000
+EMP00360,Nurul Kusuma,Female,31/08/1985,SINGLE,S1,nurul.kusuma360@nusantaradigital.co.id,+62 832-1927-6165,OPS,OPS-L2,Jogja,Permanent,24/11/2012,,,,12150000
+EMP00361,Dewi Pratama,Wanita,1988-05-07,Married,S1,dewi.pratama361@nusantaradigital.co.id,+62 841-7554-4339,SLS,SLS-L3,MKS,Permanent,2017-05-27,,,,Rp 21.230.000
+EMP00362,Hadi Hidayat,M,1997-03-22,MARRIED,SMA/SMK,hadi.hidayat362@nusantaradigital.co.id,+62 844-3952-4464,Customer Service,CSV-L1,jakarta ,Permanent,2019-10-16,,,,7400000
+EMP00363,Galih Lubis,M,14-Oct-1978,MARRIED,S1,galih.lubis363@nusantaradigital.co.id,+62 889-4547-3466,itd,ITD-L2,Jakarta Selatan,Permanent,09-Mar-2012,21-May-2024,Voluntary,Career Growth,Rp 17.910.000
+EMP00364,Yoga Santoso,L,1993-06-28,Married,S1,yoga.santoso364@nusantaradigital.co.id,+62 835-9483-3686,OPS,OPS-L2,bandung ,Contract,2022-01-01,,,,10680000
+EMP00365,Yoga Santoso,Male,15/04/1968,Divorced,S1,yoga.santoso365@nusantaradigital.co.id,+62 849-5974-9601,CSV,CSV-L2,Jakarta Selatan,Permanent,23/09/2020,31/05/2024,Retirement,Retirement,11120000
+EMP00366,TARI SIMANJUNTAK,Perempuan,1992-09-30,Married,S1,tari.simanjuntak366@nusantaradigital.co.id,+62 876-8966-3720,CSV,CSV-L2,Yogyakarta,Permanent,2021-07-27,,,,11500000
+EMP00367,Agus Nugroho,Male,1992-11-14,Divorced,S1,agus.nugroho367@nusantaradigital.co.id,+62 870-4513-3464,HRD,HRD-L2,DKI Jakarta,Permanent,2022-09-20,,,,12170000
+EMP00368,Siti Rahman,F,2001-04-02,MARRIED,S1,siti.rahman368@nusantaradigital.co.id,+62 867-3506-7297,SLS,SLS-L1,DKI Jakarta,Contract,2022-12-05,2023-11-27,Voluntary,Better Compensation,6450000
+EMP00369,Budi Pangaribuan,M,12-Mar-1988,Single,S2,budi.pangaribuan369@nusantaradigital.co.id,+62 877-9144-2622,SLS,SLS-L3,Jakarta,Permanent,17-Nov-2020,,,,20760000
+EMP00370,Galih Pangaribuan,male,1988-03-19,MARRIED,S1,galih.pangaribuan370@nusantaradigital.co.id,+62 854-1361-3321,PRD,PRD-L4,DKI Jakarta,Permanent,2022-09-02,,,,31920000
+EMP00371,Joko Kusuma,L,27-Apr-1980,Divorced,S1,joko.kusuma371@nusantaradigital.co.id,+62 849-2404-5616,ops,OPS-L3,Jakarta,Permanent,12-Apr-2018,25-Apr-2023,Voluntary,Career Growth,15310000
+EMP00372,Kartika Harahap,P,1992-10-11,Single,S1,kartika.harahap372@nusantaradigital.co.id,+62 813-6958-3994,Sales,SLS-L1,jakarta ,Contract,2020-04-15,,,,8020000
+EMP00373,Anisa Mappasessu,F,1987-04-12,Married,S1,anisa.mappasessu373@nusantaradigital.co.id,+62 827-7966-4219,Marketing,MKT-L3,JKT,Permanent,2019-04-14,,,,18200000
+EMP00374,Agus Simanjuntak,Pria,1991-03-09,Single,SMA/SMK,agus.simanjuntak374@nusantaradigital.co.id,+62 876-1599-8978,SLS,SLS-L1,medan,Permanent,2017-01-17,2025-12-26,Voluntary,Personal / Family,9670000
+EMP00375,Rahma Harahap,Female,1985-04-11,Single,S1,rahma.harahap375@nusantaradigital.co.id,+62 814-2730-3140,fin,FIN-L2,Yogya,Permanent,2010-10-09,,,,"15,400,000.00"
+EMP00376,Adi Syahputra,M,1998-10-26,Married,S1,adi.syahputra376@nusantaradigital.co.id,+62 897-2843-1273,ITD,ITD-L1,Jogja,Permanent,2021-06-29,,,,9550000
+EMP00377,Anisa Hakim,F,1980-03-23,Married,S1,anisa.hakim377@nusantaradigital.co.id,+62 882-1304-6828,Human Capital,HRD-L3,surabaya,Contract,2013-02-22,,,,17500000
+EMP00378,Teguh Anggraini,Male,1987-09-05,Married,S1,teguh.anggraini378@nusantaradigital.co.id,+62 849-9565-6414,SLS,SLS-L1,SBY,Permanent,2014-10-03,,,,8930000
+EMP00379,Agus Wibowo,Laki-laki,1994-12-11,SINGLE,S2,agus.wibowo379@nusantaradigital.co.id,+62 846-8537-4313,SLS,SLS-L1,JKT,Permanent,2017-10-21,,,,8290000
+EMP00380,  kartika situmorang ,P,1992-01-19,Single,S1,kartika.situmorang380@nusantaradigital.co.id,+62 888-6831-2552,ITD,ITD-L2,medan,Permanent,2021-07-04,,,,Rp 12.710.000
+EMP00381,Salsabila Saputra,female,1980-03-29,Married,S1,salsabila.saputra381@nusantaradigital.co.id,+62 838-3315-1556,PRD,PRD-L3,Surabaya,Permanent,2015-09-07,,,,21600000
+EMP00382,Teguh Kusuma,Pria,19/11/2000,Married,S1,teguh.kusuma382@nusantaradigital.co.id,+62 892-9388-1975,ITD,ITD-L1,Yogyakarta,Permanent,26/08/2021,19/06/2023,Voluntary,Relocation,8420000
+EMP00383,Hadi Permata,male,1992-03-01,Married,S1,hadi.permata383@nusantaradigital.co.id,+62 813-2407-2176,HRD,HRD-L2,SBY,Contract,2019-08-30,,,,11390000
+EMP00384,GITA SANTOSO,Female,1992-11-01,Married,S1,gita.santoso384@nusantaradigital.co.id,+62 849-5827-1552,itd,ITD-L1,JKT,Permanent,2017-03-17,,,,10400000
+EMP00385,Ilham Syahputra,L,13/08/2001,Married,S1,ilham.syahputra385@nusantaradigital.co.id,+62 877-7405-4835,OPS,OPS-L3,Makasar,Permanent,11/11/2022,,,,15990000
+EMP00386,Kartika Anggraini,Wanita,1983-11-14,Married,D3,kartika.anggraini386@nusantaradigital.co.id,+62 889-6597-3505,mkt,MKT-L1,jakarta ,Permanent,2014-06-22,,,,9600000
+EMP00387,Lukman Harahap,male,1997-08-05,Single,S1,lukman.harahap387@nusantaradigital.co.id,+62 889-2207-6458,ITD,ITD-L1,Jakarta,Permanent,2021-06-23,,,,10150000
+EMP00388,Budi Santoso,Male,18-Apr-2001,Single,SMA/SMK,budi.santoso388@nusantaradigital.co.id,+62 893-1682-9173,OPS,OPS-L1,DKI Jakarta,Permanent,28-Oct-2022,06-Jun-2025,Voluntary,Career Growth,6440000
+EMP00389,Oki Harahap,L,1993-12-16,Single,S1,oki.harahap389@nusantaradigital.co.id,+62 814-8826-3234,OPS,OPS-L1,SBY,Permanent,2018-07-09,2024-08-15,Voluntary,Career Growth,6080000
+EMP00390,Fikri Santoso,male,08-Aug-1985,Married,S2,fikri.santoso390@nusantaradigital.co.id,+62 879-6501-9874,ITD,ITD-L3,JKT,Contract,17-Oct-2018,31-Dec-2024,Voluntary,Work-Life Balance,20730000
+EMP00391,Budi Pangaribuan,M,03-Sep-1992,Single,S1,budi.pangaribuan391@nusantaradigital.co.id,+62 883-6815-4276,OPS,OPS-L2,bandung ,Permanent,18-Sep-2019,,,,Rp 11.700.000
+EMP00392,  anisa ramadhan ,Wanita,1996-11-17,Single,S1,anisa.ramadhan392@nusantaradigital.co.id,+62 854-1465-9295,CSV,CSV-L2,DKI Jakarta,Permanent,2020-11-13,2025-01-01,Voluntary,Better Compensation,11280000
+EMP00393,Ilham Daeng,Laki-laki,1998-11-20,Married,S1,ilham.daeng393@nusantaradigital.co.id,+62 863-5561-7806,OPS,OPS-L1,Makasar,Permanent,2019-08-03,,,,7220000
+EMP00394,Indah Wijaya,Wanita,1996-09-18,Married,S1,indah.wijaya394@nusantaradigital.co.id,+62 846-7963-7357,OPS,OPS-L2,Medan,Permanent,2022-03-24,2023-01-10,Voluntary,Career Growth,10550000
+EMP00395,Ilham Hakim,Pria,1967-01-15,Single,S2,ilham.hakim395@nusantaradigital.co.id,+62 890-9894-9649,Finance,FIN-L2,JKT,Permanent,2010-02-09,2023-02-28,Retirement,Retirement,13250000
+EMP00396,Wahyu Nasution,M,1996-10-05,Single,S1,wahyu.nasution396@nusantaradigital.co.id,+62 878-2904-8127,sls,SLS-L1,DKI Jakarta,Permanent,2021-06-30,,,,7860000
+EMP00397,SARI SETIAWAN,Perempuan,1997-06-29,SINGLE,S1,sari.setiawan397@nusantaradigital.co.id,+62 871-4880-7504,Marketing,MKT-L2,DKI Jakarta,Permanent,2020-10-27,,,,12290000
+EMP00398,Salsabila Firmansyah,P,1995-03-19,Married,S1,salsabila.firmansyah398@nusantaradigital.co.id,+62 876-3319-8445,Information Technology,ITD-L2,jakarta ,Permanent,2022-03-07,,,,13010000
+EMP00399,Oki Santoso,male,20-Sep-1987,Single,D3,oki.santoso399@nusantaradigital.co.id,+62 853-5600-2647,Marketing,MKT-L1,jakarta ,Permanent,09-Feb-2010,20-Apr-2025,Involuntary,Poor Performance,"9,020,000.00"
+EMP00400,Vina Halim,Wanita,1987-12-15,Married,SMA/SMK,vina.halim400@nusantaradigital.co.id,+62 835-1986-2483,OPS,OPS-L2,bandung ,Permanent,2020-09-28,,,,8930000
+EMP00401,Dedi Permata,M,1988-12-29,Divorced,S2,dedi.permata401@nusantaradigital.co.id,+62 876-3980-6357,HRD,HRD-L4,JKT,Contract,2021-06-21,,,,37090000
+EMP00402,Teguh Rahman,Pria,1985-10-19,Married,S1,teguh.rahman402@nusantaradigital.co.id,+62 876-9054-9027,ITD,ITD-L3,Bandung,Permanent,2016-11-30,2023-12-28,Involuntary,Poor Performance,Rp 21.890.000
+EMP00403,Muhammad Pangaribuan,L,05/08/1986,Single,S1,muhammad.pangaribuan403@nusantaradigital.co.id,+62 891-2469-2497,ITD,ITD-L2,JKT,Permanent,09/02/2010,08/07/2023,Voluntary,Career Growth,13150000
+EMP00404,Yuni Syahputra,female,31-Mar-1988,Single,S2,yuni.syahputra404@nusantaradigital.co.id,+62 883-1768-4522,OPS,OPS-L1,Makasar,Permanent,04-Jan-2012,,,,6350000
+EMP00405,Bunga Wibowo,female,1991-08-22,Married,S2,bunga.wibowo405@nusantaradigital.co.id,+62 831-7404-3512,Information Technology,ITD-L2,jakarta ,Permanent,2019-01-23,2024-10-24,Voluntary,Work-Life Balance,Rp 14.340.000
+EMP00406,Maya Permata,F,30-Jun-1991,Married,S1,maya.permata406@nusantaradigital.co.id,+62 833-1479-7705,itd,ITD-L1,Surabaya,Permanent,11-Mar-2021,,,,"10,760,000.00"
+EMP00407,Kartika Setiawan,Female,26-Feb-1983,Divorced,S1,kartika.setiawan407@nusantaradigital.co.id,+62 875-1177-6350,ITD,ITD-L2,DKI Jakarta,Permanent,09-Oct-2017,10-Mar-2024,Voluntary,Personal / Family,14260000
+EMP00408,Taufik Mappasessu,L,1989-04-28,Married,D3,taufik.mappasessu408@nusantaradigital.co.id,+62 870-9543-8281,ITD,ITD-L2,YOGYAKARTA,Permanent,2014-10-16,2024-04-02,Voluntary,Career Growth,14440000
+EMP00409,Arif Saputra,M,24-Apr-1982,MARRIED,D3,arif.saputra409@nusantaradigital.co.id,+62 875-7489-4784,ops,OPS-L3,Jakarta Selatan,Permanent,09-Feb-2010,,,,18860000
+EMP00410,RAHMA RAMADHAN,Wanita,1994-08-16,Single,S1,rahma.ramadhan410@nusantaradigital.co.id,+62 841-1262-3963,Customer Service,CSV-L3,Jakarta Selatan,Contract,2020-11-17,2024-05-05,Voluntary,Further Study,13900000
+EMP00411,Fitri Harahap,F,13-Sep-1988,Married,S1,fitri.harahap411@nusantaradigital.co.id,+62 833-1783-1363,HRD,HRD-L1,BDG,Permanent,05-Sep-2013,10-Mar-2023,Involuntary,Restructuring,7920000
+EMP00412,Aditya Daeng,Pria,1995-03-06,Married,S2,aditya.daeng412@nusantaradigital.co.id,+62 854-2732-8260,sls,SLS-L1,JKT,Permanent,2020-01-08,2025-02-04,Voluntary,Better Compensation,7910000
+EMP00413,Wahyu Simanjuntak,M,1994-11-01,Single,S1,wahyu.simanjuntak413@nusantaradigital.co.id,+62 872-5133-3800,CSV,CSV-L1,Bandung,Permanent,2022-10-27,,,,6900000
+EMP00414,Putra Siregar,Male,1986-10-04,SINGLE,S1,putra.siregar414@nusantaradigital.co.id,+62 846-2630-4249,ITD,ITD-L1,surabaya,Permanent,2013-04-30,2025-01-08,Voluntary,Better Compensation,9370000
+EMP00415,Yoga Syahputra,L,1989-09-03,Married,D3,yoga.syahputra415@nusantaradigital.co.id,+62 858-2764-2759,ITD,ITD-L1,Medan,Permanent,2015-06-20,2024-05-08,Involuntary,Poor Performance,Rp 9.780.000
+EMP00416,Teguh Rahman,Laki-laki,1992-10-06,Married,SMA/SMK,teguh.rahman416@nusantaradigital.co.id,+62 862-8321-8864,SLS,SLS-L1,jakarta ,Permanent,2019-12-22,2023-12-18,Voluntary,Better Compensation,8090000
+EMP00417,Adi Ramadhan,male,1998-05-13,Divorced,S1,adi.ramadhan417@nusantaradigital.co.id,+62 822-9711-3005,OPS,OPS-L1,SBY,Permanent,2022-11-29,,,,7050000
+EMP00418,Lukman Harahap,male,17-Mar-1989,Married,S1,lukman.harahap418@nusantaradigital.co.id,+62 828-8725-8551,ops,OPS-L1,jakarta ,Contract,27-Jan-2020,,,,7210000
+EMP00419,HENDRA PANGARIBUAN,male,22-Aug-1984,Married,S2,hendra.pangaribuan419@nusantaradigital.co.id,+62 865-9201-2090,CSV,CSV-L4,Jakarta Selatan,Permanent,19-Dec-2018,,,,25730000
+EMP00420,Ayu Permata,female,05-Oct-1991,Single,S1,ayu.permata420@nusantaradigital.co.id,+62 841-5553-5020,Finance,FIN-L1,Surabaya,Permanent,06-Nov-2017,,,,9530000
+EMP00421,Ayu Kusuma,Perempuan,1985-01-26,Married,S1,ayu.kusuma421@nusantaradigital.co.id,+62 891-6280-7039,SLS,SLS-L4,Jakarta Selatan,Contract,2017-10-03,2025-08-09,Voluntary,Management Issues,25780000
+EMP00422,Dian Saputra,F,1967-07-15,Married,S1,dian.saputra422@nusantaradigital.co.id,+62 873-7219-6624,OPS,OPS-L2,surabaya,Permanent,2017-03-09,2023-07-29,Voluntary,Relocation,9740000
+EMP00423,Bayu Situmorang,Pria,03-Jan-2000,Married,S1,bayu.situmorang423@nusantaradigital.co.id,+62 849-7911-6200,PRD,PRD-L1,medan,Permanent,06-Dec-2020,,,,9320000
+EMP00424,Aditya Maharani,male,2002-03-15,SINGLE,D3,aditya.maharani424@nusantaradigital.co.id,+62 851-3397-8896,ITD,ITD-L1,DKI Jakarta,Permanent,2022-12-13,,,,9570000
+EMP00425,Sari Susanti,female,1990-02-10,Single,S2,sari.susanti425@nusantaradigital.co.id,+62 860-4765-3790,SLS,SLS-L3,Bandung,Permanent,2021-06-09,,,,16470000
+EMP00426,Intan Halim,Female,1988-03-08,Single,S2,intan.halim426@nusantaradigital.co.id,+62 858-7711-3678,ITD,ITD-L4,Makasar,Permanent,2022-02-12,,,,42000000
+EMP00427,Wahyu Ramadhan,Laki-laki,2000-03-20,Single,SMA/SMK,wahyu.ramadhan427@nusantaradigital.co.id,+62 812-1886-5395,SLS,SLS-L1,Makassar,Permanent,2022-07-09,,,,9780000
+EMP00428,Agus Setiawan,M,09-Dec-1986,Married,S1,agus.setiawan428@nusantaradigital.co.id,+62 876-3501-9872,CSV,CSV-L4,Makasar,Permanent,12-Mar-2022,30-Apr-2024,Voluntary,Work-Life Balance,27220000
+EMP00429,Eko Tanjung,M,1991-03-01,Married,D3,eko.tanjung429@nusantaradigital.co.id,+62 857-4146-1386,OPS,OPS-L3,Jakarta Selatan,Permanent,2020-11-16,,,,16920000
+EMP00430,Oki Syahputra,L,1982-02-15,Married,S1,oki.syahputra430@nusantaradigital.co.id,+62 842-7216-2148,SLS,SLS-L4,DKI Jakarta,Contract,2020-03-29,2023-12-04,Involuntary,Restructuring,26570000
+EMP00431,MAYA WIBOWO,Wanita,20/09/1980,Married,D3,,+62 855-3312-8040,Information Technology,ITD-L2,Surabaya,Permanent,05/10/2012,,,,15600000
+EMP00432,Fikri Mappasessu,Pria,1983-08-25,Married,S1,fikri.mappasessu432@nusantaradigital.co.id,+62 892-7010-4775,SLS,SLS-L4,jakarta ,Contract,2021-07-31,,,,39900000
+EMP00433,Taufik Suryadi,Male,11-Sep-1975,MARRIED,S1,taufik.suryadi433@nusantaradigital.co.id,+62 892-2532-3881,OPS,OPS-L5,Jakarta,Permanent,26-Feb-2014,,,,50490000
+EMP00434,Aditya Hasibuan,Male,10/10/1994,Single,S1,aditya.hasibuan434@nusantaradigital.co.id,+62 822-6435-1071,Sales,SLS-L2,Jakarta Selatan,Permanent,04/04/2022,25/03/2023,Voluntary,Career Growth,Rp 11.800.000
+EMP00435,Rizki Rahman,Pria,2002-05-21,Married,D3,rizki.rahman435@nusantaradigital.co.id,+62 846-7152-8795,CSV,CSV-L1,BDG,Permanent,2022-12-14,2024-03-17,Voluntary,Better Compensation,5690000
+EMP00436,Galih Pratama,L,1988-02-07,Married,S1,galih.pratama436@nusantaradigital.co.id,+62 815-6727-2238,ITD,ITD-L3,BDG,Permanent,2020-02-08,2024-12-11,Voluntary,Better Compensation,22330000
+EMP00437,Yusuf Rahman,male,27/02/1995,Single,S1,yusuf.rahman437@nusantaradigital.co.id,+62 812-9940-3682,Customer Service,CSV-L1,DKI Jakarta,Permanent,14/11/2020,07/07/2023,Voluntary,Better Compensation,"6,340,000.00"
+EMP00438,Dewi Daeng,female,1993-02-10,Married,S1,dewi.daeng438@nusantaradigital.co.id,+62 886-3784-2504,SLS,SLS-L2,surabaya,Permanent,2018-12-30,2024-11-28,Voluntary,Career Growth,13410000
+EMP00439,Tari Siregar,Perempuan,17/10/1989,Married,S1,tari.siregar439@nusantaradigital.co.id,+62 820-6152-1955,CSV,CSV-L2,Jakarta,Permanent,11/03/2020,,,,10770000
+EMP00440,Taufik Sinaga,Pria,09-Sep-1994,Single,S1,taufik.sinaga440@nusantaradigital.co.id,+62 879-5063-3369,OPS,OPS-L1,BDG,Contract,04-Nov-2021,,,,"7,110,000.00"
+EMP00441,Anisa Hasibuan,female,1988-06-29,Married,S1,anisa.hasibuan441@nusantaradigital.co.id,+62 895-5987-3151,Information Technology,ITD-L2,DKI Jakarta,Permanent,2019-02-17,2023-01-29,Involuntary,Poor Performance,13310000
+EMP00442,Vina Pangaribuan,Wanita,28/12/1995,MARRIED,S1,vina.pangaribuan442@nusantaradigital.co.id,+62 861-8050-6969,Customer Service,CSV-L1,surabaya,Permanent,02/05/2018,,,,5820000
+EMP00443,Budi Situmorang,L,31-May-1981,Married,S1,budi.situmorang443@nusantaradigital.co.id,+62 869-1687-3773,mkt,MKT-L1,Jakarta,Permanent,09-Feb-2010,25-Jul-2024,Voluntary,Career Growth,"7,090,000.00"
+EMP00444,Budi Saputra,Male,09-Aug-1996,Single,D3,budi.saputra444@nusantaradigital.co.id,+62 819-5675-8217,SLS,SLS-L1,Jakarta,Permanent,24-Jun-2022,24-Jan-2025,Voluntary,Better Compensation,Rp 8.180.000
+EMP00445,Rahma Wibowo,Perempuan,06-May-1980,Married,S2,rahma.wibowo445@nusantaradigital.co.id,+62 855-9514-3086,Sales,SLS-L4,Jakarta Selatan,Permanent,04-Mar-2013,,,,Rp 30.670.000
+EMP00446,Anisa Sinaga,F,13/10/1999,MARRIED,D3,anisa.sinaga446@nusantaradigital.co.id,+62 837-5597-9878,CSV,CSV-L1,Yogya,Permanent,10/03/2020,,,,6890000
+EMP00447,Gita Sinaga,Perempuan,1999-01-09,Single,S1,gita.sinaga447@nusantaradigital.co.id,+62 887-7562-1667,PRD,PRD-L1,Jakarta,Permanent,2021-03-13,,,,10540000
+EMP00448,Wahyu Pratama,Pria,1987-03-06,Single,D3,wahyu.pratama448@nusantaradigital.co.id,+62 874-9107-7243,ITD,ITD-L2,Makasar,Permanent,2016-10-29,2023-08-17,Voluntary,Career Growth,15840000
+EMP00449,Fikri Utami,L,1997-04-07,Married,S1,fikri.utami449@nusantaradigital.co.id,+62 896-2147-6463,SLS,SLS-L2,Makasar,Contract,2021-08-06,,,,11170000
+EMP00450,Dedi Purnomo,Male,30/09/1985,SINGLE,S2,dedi.purnomo450@nusantaradigital.co.id,+62 890-9052-7334,csv,CSV-L3,Jakarta Selatan,Permanent,09/09/2015,,,,17850000
+EMP00451,Budi Ramadhan,Pria,1967-08-15,Divorced,S1,budi.ramadhan451@nusantaradigital.co.id,+62 844-9006-9389,CSV,CSV-L1,Bandung,Permanent,2020-04-08,2023-04-19,Voluntary,Career Growth,7070000
+EMP00452,Joko Tanjung,male,1992-11-30,Divorced,S1,joko.tanjung452@nusantaradigital.co.id,+62 845-5744-1913,itd,ITD-L2,Surabaya,Permanent,2019-11-04,,,,Rp 15.290.000
+EMP00453,Bunga Syahputra,F,1992-10-24,MARRIED,S2,bunga.syahputra453@nusantaradigital.co.id,+62 847-3580-4715,CSV,CSV-L1,SBY,Permanent,2020-06-09,,,,7970000
+EMP00454,Aditya Pratama,M,1983-11-13,Married,S2,aditya.pratama454@nusantaradigital.co.id,+62 817-2182-2325,OPS,OPS-L4,Jakarta,Permanent,2014-09-01,,,,25920000
+EMP00455,Rangga Setiawan,Male,1980-06-24,Married,S1,rangga.setiawan455@nusantaradigital.co.id,+62 893-7658-7226,PRD,PRD-L5,Makasar,Permanent,2020-12-06,,,,63640000
+EMP00456,Tari Firmansyah,Wanita,15-Apr-1969,Single,S1,tari.firmansyah456@nusantaradigital.co.id,+62 882-6197-8449,SLS,SLS-L1,BDG,Permanent,30-Sep-2022,31-May-2025,Retirement,Retirement,8780000
+EMP00457,Intan Siregar,female,1985-02-24,Single,S1,intan.siregar457@nusantaradigital.co.id,+62 818-2033-9265,OPS,OPS-L2,bandung ,Permanent,2014-10-03,,,,12110000
+EMP00458,Hendra Hasibuan,male,1998-03-01,Single,S1,hendra.hasibuan458@nusantaradigital.co.id,+62 853-1775-2698,OPS,OPS-L1,jakarta ,Permanent,2020-11-27,,,,7370000
+EMP00459,Yusuf Siregar,Laki-laki,1995-12-19,Divorced,S1,yusuf.siregar459@nusantaradigital.co.id,+62 849-7532-9675,OPS,OPS-L1,JKT,Permanent,2021-05-30,2024-09-15,Voluntary,Better Compensation,6030000
+EMP00460,Amelia Maharani,female,19-Jun-1991,Married,S1,amelia.maharani460@nusantaradigital.co.id,+62 868-9492-5067,MKT,MKT-L2,Jakarta Selatan,Permanent,08-Nov-2020,,,,"12,480,000.00"
+EMP00461,Aditya Rahman,Male,14-Jun-1999,Married,S1,aditya.rahman461@nusantaradigital.co.id,+62 895-7396-7532,prd,PRD-L1,JKT,Permanent,20-Jan-2023,,,,11430000
+EMP00462,Budi Daeng,Male,1999-10-21,Single,S1,budi.daeng462@nusantaradigital.co.id,+62 881-6492-3101,Marketing,MKT-L1,jakarta ,Permanent,2023-01-09,,,,10880000
+EMP00463,  mega saputra ,Perempuan,2000-08-18,Single,D3,mega.saputra463@nusantaradigital.co.id,+62 845-8855-8899,FIN,FIN-L1,Jakarta,Permanent,2023-01-25,,,,Rp 8.460.000
+EMP00464,Fitri Simanjuntak,female,27-Apr-2002,Married,SMA/SMK,fitri.simanjuntak464@nusantaradigital.co.id,+62 898-6223-8770,OPS,OPS-L1,YOGYAKARTA,Permanent,16-Jan-2023,24-Jun-2024,Voluntary,Better Compensation,"6,540,000.00"
+EMP00465,Sari Maharani,Female,1996-10-29,Married,S1,sari.maharani465@nusantaradigital.co.id,+62 846-8801-6999,CSV,CSV-L2,SBY,Permanent,2023-01-05,,,,9570000
+EMP00466,Ratna Tanjung,P,1996-12-18,Married,S1,ratna.tanjung466@nusantaradigital.co.id,+62 815-1014-5887,OPS,OPS-L1,Yogyakarta,Contract,2023-01-12,,,,7300000
+EMP00467,Tiara Nugroho,Perempuan,19-Sep-1999,Married,S2,tiara.nugroho467@nusantaradigital.co.id,+62 897-1644-7274,itd,ITD-L1,SBY,Permanent,23-Jan-2023,,,,11090000
+EMP00468,Satria Situmorang,L,26/09/1995,Divorced,S1,satria.situmorang468@nusantaradigital.co.id,+62 813-5173-1102,SLS,SLS-L3,bandung ,Permanent,06/01/2023,07/03/2023,Involuntary,Poor Performance,18570000
+EMP00469,Laras Mappasessu,female,25-Dec-1998,Single,S1,laras.mappasessu469@nusantaradigital.co.id,+62 825-5180-8782,ops,OPS-L1,DKI Jakarta,Permanent,06-Jan-2023,,,,6820000
+EMP00470,Hadi Permata,M,1997-06-11,Married,S1,hadi.permata470@nusantaradigital.co.id,+62 897-9504-2739,SLS,SLS-L1,DKI Jakarta,Permanent,2023-01-27,,,,8430000
+EMP00471,Yoga Firmansyah,Laki-laki,07/07/1991,Married,D3,yoga.firmansyah471@nusantaradigital.co.id,+62 860-3552-7100,OPS,OPS-L2,Bandung,Permanent,25/01/2023,,,,12060000
+EMP00472,Putri Hidayat,female,1997-03-24,Single,SMA/SMK,putri.hidayat472@nusantaradigital.co.id,+62 832-9848-9754,MKT,MKT-L1,JKT,Permanent,2023-01-30,,,,7690000
+EMP00473,Agus Susanti,male,05/06/1998,Single,S1,agus.susanti473@nusantaradigital.co.id,+62 811-8089-9372,HRD,HRD-L1,DKI Jakarta,Permanent,19/01/2023,,,,Rp 8.360.000
+EMP00474,Bunga Daeng,female,30/12/1992,SINGLE,S1,,+62 871-2730-6170,hrd,HRD-L2,Jakarta,Permanent,07/01/2023,,,,12480000
+EMP00475,Putri Sinaga,P,1993-04-30,SINGLE,S2,putri.sinaga475@nusantaradigital.co.id,+62 847-9176-1592,CSV,CSV-L2,jakarta ,Permanent,2023-02-21,2023-09-27,Voluntary,Personal / Family,"8,590,000.00"
+EMP00476,Rangga Syahputra,Pria,1995-09-05,Married,S1,rangga.syahputra476@nusantaradigital.co.id,+62 847-6858-8293,Operations,OPS-L1,JKT,Permanent,2023-02-22,,,,7670000
+EMP00477,Agus Daeng,Laki-laki,2001-11-07,Single,S1,agus.daeng477@nusantaradigital.co.id,+62 866-2896-7523,SLS,SLS-L1,BDG,Permanent,2023-02-14,2023-12-28,Voluntary,Better Compensation,6730000
+EMP00478,Satria Firmansyah,Pria,02/11/2001,Single,S1,satria.firmansyah478@nusantaradigital.co.id,+62 852-8307-3091,itd,ITD-L1,YOGYAKARTA,Permanent,19/02/2023,08/09/2025,Voluntary,Better Compensation,8510000
+EMP00479,Kurniawan Syahputra,male,31/10/1990,Married,S1,kurniawan.syahputra479@nusantaradigital.co.id,+62 816-6781-8391,MKT,MKT-L1,MKS,Permanent,12/02/2023,,,,9380000
+EMP00480,Eka Permata,F,03-Apr-1998,Single,S1,eka.permata480@nusantaradigital.co.id,+62 878-9067-7988,FIN,FIN-L1,Makasar,Contract,17-Feb-2023,,,,8550000
+EMP00481,Dimas Siregar,Pria,1999-02-26,Married,SMA/SMK,dimas.siregar481@nusantaradigital.co.id,+62 826-1059-9218,Customer Service,CSV-L1,jakarta ,Permanent,2023-03-25,,,,8040000
+EMP00482,Dewi Hasibuan,Wanita,1998-04-20,Divorced,D3,dewi.hasibuan482@nusantaradigital.co.id,+62 868-9589-7907,OPS,OPS-L1,BDG,Permanent,2023-03-18,2025-01-28,Voluntary,Better Compensation,6460000
+EMP00483,Vina Hidayat,Wanita,09/07/1993,Single,S1,vina.hidayat483@nusantaradigital.co.id,+62 815-5988-2710,CSV,CSV-L2,DKI Jakarta,Permanent,01/03/2023,,,,11470000
+EMP00484,Salsabila Hakim,P,08/06/2002,Single,D3,salsabila.hakim484@nusantaradigital.co.id,+62 843-4655-7411,HRD,HRD-L1,JKT,Contract,01/03/2023,19/11/2023,Involuntary,Restructuring,6500000
+EMP00485,Dedi Utami,M,1999-08-17,Single,D3,dedi.utami485@nusantaradigital.co.id,+62 813-6613-7649,SLS,SLS-L1,jakarta ,Contract,2023-03-06,,,,"7,290,000.00"
+EMP00486,Hadi Nugroho,Male,1998-09-13,Married,S1,hadi.nugroho486@nusantaradigital.co.id,+62 888-1630-3305,SLS,SLS-L1,Surabaya,Permanent,2023-03-06,,,,7580000
+EMP00487,Oki Sinaga,Laki-laki,20-Aug-1999,MARRIED,S1,oki.sinaga487@nusantaradigital.co.id,+62 828-1687-9458,Sales,SLS-L1,Jakarta Selatan,Permanent,02-Apr-2023,,,,"7,360,000.00"
+EMP00488,Gita Pangaribuan,Perempuan,1994-06-25,Married,S1,gita.pangaribuan488@nusantaradigital.co.id,+62 827-5967-2774,OPS,OPS-L1,Jakarta,Permanent,2023-04-22,2024-05-15,Involuntary,Misconduct,6350000
+EMP00489,Siti Daeng,Wanita,1995-08-19,Married,S1,siti.daeng489@nusantaradigital.co.id,+62 832-2743-3561,CSV,CSV-L1,DKI Jakarta,Contract,2023-04-07,2023-10-25,Involuntary,Poor Performance,6730000
+EMP00490,Indah Siregar,Wanita,2002-06-03,Married,S1,indah.siregar490@nusantaradigital.co.id,+62 878-8569-8456,ITD,ITD-L1,Jogja,Permanent,2023-04-26,2024-11-23,Voluntary,Better Compensation,"10,270,000.00"
+EMP00491,Galih Saputra,Laki-laki,14/04/1997,MARRIED,S1,galih.saputra491@nusantaradigital.co.id,+62 829-6467-3333,CSV,CSV-L1,bandung ,Permanent,06/04/2023,22/12/2025,Voluntary,Better Compensation,7400000
+EMP00492,Laras Susanti,Perempuan,2002-12-23,Single,S1,laras.susanti492@nusantaradigital.co.id,+62 851-9141-1282,CSV,CSV-L1,Medan,Permanent,2023-04-10,,,,6300000
+EMP00493,BAYU SIMANJUNTAK,Male,2003-01-11,Married,S1,bayu.simanjuntak493@nusantaradigital.co.id,+62 819-7445-6947,ITD,ITD-L1,Jakarta Selatan,Permanent,2023-04-17,,,,9570000
+EMP00494,Fikri Rahman,male,21/12/1982,Married,S2,fikri.rahman494@nusantaradigital.co.id,+62 842-3915-4872,PRD,PRD-L4,SBY,Permanent,11/04/2023,,,,41790000
+EMP00495,Eko Hakim,Male,2001-02-02,Divorced,S1,eko.hakim495@nusantaradigital.co.id,+62 819-1507-7671,Information Technology,ITD-L1,surabaya,Permanent,2023-04-19,,,,"10,860,000.00"
+EMP00496,REZA PRATAMA,M,,MARRIED,S2,reza.pratama496@nusantaradigital.co.id,+62 834-2630-4692,OPS,OPS-L1,surabaya,Permanent,03/04/2023,,,,Rp 6.660.000
+EMP00497,Amelia Mappasessu,F,1996-06-12,Single,SMA/SMK,amelia.mappasessu497@nusantaradigital.co.id,+62 837-4554-5466,CSV,CSV-L1,JKT,Contract,2023-04-06,2023-08-17,Voluntary,Better Compensation,6440000
+EMP00498,Hendra Syahputra,M,1998-02-02,Married,S1,hendra.syahputra498@nusantaradigital.co.id,+62 831-5610-2432,OPS,OPS-L2,MKS,Permanent,2023-04-01,,,,11000000
+EMP00499,Rian Santoso,male,2001-10-24,Married,S1,rian.santoso499@nusantaradigital.co.id,+62 843-5389-6454,SLS,SLS-L2,Medan,Permanent,2023-04-16,,,,14110000
+EMP00500,Novi Maharani,female,03/01/1998,Single,S1,novi.maharani500@nusantaradigital.co.id,+62 858-1202-1697,MKT,MKT-L1,SBY,Permanent,10/04/2023,,,,Rp 8.800.000
+EMP00501,Teguh Kusuma,male,1992-08-05,Married,S1,teguh.kusuma501@nusantaradigital.co.id,+62 858-5941-4147,CSV,CSV-L1,Yogya,Permanent,2023-04-24,,,,"5,560,000.00"
+EMP00502,Tari Kusuma,F,18/06/2002,SINGLE,D3,tari.kusuma502@nusantaradigital.co.id,+62 833-6401-7121,SLS,SLS-L1,Makassar,Permanent,28/04/2023,,,,6950000
+EMP00503,Anisa Halim,F,19/03/2003,Single,D3,anisa.halim503@nusantaradigital.co.id,+62 839-1827-2788,ITD,ITD-L1,Bandung,Permanent,14/04/2023,22/04/2024,Voluntary,Better Compensation,8280000
+EMP00504,  taufik hakim ,L,31/12/1996,MARRIED,S1,taufik.hakim504@nusantaradigital.co.id,+62 822-5526-8221,OPS,OPS-L1,BDG,Permanent,10/04/2023,,,,"7,590,000.00"
+EMP00505,Rian Wibowo,L,1994-10-23,Single,S1,rian.wibowo505@nusantaradigital.co.id,+62 880-9051-2339,mkt,MKT-L2,bandung ,Permanent,2023-04-24,2024-06-10,Voluntary,Better Compensation,11600000
+EMP00506,Tiara Simanjuntak,Female,19/12/1990,Single,S1,tiara.simanjuntak506@nusantaradigital.co.id,+62 848-3036-8479,ITD,ITD-L2,DKI Jakarta,Contract,05/04/2023,10/07/2025,Voluntary,Better Compensation,14040000
+EMP00507,Anisa Hidayat,Perempuan,2002-06-18,Single,D3,anisa.hidayat507@nusantaradigital.co.id,+62 847-9660-9079,mkt,MKT-L1,DKI Jakarta,Contract,2023-04-08,,,,"10,700,000.00"
+EMP00508,  sari lubis ,F,22/11/1990,Single,S1,sari.lubis508@nusantaradigital.co.id,+62 837-9244-7871,OPS,OPS-L3,jakarta ,Contract,03/04/2023,16/02/2025,Voluntary,Relocation,17120000
+EMP00509,Yusuf Susanti,Pria,1997-08-19,Single,D3,yusuf.susanti509@nusantaradigital.co.id,+62 845-8930-5959,OPS,OPS-L1,JKT,Permanent,2023-04-29,,,,6440000
+EMP00510,Maya Utami,female,2003-04-20,Married,S1,maya.utami510@nusantaradigital.co.id,+62 825-5914-6093,ITD,ITD-L1,Bandung,Permanent,2023-05-05,,,,"8,750,000.00"
+EMP00511,Nadia Sinaga,Perempuan,2002-05-31,Married,S1,nadia.sinaga511@nusantaradigital.co.id,+62 821-9153-8784,CSV,CSV-L1,Jakarta Selatan,Permanent,2023-05-05,2024-11-08,Involuntary,Restructuring,5850000
+EMP00512,Bunga Nasution,Female,1996-04-26,Married,S2,bunga.nasution512@nusantaradigital.co.id,+62 869-3347-8584,OPS,OPS-L2,Jakarta Selatan,Permanent,2023-05-05,2024-02-07,Voluntary,Relocation,11280000
+EMP00513,  anisa saputra ,female,2000-06-04,Married,S1,anisa.saputra513@nusantaradigital.co.id,+62 845-9164-4534,OPS,OPS-L1,DKI Jakarta,Permanent,2023-05-02,2024-02-09,Voluntary,Career Growth,"6,180,000.00"
+EMP00514,Putri Pratama,Perempuan,07-Dec-1995,Single,S1,putri.pratama514@nusantaradigital.co.id,+62 843-2680-4765,SLS,SLS-L1,Makassar,Contract,01-May-2023,06-Sep-2024,Involuntary,Contract End,"8,660,000.00"
+EMP00515,Mega Pratama,Perempuan,30-Sep-1995,Married,S1,mega.pratama515@nusantaradigital.co.id,+62 812-3877-5477,MKT,MKT-L2,Jakarta Selatan,Permanent,27-May-2023,07-Mar-2024,Voluntary,Management Issues,10540000
+EMP00516,Putri Ramadhan,Wanita,01-Jul-1999,Divorced,S1,putri.ramadhan516@nusantaradigital.co.id,+62 895-3021-8122,Operations,OPS-L1,surabaya,Permanent,16-Jun-2023,27-Dec-2023,Voluntary,Management Issues,7240000
+EMP00517,Vina Pratama,female,1997-06-29,Married,D3,vina.pratama517@nusantaradigital.co.id,+62 888-5813-3043,CSV,CSV-L1,DKI Jakarta,Contract,2023-06-14,2023-09-29,Involuntary,Poor Performance,7080000
+EMP00518,Adi Anggraini,M,1994-09-27,Married,S1,adi.anggraini518@nusantaradigital.co.id,+62 833-3720-2113,MKT,MKT-L1,surabaya,Permanent,2023-06-19,,,,8600000
+EMP00519,  ilham permata ,Laki-laki,02/07/2002,SINGLE,S1,ilham.permata519@nusantaradigital.co.id,+62 881-8911-4202,Customer Service,CSV-L1,jakarta ,Contract,25/06/2023,01/05/2024,Involuntary,Misconduct,5930000
+EMP00520,Hendra Nugroho,Pria,2002-08-28,Married,S1,hendra.nugroho520@nusantaradigital.co.id,+62 853-1452-6764,SLS,SLS-L1,jakarta ,Permanent,2023-06-28,2024-10-24,Voluntary,Better Compensation,Rp 7.180.000
+EMP00521,Dewi Wijaya,Perempuan,1996-10-09,Single,S1,dewi.wijaya521@nusantaradigital.co.id,+62 856-2095-7520,OPS,OPS-L1,surabaya,Permanent,2023-06-02,,,,7810000
+EMP00522,Hadi Purnomo,Male,2000-02-29,Single,S1,hadi.purnomo522@nusantaradigital.co.id,+62 896-3780-8568,OPS,OPS-L1,DKI Jakarta,Permanent,2023-06-16,2024-02-05,Voluntary,Management Issues,Rp 7.500.000
+EMP00523,Gilang Mappasessu,M,23-Oct-1994,Married,S1,gilang.mappasessu523@nusantaradigital.co.id,+62 822-4473-4358,CSV,CSV-L2,Jakarta,Permanent,26-Jul-2023,02-Feb-2024,Voluntary,Better Compensation,10700000
+EMP00524,Muhammad Firmansyah,Laki-laki,19-Jun-2002,Married,S1,muhammad.firmansyah524@nusantaradigital.co.id,+62 881-7731-1645,OPS,OPS-L2,jakarta ,Permanent,22-Jul-2023,26-Jul-2025,Involuntary,Restructuring,11200000
+EMP00525,Fajar Kusuma,Pria,1998-05-24,Married,D3,,+62 898-9841-5258,ITD,ITD-L1,MKS,Permanent,2023-07-20,2023-08-14,Involuntary,Restructuring,Rp 7.670.000
+EMP00526,Nurul Setiawan,Perempuan,17/09/1996,Single,D3,nurul.setiawan526@nusantaradigital.co.id,+62 853-6508-2194,Customer Service,CSV-L1,Jakarta Selatan,Permanent,04/07/2023,07/06/2024,Voluntary,Management Issues,Rp 6.960.000
+EMP00527,Anisa Hasibuan,female,1990-09-01,Married,S1,anisa.hasibuan527@nusantaradigital.co.id,+62 813-2048-2912,ITD,ITD-L4,DKI Jakarta,Permanent,2023-07-17,,,,35510000
+EMP00528,Fikri Wijaya,L,1991-06-10,Married,S1,fikri.wijaya528@nusantaradigital.co.id,+62 832-5392-1794,Operations,OPS-L2,Bandung,Permanent,2023-07-08,,,,10230000
+EMP00529,Wulan Saputra,Female,09-Jul-2002,Single,SMA/SMK,wulan.saputra529@nusantaradigital.co.id,+62 820-8565-5104,CSV,CSV-L1,Medan,Permanent,13-Jul-2023,,,,6900000
+EMP00530,Rina Wibowo,P,14/08/1997,Married,S1,rina.wibowo530@nusantaradigital.co.id,+62 880-3881-9592,ops,OPS-L3,DKI Jakarta,Permanent,12/07/2023,,,,15390000
+EMP00531,LARAS DAENG,P,1999-09-24,Single,S1,laras.daeng531@nusantaradigital.co.id,+62 819-8985-1942,SLS,SLS-L2,DKI Jakarta,Permanent,2023-07-27,2025-07-20,Voluntary,Career Growth,13390000
+EMP00532,Rian Ramadhan,Male,1998-10-20,Single,S1,rian.ramadhan532@nusantaradigital.co.id,+62 840-8359-3607,HRD,HRD-L1,DKI Jakarta,Permanent,2023-07-14,,,,8820000
+EMP00533,AYU WIBOWO,female,21-Feb-1999,Single,S1,ayu.wibowo533@nusantaradigital.co.id,+62 821-1166-1028,PRD,PRD-L2,Jakarta Selatan,Permanent,11-Jul-2023,06-Feb-2024,Voluntary,Career Growth,Rp 14.830.000
+EMP00534,Maya Setiawan,Wanita,25/05/1998,MARRIED,D3,maya.setiawan534@nusantaradigital.co.id,+62 859-8109-6579,Customer Service,CSV-L1,Jakarta Selatan,Permanent,31/08/2023,,,,6110000
+EMP00535,Dian Daeng,female,28/05/2001,Married,S2,dian.daeng535@nusantaradigital.co.id,+62 828-5979-3475,Finance,FIN-L1,bandung ,Permanent,21/08/2023,,,,Rp 9.520.000
+EMP00536,  fikri siregar ,M,11/11/2001,Single,SMA/SMK,fikri.siregar536@nusantaradigital.co.id,+62 881-2229-2672,ITD,ITD-L1,Jakarta,Permanent,10/08/2023,,,,10220000
+EMP00537,Bayu Suryadi,Pria,1998-03-30,Married,D3,bayu.suryadi537@nusantaradigital.co.id,+62 881-4755-1747,OPS,OPS-L1,Jakarta Selatan,Permanent,2023-08-15,,,,6780000
+EMP00538,Bunga Lubis,female,2003-02-10,Married,SMA/SMK,bunga.lubis538@nusantaradigital.co.id,+62 858-8080-2644,Information Technology,ITD-L1,bandung ,Contract,2023-08-20,,,,9710000
+EMP00539,Putra Firmansyah,male,03-Feb-1996,Married,S2,putra.firmansyah539@nusantaradigital.co.id,+62 882-6607-9422,Marketing,MKT-L2,YOGYAKARTA,Contract,12-Aug-2023,19-Aug-2024,Voluntary,Career Growth,13260000
+EMP00540,Intan Maharani,F,17/11/1999,Single,S1,intan.maharani540@nusantaradigital.co.id,+62 821-7747-6786,ITD,ITD-L1,Jakarta,Permanent,14/08/2023,,,,12030000
+EMP00541,Yusuf Nasution,M,2002-07-05,Divorced,S1,yusuf.nasution541@nusantaradigital.co.id,+62 895-7103-5346,Customer Service,CSV-L1,jakarta ,Permanent,2023-08-13,,,,Rp 7.960.000
+EMP00542,Putri Susanti,P,13/10/2002,Single,SMA/SMK,putri.susanti542@nusantaradigital.co.id,+62 861-3494-4831,CSV,CSV-L1,Jogja,Permanent,10/08/2023,23/10/2024,Voluntary,Relocation,7690000
+EMP00543,Hadi Lubis,Male,1998-12-27,Single,S1,hadi.lubis543@nusantaradigital.co.id,+62 896-1075-7551,ITD,ITD-L2,jakarta ,Permanent,2023-08-14,,,,15070000
+EMP00544,Eka Syahputra,Perempuan,08/04/1995,Married,S1,eka.syahputra544@nusantaradigital.co.id,+62 833-4839-4481,HRD,HRD-L1,jakarta ,Permanent,04/08/2023,,,,7930000
+EMP00545,Muhammad Tanjung,Male,11/12/1998,Single,SMA/SMK,muhammad.tanjung545@nusantaradigital.co.id,+62 857-9541-8584,PRD,PRD-L1,surabaya,Contract,09/08/2023,,,,9680000
+EMP00546,Adi Wibowo,L,1988-09-20,Married,S1,adi.wibowo546@nusantaradigital.co.id,+62 866-7389-8263,MKT,MKT-L2,Jakarta Selatan,Permanent,2023-08-30,2024-07-06,Voluntary,Management Issues,"13,140,000.00"
+EMP00547,Lestari Mappasessu,Wanita,24-Nov-1999,Single,S1,lestari.mappasessu547@nusantaradigital.co.id,+62 836-9895-7961,SLS,SLS-L2,surabaya,Contract,14-Aug-2023,,,,12680000
+EMP00548,Nanda Utami,M,1998-11-26,Married,D3,nanda.utami548@nusantaradigital.co.id,+62 819-6766-8449,Sales,SLS-L1,MDN,Permanent,2023-09-30,,,,8480000
+EMP00549,Aditya Hasibuan,Laki-laki,09-Jun-1994,DIVORCED,S1,aditya.hasibuan549@nusantaradigital.co.id,+62 831-6196-4934,SLS,SLS-L2,Jakarta Selatan,Permanent,16-Sep-2023,,,,14810000
+EMP00550,PUTRI WIBOWO,F,1995-07-29,Married,S1,putri.wibowo550@nusantaradigital.co.id,+62 858-3657-4292,Customer Service,CSV-L1,BDG,Permanent,2023-09-11,2023-10-10,Voluntary,Career Growth,6970000
+EMP00551,Anisa Hasibuan,Perempuan,1992-09-20,Single,SMA/SMK,anisa.hasibuan551@nusantaradigital.co.id,+62 830-2188-6038,CSV,CSV-L1,SBY,Permanent,2023-09-02,,,,"6,510,000.00"
+EMP00552,Yoga Permata,Laki-laki,1993-03-07,Married,S2,yoga.permata552@nusantaradigital.co.id,+62 823-4336-8012,CSV,CSV-L3,Medan,Permanent,2023-09-09,,,,16620000
+EMP00553,Nurul Kusuma,Wanita,14-Dec-1999,Married,S1,nurul.kusuma553@nusantaradigital.co.id,+62 884-2254-9451,ITD,ITD-L1,DKI Jakarta,Permanent,19-Oct-2023,06-Mar-2024,Voluntary,Work-Life Balance,7440000
+EMP00554,  rian purnomo ,Laki-laki,2003-03-20,Married,D3,rian.purnomo554@nusantaradigital.co.id,+62 882-2018-3834,SLS,SLS-L1,medan,Contract,2023-10-22,2024-12-26,Involuntary,Misconduct,8280000
+EMP00555,  dian suryadi ,Female,2003-03-02,Married,SMA/SMK,dian.suryadi555@nusantaradigital.co.id,+62 834-2538-9802,Customer Service,CSV-L1,Surabaya,Permanent,2023-10-11,2024-06-04,Voluntary,Further Study,6550000
+EMP00556,Dewi Wibowo,F,30-Oct-2000,Married,S1,dewi.wibowo556@nusantaradigital.co.id,+62 876-2547-8010,MKT,MKT-L1,MKS,Permanent,29-Oct-2023,,,,9040000
+EMP00557,Yusuf Santoso,M,30-Nov-1994,Single,S1,yusuf.santoso557@nusantaradigital.co.id,+62 835-6471-2714,SLS,SLS-L1,DKI Jakarta,Permanent,12-Oct-2023,28-Feb-2024,Voluntary,Management Issues,7160000
+EMP00558,Mega Purnomo,Perempuan,2003-04-11,Single,S1,mega.purnomo558@nusantaradigital.co.id,+62 869-6824-6775,HRD,HRD-L1,Jakarta Selatan,Permanent,2023-10-04,,,,8070000
+EMP00559,Budi Firmansyah,Laki-laki,08-Aug-2003,MARRIED,S1,budi.firmansyah559@nusantaradigital.co.id,+62 867-2128-4505,CSV,CSV-L1,Jakarta,Permanent,29-Oct-2023,,,,Rp 7.860.000
+EMP00560,  dimas mappasessu ,Laki-laki,17/01/1995,Married,D3,dimas.mappasessu560@nusantaradigital.co.id,+62 832-3867-5369,Customer Service,CSV-L1,JKT,Contract,06/10/2023,27/10/2024,Involuntary,Poor Performance,"5,990,000.00"
+EMP00561,Novi Tanjung,P,11-Dec-2002,Married,S1,novi.tanjung561@nusantaradigital.co.id,+62 850-9375-7101,MKT,MKT-L1,DKI Jakarta,Permanent,28-Oct-2023,16-Dec-2024,Involuntary,Poor Performance,7950000
+EMP00562,Vina Daeng,P,21-Oct-1998,SINGLE,S1,vina.daeng562@nusantaradigital.co.id,+62 841-9941-2391,SLS,SLS-L1,Jakarta Selatan,Permanent,29-Oct-2023,,,,Rp 8.310.000
+EMP00563,Fitri Hasibuan,F,1997-05-02,Single,S1,fitri.hasibuan563@nusantaradigital.co.id,+62 883-5914-6399,CSV,CSV-L1,Medan,Permanent,2023-11-16,,,,7220000
+EMP00564,Rizki Pangaribuan,male,1997-03-19,Single,D3,rizki.pangaribuan564@nusantaradigital.co.id,+62 835-5490-4951,SLS,SLS-L1,DKI Jakarta,Permanent,2023-11-25,,,,7570000
+EMP00565,Putra Pratama,Pria,1998-06-20,Divorced,S1,putra.pratama565@nusantaradigital.co.id,+62 859-3981-7928,MKT,MKT-L2,Jakarta Selatan,Permanent,2023-11-14,2024-01-31,Voluntary,Management Issues,12950000
+EMP00566,Fikri Nasution,Male,1997-11-29,Married,D3,fikri.nasution566@nusantaradigital.co.id,+62 896-7943-6208,Product,PRD-L1,MDN,Permanent,2023-11-07,,,,9100000
+EMP00567,Joko Ramadhan,L,1993-09-14,Married,S1,joko.ramadhan567@nusantaradigital.co.id,+62 892-7307-7476,CSV,CSV-L2,Makassar,Permanent,2023-11-18,2024-08-18,Voluntary,Better Compensation,9290000
+EMP00568,Dewi Nasution,F,1995-01-16,Married,S1,dewi.nasution568@nusantaradigital.co.id,+62 851-4388-7962,ITD,ITD-L2,MDN,Permanent,2023-11-18,2024-09-25,Voluntary,Work-Life Balance,13310000
+EMP00569,Lukman Nasution,male,1990-07-05,Married,S1,lukman.nasution569@nusantaradigital.co.id,+62 864-3901-8799,Customer Service,CSV-L3,Jakarta Selatan,Permanent,2023-11-25,2024-09-22,Involuntary,Poor Performance,15600000
+EMP00570,Satria Siregar,Male,1995-03-01,Single,S1,satria.siregar570@nusantaradigital.co.id,+62 818-8381-5056,OPS,OPS-L2,jakarta ,Contract,2023-11-09,2024-02-10,Voluntary,Career Growth,9040000
+EMP00571,Joko Daeng,L,1996-05-09,Married,D3,joko.daeng571@nusantaradigital.co.id,+62 870-9997-4260,hrd,HRD-L1,Makasar,Permanent,2023-11-13,2024-09-05,Voluntary,Career Growth,7800000
+EMP00572,Sari Utami,Wanita,08/11/2000,Married,S1,sari.utami572@nusantaradigital.co.id,+62 888-2595-1825,ITD,ITD-L2,DKI Jakarta,Permanent,28/11/2023,,,,14110000
+EMP00573,Ilham Daeng,Pria,1997-05-23,Single,S1,ilham.daeng573@nusantaradigital.co.id,+62 876-5550-7928,prd,PRD-L1,medan,Permanent,2023-11-28,2024-05-13,Involuntary,Misconduct,7970000
+EMP00574,Putra Santoso,L,1996-09-19,Married,D3,putra.santoso574@nusantaradigital.co.id,+62 881-5478-1764,FIN,FIN-L1,Medan,Permanent,2023-11-25,,,,"8,230,000.00"
+EMP00575,Gilang Lubis,Laki-laki,1994-11-11,Divorced,D3,gilang.lubis575@nusantaradigital.co.id,+62 861-6853-6033,SLS,SLS-L2,Yogyakarta,Contract,2023-11-03,2025-06-08,Voluntary,Work-Life Balance,11020000
+EMP00576,Tari Wijaya,Female,1993-12-19,Single,S1,tari.wijaya576@nusantaradigital.co.id,+62 838-1785-2219,OPS,OPS-L1,Jakarta Selatan,Permanent,2023-11-22,,,,7590000
+EMP00577,Budi Mappasessu,male,1998-10-08,Married,SMA/SMK,budi.mappasessu577@nusantaradigital.co.id,+62 818-8522-8677,Operations,OPS-L1,Surabaya,Contract,2023-11-30,2024-02-25,Involuntary,Restructuring,7460000
+EMP00578,Putri Permata,Wanita,2002-05-30,Married,S1,putri.permata578@nusantaradigital.co.id,+62 864-8751-7271,ITD,ITD-L1,Bandung,Permanent,2023-11-09,,,,11050000
+EMP00579,Budi Firmansyah,M,1998-05-28,Single,SMA/SMK,budi.firmansyah579@nusantaradigital.co.id,+62 815-4780-9845,CSV,CSV-L1,Makassar,Permanent,2023-12-22,2024-01-12,Voluntary,Better Compensation,6140000
+EMP00580,Maya Hasibuan,P,2003-05-16,Married,S1,maya.hasibuan580@nusantaradigital.co.id,+62 891-5916-3492,MKT,MKT-L1,MDN,Permanent,2023-12-17,,,,7730000
+EMP00581,Vina Rahman,Wanita,12-Jun-1997,Married,S1,vina.rahman581@nusantaradigital.co.id,+62 892-8087-7506,ITD,ITD-L3,Medan,Permanent,15-Dec-2023,15-Feb-2024,Voluntary,Career Growth,Rp 19.850.000
+EMP00582,Dian Firmansyah,P,17/02/2000,Married,D3,dian.firmansyah582@nusantaradigital.co.id,+62 817-7720-6893,SLS,SLS-L1,JKT,Contract,31/12/2023,01/07/2025,Voluntary,Career Growth,7260000
+EMP00583,AYU KUSUMA,Wanita,1995-02-27,SINGLE,S1,ayu.kusuma583@nusantaradigital.co.id,+62 836-2622-2321,HRD,HRD-L1,Medan,Contract,2023-12-07,,,,"8,080,000.00"
+EMP00584,Teguh Hidayat,Laki-laki,22/11/2001,Married,S1,teguh.hidayat584@nusantaradigital.co.id,+62 852-5807-9195,ITD,ITD-L1,Bandung,Permanent,04/12/2023,,,,Rp 9.430.000
+EMP00585,Agus Situmorang,male,05-Apr-1996,Single,D3,agus.situmorang585@nusantaradigital.co.id,+62 890-3300-1475,SLS,SLS-L3,MKS,Permanent,03-Dec-2023,18-Dec-2024,Voluntary,Better Compensation,16440000
+EMP00586,Fajar Siregar,Male,28-Apr-2003,Divorced,D3,fajar.siregar586@nusantaradigital.co.id,+62 869-7570-5619,SLS,SLS-L1,Bandung,Permanent,02-Dec-2023,13-Jul-2024,Involuntary,Poor Performance,6720000
+EMP00587,Sari Pratama,female,08-Jul-1994,Married,S1,sari.pratama587@nusantaradigital.co.id,+62 860-6932-8789,SLS,SLS-L1,Jakarta,Permanent,10-Dec-2023,,,,7850000
+EMP00588,Adi Hidayat,Laki-laki,2003-04-29,Divorced,S1,adi.hidayat588@nusantaradigital.co.id,+62 865-8071-2744,CSV,CSV-L1,Medan,Contract,2023-12-21,2024-03-14,Voluntary,Better Compensation,5900000
+EMP00589,Rina Permata,P,1996-11-09,Single,S1,rina.permata589@nusantaradigital.co.id,+62 876-5091-9925,Sales,SLS-L1,DKI Jakarta,Contract,2023-12-06,2024-05-06,Involuntary,Poor Performance,8350000
+EMP00590,Teguh Susanti,Laki-laki,02/12/2000,Divorced,SMA/SMK,teguh.susanti590@nusantaradigital.co.id,+62 821-6090-3279,CSV,CSV-L1,BDG,Permanent,13/12/2023,08/02/2024,Voluntary,Better Compensation,6600000
+EMP00591,Bayu Sinaga,Laki-laki,11/04/1995,Married,SMA/SMK,bayu.sinaga591@nusantaradigital.co.id,+62 886-9103-7631,SLS,SLS-L1,Surabaya,Permanent,30/12/2023,,,,Rp 8.700.000
+EMP00592,Gilang Syahputra,male,26-Aug-2001,Single,S1,gilang.syahputra592@nusantaradigital.co.id,+62 819-4080-8179,OPS,OPS-L1,Makassar,Contract,19-Jan-2024,,,,Rp 6.460.000
+EMP00593,Agus Firmansyah,male,1990-02-12,Single,S1,agus.firmansyah593@nusantaradigital.co.id,+62 821-9514-4421,OPS,OPS-L3,Bandung,Permanent,2024-01-14,,,,"16,250,000.00"
+EMP00594,Kurniawan Susanti,M,12-May-1995,Married,S1,kurniawan.susanti594@nusantaradigital.co.id,+62 816-1530-3904,Operations,OPS-L1,Makassar,Contract,21-Feb-2024,03-Mar-2024,Voluntary,Further Study,6030000
+EMP00595,Budi Santoso,L,1991-07-24,Single,S1,budi.santoso595@nusantaradigital.co.id,+62 836-1187-9781,OPS,OPS-L2,YOGYAKARTA,Permanent,2024-02-01,,,,10740000
+EMP00596,Siti Wijaya,female,1992-11-02,Married,S1,siti.wijaya596@nusantaradigital.co.id,+62 873-5596-8100,FIN,FIN-L1,Jakarta,Permanent,2024-02-10,,,,7690000
+EMP00597,BUDI SIREGAR,male,1995-10-09,Single,D3,budi.siregar597@nusantaradigital.co.id,+62 876-3999-7314,mkt,MKT-L1,Jakarta Selatan,Permanent,2024-02-12,,,,7920000
+EMP00598,Kurniawan Harahap,male,20-Oct-1994,Single,S1,,+62 873-2522-4054,Sales,SLS-L2,JKT,Permanent,29-Feb-2024,26-Aug-2024,Voluntary,Better Compensation,10130000
+EMP00599,Muhammad Sinaga,Male,14/06/2000,Single,S1,muhammad.sinaga599@nusantaradigital.co.id,+62 871-1786-5124,OPS,OPS-L1,jakarta ,Permanent,21/02/2024,,,,6990000
+EMP00600,Fajar Simanjuntak,M,2001-05-06,Married,S1,fajar.simanjuntak600@nusantaradigital.co.id,+62 829-3624-8250,OPS,OPS-L1,surabaya,Permanent,2024-02-17,,,,5960000
+EMP00601,Gilang Lubis,male,1999-02-04,Single,S1,gilang.lubis601@nusantaradigital.co.id,+62 876-1207-7000,Operations,OPS-L1,Yogyakarta,Permanent,2024-02-24,,,,6760000
+EMP00602,Sari Maharani,female,1989-10-26,Married,S1,sari.maharani602@nusantaradigital.co.id,+62 857-4570-4767,CSV,CSV-L3,Jakarta,Permanent,2024-02-25,2024-08-05,Voluntary,Career Growth,15610000
+EMP00603,Anisa Suryadi,Wanita,2000-06-19,Single,D3,anisa.suryadi603@nusantaradigital.co.id,+62 836-6784-9880,Product,PRD-L1,BDG,Permanent,2024-02-19,,,,8920000
+EMP00604,Joko Nasution,Male,2000-12-31,Married,SMA/SMK,joko.nasution604@nusantaradigital.co.id,+62 882-3518-7649,SLS,SLS-L1,Jakarta,Permanent,2024-02-16,2025-06-23,Voluntary,Better Compensation,8350000
+EMP00605,Fitri Ramadhan,Wanita,30/01/2000,Single,S1,fitri.ramadhan605@nusantaradigital.co.id,+62 828-8002-2759,OPS,OPS-L1,Medan,Permanent,05/02/2024,,,,Rp 7.000.000
+EMP00606,Nanda Situmorang,Laki-laki,1997-06-18,Married,SMA/SMK,,+62 839-4767-9900,OPS,OPS-L1,SBY,Permanent,2024-02-14,2024-04-22,Voluntary,Career Growth,"6,810,000.00"
+EMP00607,Tari Rahman,Female,2003-12-02,Single,S1,tari.rahman607@nusantaradigital.co.id,+62 816-9907-6142,Information Technology,ITD-L1,MDN,Permanent,2024-02-01,,,,9670000
+EMP00608,SALSABILA HASIBUAN,P,11-Aug-2003,Married,S1,salsabila.hasibuan608@nusantaradigital.co.id,+62 883-5410-9259,CSV,CSV-L1,jakarta ,Permanent,25-Feb-2024,25-Jul-2024,Voluntary,Career Growth,6700000
+EMP00609,Joko Saputra,Male,22-Nov-1995,Divorced,S1,joko.saputra609@nusantaradigital.co.id,+62 861-6425-4956,OPS,OPS-L1,Jakarta Selatan,Contract,11-Feb-2024,,,,"8,300,000.00"
+EMP00610,Adi Utami,male,1998-04-23,MARRIED,D3,adi.utami610@nusantaradigital.co.id,+62 878-8071-8906,OPS,OPS-L1,Jakarta Selatan,Permanent,2024-02-03,,,,7920000
+EMP00611,Maya Situmorang,Perempuan,2000-01-02,Single,S1,maya.situmorang611@nusantaradigital.co.id,+62 823-7503-4975,PRD,PRD-L2,JKT,Permanent,2024-02-28,,,,16820000
+EMP00612,Ratna Susanti,Wanita,2000-06-03,Single,S1,ratna.susanti612@nusantaradigital.co.id,+62 890-4708-7271,MKT,MKT-L1,Surabaya,Permanent,2024-02-20,,,,6960000
+EMP00613,Wulan Kusuma,female,2002-10-15,Married,S1,wulan.kusuma613@nusantaradigital.co.id,+62 887-4397-2993,csv,CSV-L1,medan,Permanent,2024-02-05,,,,6580000
+EMP00614,Ayu Nugroho,Female,1998-04-02,Single,S1,,+62 848-1625-2324,csv,CSV-L1,Jakarta Selatan,Permanent,2024-03-30,2025-02-20,Voluntary,Personal / Family,7720000
+EMP00615,Hadi Hidayat,L,1994-04-10,Single,S1,hadi.hidayat615@nusantaradigital.co.id,+62 832-6448-7547,Sales,SLS-L2,SBY,Permanent,2024-03-20,2024-11-27,Involuntary,Restructuring,11210000
+EMP00616,Fikri Hakim,Male,1999-09-25,Divorced,D3,fikri.hakim616@nusantaradigital.co.id,+62 891-6547-7490,Customer Service,CSV-L2,Jakarta,Permanent,2024-03-18,2024-12-12,Voluntary,Better Compensation,11010000
+EMP00617,Maya Syahputra,P,2003-12-03,Married,SMA/SMK,maya.syahputra617@nusantaradigital.co.id,+62 811-4151-7866,ITD,ITD-L1,Medan,Permanent,2024-03-08,,,,Rp 9.040.000
+EMP00618,Teguh Mappasessu,L,1999-08-26,Married,S1,teguh.mappasessu618@nusantaradigital.co.id,+62 869-9424-4497,Information Technology,ITD-L1,Bandung,Permanent,2024-03-08,2024-07-08,Voluntary,Better Compensation,8070000
+EMP00619,  rina kusuma ,Perempuan,1993-03-21,Single,S1,rina.kusuma619@nusantaradigital.co.id,+62 851-6279-2376,csv,CSV-L1,surabaya,Contract,2024-03-31,2024-04-07,Involuntary,Poor Performance,5260000
+EMP00620,Nadia Siregar,P,1998-04-09,Married,D3,nadia.siregar620@nusantaradigital.co.id,+62 840-7539-2545,MKT,MKT-L1,BDG,Contract,2024-03-12,,,,8530000
+EMP00621,Nadia Tanjung,female,24-Nov-1997,Married,S1,nadia.tanjung621@nusantaradigital.co.id,+62 888-4799-8273,Information Technology,ITD-L2,JKT,Permanent,02-Mar-2024,,,,13830000
+EMP00622,Ayu Nasution,female,1993-10-09,Married,SMA/SMK,ayu.nasution622@nusantaradigital.co.id,+62 843-9326-6209,CSV,CSV-L1,Jakarta,Permanent,2024-03-13,,,,Rp 6.160.000
+EMP00623,Salsabila Simanjuntak,Wanita,2002-07-03,Married,S1,salsabila.simanjuntak623@nusantaradigital.co.id,+62 834-1560-9381,OPS,OPS-L1,Jakarta,Contract,2024-03-13,,,,Rp 6.080.000
+EMP00624,Lestari Wibowo,Perempuan,1994-02-10,Single,S1,lestari.wibowo624@nusantaradigital.co.id,+62 893-2612-9961,CSV,CSV-L2,Jakarta Selatan,Permanent,2024-03-10,,,,9910000
+EMP00625,Bunga Maharani,Female,1989-09-22,Married,S1,bunga.maharani625@nusantaradigital.co.id,+62 826-1889-4288,MKT,MKT-L2,Jakarta,Contract,2024-03-30,,,,13790000
+EMP00626,Budi Setiawan,M,2000-06-23,Married,S1,budi.setiawan626@nusantaradigital.co.id,+62 865-3236-3740,OPS,OPS-L1,surabaya,Permanent,2024-03-09,,,,7290000
+EMP00627,  yusuf santoso ,Male,2002-03-22,Single,SMA/SMK,yusuf.santoso627@nusantaradigital.co.id,+62 881-5783-1707,mkt,MKT-L1,Makassar,Permanent,2024-03-27,2024-04-04,Voluntary,Career Growth,"6,950,000.00"
+EMP00628,TAUFIK RAHMAN,Male,2003-10-18,Married,SMA/SMK,taufik.rahman628@nusantaradigital.co.id,+62 819-9035-5637,Operations,OPS-L1,Makassar,Contract,2024-04-27,,,,7210000
+EMP00629,Wahyu Suryadi,male,1995-09-13,Married,S1,wahyu.suryadi629@nusantaradigital.co.id,+62 875-3529-7834,SLS,SLS-L2,jakarta ,Permanent,2024-04-04,,,,10990000
+EMP00630,Galih Purnomo,Pria,21-Apr-2003,Married,S1,galih.purnomo630@nusantaradigital.co.id,+62 886-1472-5300,ITD,ITD-L1,Yogyakarta,Contract,08-Apr-2024,,,,Rp 11.140.000
+EMP00631,JOKO HARAHAP,M,15/05/2001,Single,D3,joko.harahap631@nusantaradigital.co.id,+62 831-9361-4599,sls,SLS-L1,Surabaya,Permanent,19/04/2024,,,,7110000
+EMP00632,Dian Suryadi,Wanita,23/09/1994,Divorced,D3,dian.suryadi632@nusantaradigital.co.id,+62 868-7754-6716,ITD,ITD-L1,Bandung,Permanent,25/04/2024,,,,10900000
+EMP00633,Novi Pangaribuan,P,2001-08-18,Single,S1,novi.pangaribuan633@nusantaradigital.co.id,+62 857-2002-1702,Customer Service,CSV-L1,jakarta ,Permanent,2024-04-25,,,,5750000
+EMP00634,Aditya Syahputra,L,25/07/1997,Married,S1,aditya.syahputra634@nusantaradigital.co.id,+62 835-2762-2734,Information Technology,ITD-L1,SBY,Permanent,01/04/2024,,,,9570000
+EMP00635,Budi Wijaya,L,2001-03-15,SINGLE,S1,budi.wijaya635@nusantaradigital.co.id,+62 885-6849-3861,OPS,OPS-L1,Surabaya,Permanent,2024-04-03,,,,Rp 7.380.000
+EMP00636,Fikri Maharani,Male,04-Nov-2003,Single,D3,fikri.maharani636@nusantaradigital.co.id,+62 856-2209-2332,CSV,CSV-L1,BDG,Permanent,11-Apr-2024,29-Nov-2024,Involuntary,Misconduct,6850000
+EMP00637,Ilham Syahputra,M,1995-02-21,Married,S1,ilham.syahputra637@nusantaradigital.co.id,+62 845-9802-8611,FIN,FIN-L1,BDG,Contract,2024-04-26,,,,9300000
+EMP00638,Nanda Tanjung,M,30-Jul-2000,Married,S1,nanda.tanjung638@nusantaradigital.co.id,+62 838-2670-6290,SLS,SLS-L1,jakarta ,Permanent,30-Apr-2024,21-Oct-2024,Involuntary,Restructuring,7940000
+EMP00639,Nurul Nugroho,female,24-Jun-1995,Married,D3,nurul.nugroho639@nusantaradigital.co.id,+62 885-7607-6457,FIN,FIN-L2,YOGYAKARTA,Permanent,24-Apr-2024,,,,"12,140,000.00"
+EMP00640,Dian Simanjuntak,P,03/09/1999,Single,S1,dian.simanjuntak640@nusantaradigital.co.id,+62 825-9275-1023,HRD,HRD-L1,Makasar,Permanent,20/04/2024,,,,"7,900,000.00"
+EMP00641,Eka Purnomo,F,1994-07-25,Single,S2,eka.purnomo641@nusantaradigital.co.id,+62 837-1090-6462,OPS,OPS-L2,Yogyakarta,Permanent,2024-04-21,,,,11360000
+EMP00642,Rangga Harahap,Male,06-Sep-1997,Single,S1,rangga.harahap642@nusantaradigital.co.id,+62 863-3812-1857,fin,FIN-L1,JKT,Permanent,04-Apr-2024,,,,"8,870,000.00"
+EMP00643,Ratna Simanjuntak,Wanita,16-Dec-1994,Single,S1,ratna.simanjuntak643@nusantaradigital.co.id,+62 885-1250-9749,Information Technology,ITD-L2,Jakarta,Permanent,19-May-2024,,,,14040000
+EMP00644,Rina Wijaya,Wanita,01-Jul-1994,Single,S1,rina.wijaya644@nusantaradigital.co.id,+62 825-3371-4771,OPS,OPS-L1,JKT,Permanent,01-May-2024,28-Oct-2024,Voluntary,Better Compensation,6110000
+EMP00645,Kartika Permata,Female,2004-02-14,Married,D3,,+62 819-7233-7016,Information Technology,ITD-L1,MKS,Permanent,2024-05-13,,,,8270000
+EMP00646,Anisa Nasution,Perempuan,1999-08-09,Married,S2,anisa.nasution646@nusantaradigital.co.id,+62 814-6362-6472,CSV,CSV-L1,JKT,Permanent,2024-05-20,2024-12-28,Involuntary,Poor Performance,5800000
+EMP00647,  reza lubis ,Male,18-Nov-1996,Divorced,S1,reza.lubis647@nusantaradigital.co.id,+62 893-6217-5529,ops,OPS-L3,Makasar,Permanent,25-May-2024,,,,16320000
+EMP00648,Bayu Halim,M,10/01/1993,Married,SMA/SMK,bayu.halim648@nusantaradigital.co.id,+62 812-2292-3399,ops,OPS-L1,SBY,Contract,24/05/2024,,,,Rp 7.500.000
+EMP00649,  lukman setiawan ,M,20/12/2000,Divorced,S1,lukman.setiawan649@nusantaradigital.co.id,+62 857-2660-5717,CSV,CSV-L1,Jakarta Selatan,Permanent,13/05/2024,,,,6580000
+EMP00650,Gita Syahputra,F,1996-05-02,Married,S1,gita.syahputra650@nusantaradigital.co.id,+62 889-5349-7270,CSV,CSV-L1,BDG,Contract,2024-05-18,,,,7190000
+EMP00651,Dian Nasution,P,1995-09-27,Divorced,D3,dian.nasution651@nusantaradigital.co.id,+62 855-2250-6539,PRD,PRD-L1,Jakarta Selatan,Permanent,2024-05-04,,,,Rp 8.350.000
+EMP00652,Ayu Mappasessu,P,27-May-1997,Single,S1,ayu.mappasessu652@nusantaradigital.co.id,+62 892-8334-8861,SLS,SLS-L2,Surabaya,Permanent,13-May-2024,,,,14180000
+EMP00653,Joko Utami,Pria,06-Feb-1991,Divorced,S1,joko.utami653@nusantaradigital.co.id,+62 848-7463-7529,OPS,OPS-L3,DKI Jakarta,Permanent,29-May-2024,28-Feb-2025,Involuntary,Restructuring,17500000
+EMP00654,Hendra Saputra,M,07-Dec-1995,Single,D3,hendra.saputra654@nusantaradigital.co.id,+62 885-9681-1720,SLS,SLS-L1,jakarta ,Contract,05-May-2024,,,,6760000
+EMP00655,Ilham Susanti,M,13/07/1995,Married,S1,ilham.susanti655@nusantaradigital.co.id,+62 869-5373-4921,OPS,OPS-L1,Jakarta,Permanent,28/05/2024,16/06/2024,Voluntary,Work-Life Balance,Rp 6.300.000
+EMP00656,Agus Simanjuntak,L,2002-01-08,Married,S1,agus.simanjuntak656@nusantaradigital.co.id,+62 873-7257-3845,OPS,OPS-L1,Surabaya,Permanent,2024-05-21,,,,6560000
+EMP00657,Nanda Utami,M,16-Jan-1995,Married,S1,nanda.utami657@nusantaradigital.co.id,+62 845-9066-7742,Operations,OPS-L1,SBY,Permanent,12-Jun-2024,15-Mar-2025,Voluntary,Better Compensation,6640000
+EMP00658,Irfan Anggraini,M,15/01/1999,Married,S2,irfan.anggraini658@nusantaradigital.co.id,+62 885-2826-3519,SLS,SLS-L1,medan,Permanent,16/06/2024,13/08/2024,Involuntary,Misconduct,6990000
+EMP00659,Lukman Maharani,L,19/08/2003,Single,D3,lukman.maharani659@nusantaradigital.co.id,+62 813-6284-9711,ITD,ITD-L1,DKI Jakarta,Permanent,20/06/2024,,,,7960000
+EMP00660,Yusuf Nugroho,male,17-Jun-1997,Single,S1,yusuf.nugroho660@nusantaradigital.co.id,+62 894-2749-3086,CSV,CSV-L1,MDN,Permanent,03-Jun-2024,03-Oct-2025,Voluntary,Management Issues,6520000
+EMP00661,Putra Maharani,Pria,20/04/1999,Married,S1,putra.maharani661@nusantaradigital.co.id,+62 879-2831-5903,CSV,CSV-L1,jakarta ,Permanent,18/06/2024,26/01/2025,Involuntary,Poor Performance,6790000
+EMP00662,Irfan Maharani,male,2000-03-22,Single,S2,irfan.maharani662@nusantaradigital.co.id,+62 854-2812-8168,Operations,OPS-L1,BDG,Contract,2024-06-28,,,,8250000
+EMP00663,Dewi Ramadhan,Perempuan,24-Jul-2000,Married,S1,dewi.ramadhan663@nusantaradigital.co.id,+62 862-9326-4041,HRD,HRD-L1,Yogya,Permanent,15-Jun-2024,12-Oct-2025,Voluntary,Better Compensation,7540000
+EMP00664,Nurul Kusuma,P,2003-11-03,Married,D3,nurul.kusuma664@nusantaradigital.co.id,+62 886-3359-6261,OPS,OPS-L1,Jakarta Selatan,Permanent,2024-06-21,,,,6250000
+EMP00665,Rangga Hasibuan,Pria,22-Mar-1990,Married,S2,rangga.hasibuan665@nusantaradigital.co.id,+62 885-8612-3762,MKT,MKT-L3,Bandung,Permanent,29-Jun-2024,,,,Rp 19.130.000
+EMP00666,Hadi Utami,Pria,20-Dec-2000,Single,D3,hadi.utami666@nusantaradigital.co.id,+62 875-5586-7862,csv,CSV-L1,medan,Permanent,10-Jun-2024,07-Apr-2025,Voluntary,Relocation,6890000
+EMP00667,Siti Maharani,F,19/08/1996,Single,S1,siti.maharani667@nusantaradigital.co.id,+62 874-4374-1955,CSV,CSV-L1,bandung ,Contract,03/06/2024,,,,7370000
+EMP00668,Reza Daeng,Male,1997-04-10,Single,S1,reza.daeng668@nusantaradigital.co.id,+62 848-7126-3879,OPS,OPS-L1,BDG,Permanent,2024-06-28,,,,6980000
+EMP00669,Lestari Maharani,Perempuan,1994-07-18,Single,S1,lestari.maharani669@nusantaradigital.co.id,+62 848-1739-4194,ITD,ITD-L2,Yogya,Permanent,2024-07-20,,,,16180000
+EMP00670,Wulan Daeng,F,07-Sep-1993,Single,S1,wulan.daeng670@nusantaradigital.co.id,+62 854-8777-8407,OPS,OPS-L3,Bandung,Permanent,11-Jul-2024,19-Feb-2025,Voluntary,Work-Life Balance,16560000
+EMP00671,  nurul wijaya ,F,1999-03-07,Single,S1,nurul.wijaya671@nusantaradigital.co.id,+62 872-6623-8365,CSV,CSV-L1,medan,Contract,2024-07-23,,,,6370000
+EMP00672,JOKO SIMANJUNTAK,Laki-laki,,Married,S1,joko.simanjuntak672@nusantaradigital.co.id,+62 856-3953-1023,MKT,MKT-L2,Yogyakarta,Permanent,2024-07-17,,,,"11,130,000.00"
+EMP00673,Mega Hasibuan,Perempuan,18-Nov-1994,Single,S1,mega.hasibuan673@nusantaradigital.co.id,+62 851-3067-9287,MKT,MKT-L2,Surabaya,Contract,20-Jul-2024,,,,13120000
+EMP00674,Rizki Rahman,Pria,18/04/2004,Married,SMA/SMK,rizki.rahman674@nusantaradigital.co.id,+62 823-5521-8486,SLS,SLS-L1,JKT,Permanent,28/07/2024,16/10/2024,Involuntary,Misconduct,8080000
+EMP00675,Nanda Firmansyah,L,2004-06-18,Single,S1,nanda.firmansyah675@nusantaradigital.co.id,+62 855-6452-4556,OPS,OPS-L1,Makassar,Permanent,2024-07-03,,,,6970000
+EMP00676,Fikri Purnomo,Pria,15/02/1996,Married,D3,fikri.purnomo676@nusantaradigital.co.id,+62 873-6230-7268,ITD,ITD-L2,DKI Jakarta,Permanent,10/07/2024,,,,12930000
+EMP00677,Tiara Firmansyah,P,2003-11-29,Divorced,S1,tiara.firmansyah677@nusantaradigital.co.id,+62 869-1013-7431,Marketing,MKT-L1,jakarta ,Contract,2024-07-06,,,,8580000
+EMP00678,Gilang Ramadhan,Laki-laki,1993-01-05,Married,S1,gilang.ramadhan678@nusantaradigital.co.id,+62 816-2688-8491,OPS,OPS-L2,surabaya,Permanent,2024-07-18,,,,10730000
+EMP00679,Putri Pangaribuan,F,02/02/2000,Married,D3,putri.pangaribuan679@nusantaradigital.co.id,+62 898-4082-7939,Customer Service,CSV-L3,Bandung,Permanent,21/07/2024,,,,13730000
+EMP00680,Bayu Nugroho,Pria,2000-12-16,Married,S1,bayu.nugroho680@nusantaradigital.co.id,+62 858-3084-7790,OPS,OPS-L2,Makasar,Permanent,2024-07-04,2025-06-03,Voluntary,Better Compensation,10520000
+EMP00681,Fajar Harahap,male,09/06/2002,Single,S1,fajar.harahap681@nusantaradigital.co.id,+62 875-4515-5079,Sales,SLS-L1,Jakarta,Permanent,25/07/2024,30/10/2024,Voluntary,Career Growth,6360000
+EMP00682,Rahma Sinaga,Wanita,26-Jul-1987,Married,S1,rahma.sinaga682@nusantaradigital.co.id,+62 871-1518-5926,SLS,SLS-L5,jakarta ,Contract,04-Jul-2024,,,,47300000
+EMP00683,Yuni Purnomo,Wanita,29-Oct-1993,Single,D3,yuni.purnomo683@nusantaradigital.co.id,+62 891-4522-1778,CSV,CSV-L1,BDG,Permanent,08-Jul-2024,,,,6400000
+EMP00684,Ayu Firmansyah,F,1994-01-16,MARRIED,S1,ayu.firmansyah684@nusantaradigital.co.id,+62 817-7377-1243,CSV,CSV-L3,Makasar,Permanent,2024-07-23,,,,14790000
+EMP00685,  budi pangaribuan ,Male,1980-11-26,Married,S2,budi.pangaribuan685@nusantaradigital.co.id,+62 882-5980-3191,OPS,OPS-L4,YOGYAKARTA,Permanent,2024-08-11,2025-06-20,Involuntary,Restructuring,29500000
+EMP00686,Sari Hasibuan,Wanita,14/08/1996,Married,SMA/SMK,sari.hasibuan686@nusantaradigital.co.id,+62 822-5653-2770,Operations,OPS-L1,Yogya,Permanent,26/08/2024,,,,7580000
+EMP00687,Salsabila Lubis,P,1998-11-04,Married,D3,salsabila.lubis687@nusantaradigital.co.id,+62 841-9177-5408,Operations,OPS-L2,Jakarta,Permanent,2024-08-04,,,,"12,450,000.00"
+EMP00688,Rangga Mappasessu,L,06-Apr-2001,MARRIED,D3,rangga.mappasessu688@nusantaradigital.co.id,+62 814-8335-5234,SLS,SLS-L1,surabaya,Contract,08-Aug-2024,22-Oct-2024,Involuntary,Poor Performance,6750000
+EMP00689,  gita mappasessu ,Perempuan,1992-10-26,Married,SMA/SMK,gita.mappasessu689@nusantaradigital.co.id,+62 831-9070-5639,MKT,MKT-L3,Jakarta Selatan,Permanent,2024-08-14,,,,18460000
+EMP00690,Agus Hidayat,Laki-laki,1997-12-05,MARRIED,S1,agus.hidayat690@nusantaradigital.co.id,+62 817-7918-7535,mkt,MKT-L1,jakarta ,Permanent,2024-08-17,2025-11-01,Involuntary,Poor Performance,8220000
+EMP00691,Salsabila Kusuma,F,1988-03-12,Married,S1,salsabila.kusuma691@nusantaradigital.co.id,+62 818-3932-3219,Customer Service,CSV-L2,bandung ,Permanent,2024-08-09,,,,8680000
+EMP00692,Hadi Wijaya,Male,1993-10-20,Married,S1,hadi.wijaya692@nusantaradigital.co.id,+62 827-5334-6914,Information Technology,ITD-L3,JKT,Permanent,2024-09-08,,,,22670000
+EMP00693,Irfan Daeng,M,29/03/1999,Married,S2,irfan.daeng693@nusantaradigital.co.id,+62 811-4185-9049,Operations,OPS-L2,Yogyakarta,Permanent,28/09/2024,,,,9120000
+EMP00694,Dimas Syahputra,M,1999-11-01,MARRIED,S1,dimas.syahputra694@nusantaradigital.co.id,+62 814-3443-7740,OPS,OPS-L2,Jakarta,Permanent,2024-09-16,,,,11390000
+EMP00695,Ayu Ramadhan,F,1989-10-05,Single,S1,ayu.ramadhan695@nusantaradigital.co.id,+62 858-3447-8101,SLS,SLS-L4,JKT,Permanent,2024-09-26,2024-12-09,Voluntary,Work-Life Balance,33490000
+EMP00696,Ratna Daeng,Perempuan,1994-12-07,Married,S1,ratna.daeng696@nusantaradigital.co.id,+62 874-6741-1128,Marketing,MKT-L1,Bandung,Permanent,2024-09-14,,,,8960000
+EMP00697,Rahma Susanti,F,20/05/1997,Married,S1,rahma.susanti697@nusantaradigital.co.id,+62 832-9865-9256,Customer Service,CSV-L1,JKT,Permanent,22/09/2024,,,,7010000
+EMP00698,Vina Firmansyah,Wanita,12-Dec-1998,Married,S1,vina.firmansyah698@nusantaradigital.co.id,+62 851-7166-6233,HRD,HRD-L2,Bandung,Permanent,06-Sep-2024,,,,11730000
+EMP00699,Fikri Sinaga,Male,2004-03-04,Married,S1,fikri.sinaga699@nusantaradigital.co.id,+62 818-4574-2268,OPS,OPS-L1,JKT,Contract,2024-09-23,,,,"6,970,000.00"
+EMP00700,Dian Pratama,P,1995-01-15,Single,S2,dian.pratama700@nusantaradigital.co.id,+62 839-5203-2691,MKT,MKT-L2,surabaya,Permanent,2024-10-30,2025-07-09,Voluntary,Better Compensation,"10,060,000.00"
+EMP00701,Novi Utami,F,2003-08-25,Single,S1,novi.utami701@nusantaradigital.co.id,+62 819-7695-7452,CSV,CSV-L1,SBY,Permanent,2024-10-16,,,,6320000
+EMP00702,Nanda Setiawan,Pria,09/08/2001,Married,D3,nanda.setiawan702@nusantaradigital.co.id,+62 868-3390-6655,Operations,OPS-L1,Medan,Permanent,11/10/2024,11/07/2025,Involuntary,Poor Performance,6580000
+EMP00703,Intan Siregar,Perempuan,2002-11-01,Single,S1,intan.siregar703@nusantaradigital.co.id,+62 870-9302-2184,OPS,OPS-L1,Makasar,Permanent,2024-10-15,,,,Rp 6.080.000
+EMP00704,BUNGA PANGARIBUAN,female,1995-11-06,Single,D3,bunga.pangaribuan704@nusantaradigital.co.id,+62 852-1838-1027,itd,ITD-L1,JKT,Permanent,2024-10-29,2025-01-04,Involuntary,Restructuring,"8,750,000.00"
+EMP00705,Vina Wibowo,F,1996-04-03,MARRIED,SMA/SMK,vina.wibowo705@nusantaradigital.co.id,+62 835-9985-1892,SLS,SLS-L1,JKT,Permanent,2024-10-04,,,,6220000
+EMP00706,Nurul Purnomo,Perempuan,24/03/1994,Married,S1,nurul.purnomo706@nusantaradigital.co.id,+62 822-5099-4832,csv,CSV-L1,MDN,Permanent,25/10/2024,05/12/2024,Involuntary,Restructuring,6390000
+EMP00707,Eko Pratama,L,1996-07-07,Married,D3,eko.pratama707@nusantaradigital.co.id,+62 811-6403-5840,CSV,CSV-L2,Bandung,Permanent,2024-10-18,,,,8340000
+EMP00708,Bayu Hidayat,M,06-Jan-1998,Married,D3,bayu.hidayat708@nusantaradigital.co.id,+62 829-5979-2693,SLS,SLS-L1,JKT,Contract,28-Oct-2024,27-Aug-2025,Voluntary,Better Compensation,8530000
+EMP00709,  hendra wijaya ,M,1996-11-23,Single,D3,hendra.wijaya709@nusantaradigital.co.id,+62 869-9151-4601,OPS,OPS-L1,Surabaya,Permanent,2024-10-20,,,,7300000
+EMP00710,Fajar Pratama,Male,2003-01-06,Married,S1,fajar.pratama710@nusantaradigital.co.id,+62 854-3440-7075,Sales,SLS-L1,jakarta ,Permanent,2024-10-31,,,,6680000
+EMP00711,Dedi Susanti,Laki-laki,1995-09-19,Married,S2,dedi.susanti711@nusantaradigital.co.id,+62 818-3079-9063,Sales,SLS-L2,Jakarta,Contract,2024-10-07,,,,11060000
+EMP00712,Ratna Firmansyah,Wanita,1992-10-31,Single,D3,ratna.firmansyah712@nusantaradigital.co.id,+62 895-3350-9740,CSV,CSV-L2,Jakarta Selatan,Permanent,2024-10-18,,,,9120000
+EMP00713,Fikri Kusuma,male,26-Feb-1999,Divorced,SMA/SMK,fikri.kusuma713@nusantaradigital.co.id,+62 871-9950-8076,Information Technology,ITD-L1,surabaya,Permanent,23-Oct-2024,,,,9040000
+EMP00714,Eka Siregar,Wanita,25/09/1989,Married,S1,eka.siregar714@nusantaradigital.co.id,+62 873-6389-2031,Information Technology,ITD-L4,bandung ,Permanent,24/10/2024,,,,32510000
+EMP00715,Agus Tanjung,male,2002-01-05,Married,S1,agus.tanjung715@nusantaradigital.co.id,+62 823-5443-7284,PRD,PRD-L1,Jakarta Selatan,Permanent,2024-10-18,,,,"9,740,000.00"
+EMP00716,Nurul Permata,female,06-Nov-1993,Married,S1,nurul.permata716@nusantaradigital.co.id,+62 829-8561-1488,MKT,MKT-L3,DKI Jakarta,Permanent,19-Oct-2024,,,,16180000
+EMP00717,Joko Tanjung,Pria,30-Sep-1991,MARRIED,S1,,+62 830-2954-9552,Human Capital,HRD-L1,bandung ,Permanent,21-Oct-2024,,,,7870000
+EMP00718,Galih Nasution,Laki-laki,1997-09-18,Married,S1,galih.nasution718@nusantaradigital.co.id,+62 812-7018-2530,ITD,ITD-L1,Jakarta,Permanent,2024-10-10,,,,Rp 9.000.000
+EMP00719,Novi Simanjuntak,female,2002-01-12,Single,S1,novi.simanjuntak719@nusantaradigital.co.id,+62 847-2472-8000,SLS,SLS-L1,MDN,Permanent,2024-10-06,,,,Rp 7.800.000
+EMP00720,Nurul Simanjuntak,Wanita,1999-01-01,Divorced,S1,nurul.simanjuntak720@nusantaradigital.co.id,+62 853-1291-8374,OPS,OPS-L1,surabaya,Permanent,2024-11-20,,,,6590000
+EMP00721,  gilang siregar ,Male,2000-03-01,Married,S1,gilang.siregar721@nusantaradigital.co.id,+62 876-4097-5819,Operations,OPS-L1,jakarta ,Contract,2024-11-03,,,,Rp 6.490.000
+EMP00722,Dedi Hidayat,male,15/04/1998,Single,S1,dedi.hidayat722@nusantaradigital.co.id,+62 888-2768-1816,mkt,MKT-L1,medan,Permanent,17/11/2024,,,,Rp 7.640.000
+EMP00723,Dedi Purnomo,male,1995-07-11,MARRIED,S1,dedi.purnomo723@nusantaradigital.co.id,+62 862-1780-4799,Operations,OPS-L2,Jakarta,Permanent,2024-11-26,,,,11530000
+EMP00724,Nanda Susanti,Male,2000-04-25,Single,S1,nanda.susanti724@nusantaradigital.co.id,+62 830-8985-6277,SLS,SLS-L1,SBY,Permanent,2024-11-30,2025-02-03,Voluntary,Career Growth,6650000
+EMP00725,Kurniawan Setiawan,L,29/07/2003,Married,S1,kurniawan.setiawan725@nusantaradigital.co.id,+62 873-7203-2869,sls,SLS-L1,Jakarta Selatan,Permanent,04/11/2024,,,,7090000
+EMP00726,Rian Pratama,M,1997-11-23,Married,S1,rian.pratama726@nusantaradigital.co.id,+62 828-8386-2538,ITD,ITD-L2,Yogya,Permanent,2024-11-20,2025-09-29,Involuntary,Poor Performance,15980000
+EMP00727,Yoga Nasution,L,08/01/1992,Married,S1,yoga.nasution727@nusantaradigital.co.id,+62 880-3014-3454,CSV,CSV-L1,MKS,Contract,22/11/2024,10/12/2025,Voluntary,Better Compensation,6640000
+EMP00728,Fikri Hidayat,male,1996-05-24,Single,S1,fikri.hidayat728@nusantaradigital.co.id,+62 879-2183-2436,sls,SLS-L1,Bandung,Permanent,2024-11-25,,,,Rp 6.440.000
+EMP00729,Muhammad Maharani,Laki-laki,2002-04-26,Married,S1,muhammad.maharani729@nusantaradigital.co.id,+62 815-5315-9941,CSV,CSV-L2,jakarta ,Permanent,2024-11-28,2025-10-24,Involuntary,Misconduct,10730000
+EMP00730,Rian Saputra,Laki-laki,1999-03-09,Married,S1,rian.saputra730@nusantaradigital.co.id,+62 883-4220-3230,Sales,SLS-L1,Bandung,Contract,2024-11-09,2025-05-01,Voluntary,Better Compensation,Rp 7.430.000
+EMP00731,Tiara Nasution,Perempuan,24/12/1996,Single,S1,tiara.nasution731@nusantaradigital.co.id,+62 885-4490-6346,itd,ITD-L3,DKI Jakarta,Permanent,14/11/2024,,,,23100000
+EMP00732,Bunga Rahman,Female,1990-08-20,Single,S1,bunga.rahman732@nusantaradigital.co.id,+62 888-8699-4770,OPS,OPS-L1,surabaya,Permanent,2024-11-11,2025-01-16,Voluntary,Further Study,7680000
+EMP00733,Hendra Suryadi,male,1999-12-17,Married,S1,hendra.suryadi733@nusantaradigital.co.id,+62 874-2480-6810,OPS,OPS-L2,surabaya,Permanent,2024-11-21,,,,8890000
+EMP00734,Reza Daeng,Laki-laki,2000-10-19,Married,S1,reza.daeng734@nusantaradigital.co.id,+62 825-9044-7197,ITD,ITD-L1,JKT,Contract,2024-12-20,,,,9810000
+EMP00735,Tiara Simanjuntak,female,13-Jun-1997,Married,S1,tiara.simanjuntak735@nusantaradigital.co.id,+62 835-6659-2389,ITD,ITD-L1,Jakarta Selatan,Permanent,06-Dec-2024,,,,8940000
+EMP00736,  anisa setiawan ,P,1998-08-02,Single,S1,anisa.setiawan736@nusantaradigital.co.id,+62 826-2323-9314,SLS,SLS-L1,DKI Jakarta,Permanent,2024-12-27,,,,6630000
+EMP00737,Taufik Firmansyah,Laki-laki,1996-04-04,Divorced,S1,taufik.firmansyah737@nusantaradigital.co.id,+62 839-2249-6236,OPS,OPS-L2,Jakarta,Permanent,2024-12-04,,,,10910000
+EMP00738,Lestari Wijaya,Wanita,10/09/2004,MARRIED,S1,lestari.wijaya738@nusantaradigital.co.id,+62 830-7578-2360,SLS,SLS-L1,Yogya,Permanent,09/12/2024,,,,6780000
+EMP00739,Kartika Halim,female,01/12/2003,Married,D3,kartika.halim739@nusantaradigital.co.id,+62 816-4223-9356,Customer Service,CSV-L1,Jakarta,Permanent,17/12/2024,,,,6840000
+EMP00740,Rian Pratama,Male,22/05/2000,Married,D3,rian.pratama740@nusantaradigital.co.id,+62 893-7536-9398,MKT,MKT-L1,Jakarta Selatan,Permanent,15/12/2024,,,,7350000
+EMP00741,Nurul Halim,Perempuan,16-Apr-1999,Single,SMA/SMK,nurul.halim741@nusantaradigital.co.id,+62 831-2470-1314,OPS,OPS-L2,surabaya,Permanent,26-Dec-2024,,,,9490000
+EMP00742,Fitri Halim,F,1993-11-29,Married,S1,fitri.halim742@nusantaradigital.co.id,+62 868-1801-2265,csv,CSV-L1,DKI Jakarta,Permanent,2024-12-02,,,,5970000
+EMP00743,Hendra Kusuma,male,1999-11-19,Single,S1,hendra.kusuma743@nusantaradigital.co.id,+62 839-1997-4021,SLS,SLS-L1,Makassar,Permanent,2024-12-21,,,,7920000
+EMP00744,Novi Utami,P,2000-03-20,Single,S1,novi.utami744@nusantaradigital.co.id,+62 886-1566-4171,PRD,PRD-L1,Makassar,Permanent,2024-12-16,,,,8760000
+EMP00745,Budi Hasibuan,Laki-laki,1992-07-19,MARRIED,S1,budi.hasibuan745@nusantaradigital.co.id,+62 851-8910-7359,CSV,CSV-L2,bandung ,Contract,2025-01-02,,,,10380000
+EMP00746,Gita Lubis,female,26/02/1994,Single,S1,gita.lubis746@nusantaradigital.co.id,+62 884-2257-3494,ITD,ITD-L2,JKT,Permanent,09/01/2025,,,,15180000
+EMP00747,Nanda Halim,Pria,2002-07-19,Single,D3,nanda.halim747@nusantaradigital.co.id,+62 860-3480-6152,ITD,ITD-L1,MDN,Permanent,2025-01-31,,,,8820000
+EMP00748,Intan Purnomo,Female,03-Feb-1988,MARRIED,S1,intan.purnomo748@nusantaradigital.co.id,+62 842-3017-4504,CSV,CSV-L5,MKS,Permanent,12-Jan-2025,,,,36170000
+EMP00749,Dedi Simanjuntak,male,1998-04-17,Married,D3,dedi.simanjuntak749@nusantaradigital.co.id,+62 823-1742-8362,CSV,CSV-L2,Jakarta,Permanent,2025-01-25,,,,Rp 11.340.000
+EMP00750,Rangga Tanjung,M,2000-02-12,DIVORCED,S1,rangga.tanjung750@nusantaradigital.co.id,+62 851-8506-4436,OPS,OPS-L1,jakarta ,Permanent,2025-01-04,2025-07-31,Involuntary,Poor Performance,"6,760,000.00"
+EMP00751,Satria Santoso,Male,2000-12-19,Single,S1,satria.santoso751@nusantaradigital.co.id,+62 878-6703-2809,OPS,OPS-L1,surabaya,Permanent,2025-01-03,,,,6230000
+EMP00752,  maya lubis ,Wanita,2002-03-29,Divorced,S1,maya.lubis752@nusantaradigital.co.id,+62 864-2961-3728,Customer Service,CSV-L1,bandung ,Permanent,2025-01-14,,,,6710000
+EMP00753,Hadi Ramadhan,L,15-Mar-2001,Single,D3,hadi.ramadhan753@nusantaradigital.co.id,+62 846-8393-7709,ITD,ITD-L1,surabaya,Permanent,05-Jan-2025,,,,7860000
+EMP00754,Eko Susanti,Male,18/04/1995,Married,S1,eko.susanti754@nusantaradigital.co.id,+62 837-6312-3472,OPS,OPS-L3,DKI Jakarta,Permanent,23/01/2025,11/12/2025,Voluntary,Work-Life Balance,13180000
+EMP00755,Aditya Utami,L,2001-08-14,Married,S1,aditya.utami755@nusantaradigital.co.id,+62 878-6446-3536,Operations,OPS-L1,JKT,Contract,2025-01-25,2025-10-19,Involuntary,Poor Performance,6980000
+EMP00756,Tiara Lubis,Wanita,06/04/1995,Single,SMA/SMK,tiara.lubis756@nusantaradigital.co.id,+62 898-4528-1510,Sales,SLS-L1,jakarta ,Contract,26/02/2025,,,,8280000
+EMP00757,Ratna Ramadhan,Wanita,19/07/2001,Divorced,S1,ratna.ramadhan757@nusantaradigital.co.id,+62 816-7266-5337,ITD,ITD-L1,bandung ,Permanent,23/02/2025,,,,9900000
+EMP00758,Nanda Setiawan,M,2002-11-30,Single,S1,nanda.setiawan758@nusantaradigital.co.id,+62 817-5707-9363,SLS,SLS-L1,Makassar,Permanent,2025-02-05,,,,7740000
+EMP00759,Galih Firmansyah,M,1998-10-06,Single,S1,galih.firmansyah759@nusantaradigital.co.id,+62 846-5356-7434,CSV,CSV-L1,MKS,Permanent,2025-02-15,,,,5410000
+EMP00760,Aditya Tanjung,Male,1992-06-24,Married,S1,aditya.tanjung760@nusantaradigital.co.id,+62 826-2193-4734,Sales,SLS-L2,Jakarta,Permanent,2025-02-07,,,,10010000
+EMP00761,Dian Suryadi,Female,02/12/1991,Married,S1,dian.suryadi761@nusantaradigital.co.id,+62 822-8442-6732,OPS,OPS-L4,Jakarta,Permanent,19/02/2025,,,,25870000
+EMP00762,Fitri Purnomo,female,2001-04-01,Married,S1,fitri.purnomo762@nusantaradigital.co.id,+62 871-5054-3341,Customer Service,CSV-L1,DKI Jakarta,Permanent,2025-02-25,,,,7030000
+EMP00763,RIAN HALIM,M,2004-06-26,Married,SMA/SMK,rian.halim763@nusantaradigital.co.id,+62 874-3206-9248,ops,OPS-L1,Surabaya,Permanent,2025-02-26,,,,7090000
+EMP00764,  hadi harahap ,male,18/10/1997,Married,S1,hadi.harahap764@nusantaradigital.co.id,+62 816-4280-4443,SLS,SLS-L1,surabaya,Permanent,09/02/2025,,,,7250000
+EMP00765,HADI SUSANTI,L,1998-08-20,Single,S1,hadi.susanti765@nusantaradigital.co.id,+62 861-5165-4846,SLS,SLS-L2,DKI Jakarta,Permanent,2025-02-28,,,,Rp 10.810.000
+EMP00766,Ilham Mappasessu,male,1991-08-01,Married,S1,ilham.mappasessu766@nusantaradigital.co.id,+62 882-5205-5671,Operations,OPS-L1,jakarta ,Permanent,2025-02-13,,,,6160000
+EMP00767,Lukman Rahman,Male,1900-01-01,Married,S1,lukman.rahman767@nusantaradigital.co.id,+62 878-9484-6091,Customer Service,CSV-L2,Jakarta,Permanent,2025-02-02,,,,10740000
+EMP00768,Mega Ramadhan,F,1999-12-05,Single,SMA/SMK,mega.ramadhan768@nusantaradigital.co.id,+62 861-1616-4672,OPS,OPS-L1,JKT,Permanent,2025-02-23,,,,7090000
+EMP00769,Bayu Sinaga,Male,06-Oct-1999,Single,SMA/SMK,bayu.sinaga769@nusantaradigital.co.id,+62 849-1177-9501,ITD,ITD-L2,Jakarta Selatan,Contract,09-Feb-2025,29-Sep-2025,Involuntary,Poor Performance,12580000
+EMP00770,Nurul Daeng,Perempuan,07/07/1998,Single,SMA/SMK,nurul.daeng770@nusantaradigital.co.id,+62 838-2264-6106,CSV,CSV-L1,Medan,Permanent,13/02/2025,,,,7010000
+EMP00771,Lestari Syahputra,Female,2004-09-29,Single,S1,lestari.syahputra771@nusantaradigital.co.id,+62 852-4745-7188,Information Technology,ITD-L1,bandung ,Permanent,2025-02-01,2025-10-06,Voluntary,Better Compensation,7800000
+EMP00772,Vina Wijaya,F,1996-05-13,Single,D3,vina.wijaya772@nusantaradigital.co.id,+62 811-7443-4655,SLS,SLS-L1,JKT,Contract,2025-02-19,,,,7790000
+EMP00773,Reza Wijaya,Male,1995-11-20,Married,S1,reza.wijaya773@nusantaradigital.co.id,+62 872-6069-8149,Information Technology,ITD-L1,surabaya,Permanent,2025-02-25,,,,Rp 7.890.000
+EMP00774,Putri Purnomo,female,2004-12-17,Married,S1,putri.purnomo774@nusantaradigital.co.id,+62 889-7804-7540,HRD,HRD-L1,MDN,Permanent,2025-03-11,2025-08-29,Voluntary,Better Compensation,7340000
+EMP00775,Gita Hasibuan,Perempuan,26-Apr-1997,Single,SMA/SMK,gita.hasibuan775@nusantaradigital.co.id,+62 874-2164-4978,HRD,HRD-L1,BDG,Permanent,01-Mar-2025,,,,5930000
+EMP00776,Putra Syahputra,L,26/06/2001,Married,S1,putra.syahputra776@nusantaradigital.co.id,+62 891-4759-9186,CSV,CSV-L1,SBY,Permanent,20/03/2025,,,,7070000
+EMP00777,Sari Nugroho,P,1993-02-27,Married,S1,sari.nugroho777@nusantaradigital.co.id,+62 817-1426-8533,OPS,OPS-L1,Bandung,Permanent,2025-03-25,,,,5610000
+EMP00778,Fajar Saputra,Pria,15/10/1997,SINGLE,S1,fajar.saputra778@nusantaradigital.co.id,+62 847-9665-4656,ITD,ITD-L2,bandung ,Permanent,10/03/2025,,,,Rp 12.030.000
+EMP00779,Eko Lubis,Male,14-May-2004,Single,S1,eko.lubis779@nusantaradigital.co.id,+62 880-7526-4951,MKT,MKT-L1,MDN,Permanent,20-Apr-2025,21-Nov-2025,Involuntary,Restructuring,7810000
+EMP00780,Bayu Nasution,Male,1993-12-03,Married,S1,bayu.nasution780@nusantaradigital.co.id,+62 835-1201-7045,csv,CSV-L3,YOGYAKARTA,Permanent,2025-04-11,2025-12-12,Involuntary,Poor Performance,14450000
+EMP00781,Rahma Purnomo,Female,22-May-2000,Married,D3,rahma.purnomo781@nusantaradigital.co.id,+62 822-7820-9389,FIN,FIN-L1,YOGYAKARTA,Contract,18-Apr-2025,22-Nov-2025,Voluntary,Better Compensation,"9,220,000.00"
+EMP00782,Wulan Nasution,Perempuan,1990-09-25,Single,S1,wulan.nasution782@nusantaradigital.co.id,+62 836-5203-5091,Operations,OPS-L3,DKI Jakarta,Permanent,2025-04-16,,,,12940000
+EMP00783,Dedi Saputra,M,1988-08-03,Married,SMA/SMK,dedi.saputra783@nusantaradigital.co.id,+62 836-5427-9194,OPS,OPS-L1,Jogja,Permanent,2025-04-27,,,,"7,090,000.00"
+EMP00784,Novi Daeng,Perempuan,14/11/2004,Married,S1,novi.daeng784@nusantaradigital.co.id,+62 868-4686-1455,CSV,CSV-L1,Jakarta,Permanent,08/04/2025,06/08/2025,Voluntary,Career Growth,6210000
+EMP00785,Gilang Santoso,M,11/08/1998,Married,S1,gilang.santoso785@nusantaradigital.co.id,+62 876-1822-3343,ITD,ITD-L1,jakarta ,Permanent,03/05/2025,,,,11170000
+EMP00786,Muhammad Sinaga,male,25/10/2002,Married,D3,muhammad.sinaga786@nusantaradigital.co.id,+62 875-1098-4748,MKT,MKT-L2,surabaya,Permanent,18/05/2025,,,,12910000
+EMP00787,Indah Wijaya,Perempuan,2001-11-17,Married,S1,indah.wijaya787@nusantaradigital.co.id,+62 897-9434-5875,OPS,OPS-L1,Medan,Permanent,2025-05-15,,,,Rp 7.130.000
+EMP00788,Arif Simanjuntak,Male,2003-07-19,Single,S1,arif.simanjuntak788@nusantaradigital.co.id,+62 839-6522-3354,SLS,SLS-L1,MDN,Permanent,2025-05-09,,,,7350000
+EMP00789,Kurniawan Hidayat,Male,2001-09-07,Single,S1,kurniawan.hidayat789@nusantaradigital.co.id,+62 818-5779-4149,sls,SLS-L1,Jakarta,Permanent,2025-05-25,,,,6550000
+EMP00790,Rian Hakim,M,2001-05-07,Single,S1,rian.hakim790@nusantaradigital.co.id,+62 896-6600-6063,CSV,CSV-L1,JKT,Permanent,2025-05-17,,,,5890000
+EMP00791,Lestari Maharani,Female,1999-06-26,Single,D3,lestari.maharani791@nusantaradigital.co.id,+62 894-3614-8598,MKT,MKT-L1,MKS,Contract,2025-05-31,,,,6960000
+EMP00792,Yusuf Hakim,Male,1997-10-24,Married,SMA/SMK,yusuf.hakim792@nusantaradigital.co.id,+62 820-5135-9344,OPS,OPS-L1,Jakarta,Permanent,2025-05-08,,,,6950000
+EMP00793,Hadi Purnomo,Pria,06-Oct-2004,Married,SMA/SMK,hadi.purnomo793@nusantaradigital.co.id,+62 896-7125-3368,csv,CSV-L1,bandung ,Contract,15-Jun-2025,,,,Rp 6.980.000
+EMP00794,Galih Ramadhan,M,2004-04-12,Married,D3,galih.ramadhan794@nusantaradigital.co.id,+62 842-5567-7048,Information Technology,ITD-L1,Jakarta Selatan,Permanent,2025-06-26,2025-07-06,Voluntary,Better Compensation,10220000
+EMP00795,Putra Daeng,Laki-laki,08/10/1994,SINGLE,D3,putra.daeng795@nusantaradigital.co.id,+62 889-8022-1211,OPS,OPS-L2,Yogya,Contract,16/06/2025,16/10/2025,Involuntary,Poor Performance,9200000
+EMP00796,Satria Wibowo,Male,2000-06-29,Married,S1,satria.wibowo796@nusantaradigital.co.id,+62 814-6811-5018,SLS,SLS-L1,jakarta ,Permanent,2025-06-23,2025-07-17,Voluntary,Work-Life Balance,8690000
+EMP00797,MEGA HASIBUAN,Perempuan,26-Mar-1998,Married,D3,mega.hasibuan797@nusantaradigital.co.id,+62 816-5596-1760,sls,SLS-L2,Bandung,Contract,21-Jun-2025,,,,12320000
+EMP00798,  dewi harahap ,Perempuan,17/06/2000,Single,D3,dewi.harahap798@nusantaradigital.co.id,+62 877-6012-5101,ops,OPS-L1,BDG,Permanent,26/06/2025,,,,6300000
+EMP00799,Citra Pangaribuan,P,2002-05-31,Married,D3,citra.pangaribuan799@nusantaradigital.co.id,+62 893-4787-9569,OPS,OPS-L1,surabaya,Permanent,2025-06-18,,,,6930000
+EMP00800,Hendra Purnomo,L,1997-03-11,Single,D3,hendra.purnomo800@nusantaradigital.co.id,+62 857-3254-4560,CSV,CSV-L1,YOGYAKARTA,Permanent,2025-06-26,,,,6400000
+EMP00801,Hendra Sinaga,Laki-laki,14-Jan-1997,Married,S1,hendra.sinaga801@nusantaradigital.co.id,+62 892-6385-7116,CSV,CSV-L2,MDN,Permanent,03-Jun-2025,25-Oct-2025,Voluntary,Career Growth,9880000
+EMP00802,Joko Purnomo,Laki-laki,1989-10-21,Married,S1,joko.purnomo802@nusantaradigital.co.id,+62 856-1459-3009,PRD,PRD-L3,Jakarta Selatan,Permanent,2025-06-19,,,,20250000
+EMP00803,Eko Susanti,M,1990-03-25,Married,S1,eko.susanti803@nusantaradigital.co.id,+62 816-3656-7074,CSV,CSV-L4,Jakarta Selatan,Permanent,2025-06-08,,,,24180000
+EMP00804,Lestari Wibowo,Female,1994-12-28,Married,SMA/SMK,lestari.wibowo804@nusantaradigital.co.id,+62 815-5733-8589,CSV,CSV-L1,MDN,Contract,2025-07-02,,,,6480000
+EMP00805,Eko Daeng,L,25/07/1988,Married,S1,eko.daeng805@nusantaradigital.co.id,+62 869-6444-8872,FIN,FIN-L3,bandung ,Permanent,30/07/2025,,,,20890000
+EMP00806,Fajar Permata,L,2000-01-07,Divorced,S1,fajar.permata806@nusantaradigital.co.id,+62 851-3243-5952,OPS,OPS-L1,bandung ,Permanent,2025-07-07,,,,5760000
+EMP00807,Teguh Hakim,Laki-laki,08/01/1999,MARRIED,D3,teguh.hakim807@nusantaradigital.co.id,+62 894-5730-8418,ITD,ITD-L1,Jakarta,Permanent,21/07/2025,,,,9360000
+EMP00808,Bayu Nugroho,M,1992-11-24,Single,S2,bayu.nugroho808@nusantaradigital.co.id,+62 836-1207-6543,ops,OPS-L2,Makasar,Permanent,2025-07-18,,,,9870000
+EMP00809,Dimas Syahputra,M,2000-12-29,Single,S1,dimas.syahputra809@nusantaradigital.co.id,+62 840-5027-5808,SLS,SLS-L2,jakarta ,Permanent,2025-07-16,,,,11400000
+EMP00810,Dimas Simanjuntak,M,2000-11-25,Single,S1,dimas.simanjuntak810@nusantaradigital.co.id,+62 832-8102-8522,SLS,SLS-L1,Jakarta,Permanent,2025-07-08,,,,7110000
+EMP00811,Lukman Rahman,male,1997-10-10,Married,S1,lukman.rahman811@nusantaradigital.co.id,+62 812-7080-3029,MKT,MKT-L1,Jakarta Selatan,Permanent,2025-07-13,2025-09-15,Involuntary,Poor Performance,7440000
+EMP00812,Sari Lubis,female,08-Dec-2001,Married,S1,sari.lubis812@nusantaradigital.co.id,+62 816-8928-4707,Operations,OPS-L1,MDN,Permanent,07-Jul-2025,,,,Rp 6.630.000
+EMP00813,Ratna Pangaribuan,female,2001-04-04,Divorced,S1,ratna.pangaribuan813@nusantaradigital.co.id,+62 862-5745-4571,OPS,OPS-L1,Jogja,Permanent,2025-07-16,,,,6210000
+EMP00814,Irfan Harahap,L,11/03/1993,Married,S1,irfan.harahap814@nusantaradigital.co.id,+62 845-7167-2129,ITD,ITD-L2,JKT,Permanent,14/07/2025,,,,12500000
+EMP00815,Bunga Setiawan,F,11-Aug-2002,Married,S1,bunga.setiawan815@nusantaradigital.co.id,+62 885-9443-2570,Sales,SLS-L1,bandung ,Permanent,26-Jul-2025,,,,6630000
+EMP00816,TAUFIK SIMANJUNTAK,L,13-Mar-2003,Married,S1,taufik.simanjuntak816@nusantaradigital.co.id,+62 828-5634-7723,SLS,SLS-L1,MDN,Permanent,05-Aug-2025,,,,7020000
+EMP00817,Arif Purnomo,Male,31/02/1990,Single,D3,arif.purnomo817@nusantaradigital.co.id,+62 886-9766-6884,SLS,SLS-L1,DKI Jakarta,Permanent,2025-08-16,,,,"7,640,000.00"
+EMP00818,Ratna Nasution,female,02-Dec-1997,Single,S1,ratna.nasution818@nusantaradigital.co.id,+62 822-9480-1155,Human Capital,HRD-L2,DKI Jakarta,Permanent,04-Aug-2025,,,,Rp 11.860.000
+EMP00819,Dimas Wibowo,Pria,02/09/1995,Married,S1,dimas.wibowo819@nusantaradigital.co.id,+62 821-1570-1138,CSV,CSV-L1,BDG,Contract,07/08/2025,,,,Rp 5.340.000
+EMP00820,Bayu Suryadi,Laki-laki,2001-02-15,Single,D3,bayu.suryadi820@nusantaradigital.co.id,+62 838-3951-3154,hrd,HRD-L1,Jakarta,Permanent,2025-08-16,,,,7730000
+EMP00821,Teguh Situmorang,Laki-laki,2001-12-21,Married,S1,teguh.situmorang821@nusantaradigital.co.id,+62 864-1125-2731,Sales,SLS-L1,bandung ,Permanent,2025-08-28,2025-11-05,Voluntary,Work-Life Balance,6730000
+EMP00822,Vina Wijaya,F,23/01/2005,Married,S1,vina.wijaya822@nusantaradigital.co.id,+62 867-6725-4990,SLS,SLS-L1,Jakarta Selatan,Permanent,08/08/2025,,,,6860000
+EMP00823,Joko Syahputra,M,19-Jul-2003,Single,D3,joko.syahputra823@nusantaradigital.co.id,+62 866-9733-2982,CSV,CSV-L1,MDN,Contract,25-Aug-2025,,,,5990000
+EMP00824,Irfan Tanjung,M,10/01/2004,Married,S1,irfan.tanjung824@nusantaradigital.co.id,+62 871-9799-2991,itd,ITD-L1,Yogyakarta,Permanent,28/08/2025,,,,Rp 8.910.000
+EMP00825,Yuni Sinaga,Wanita,1999-06-30,Single,S1,yuni.sinaga825@nusantaradigital.co.id,+62 830-4630-5747,Information Technology,ITD-L1,jakarta ,Permanent,2025-08-13,,,,8930000
+EMP00826,Ayu Hidayat,female,1988-09-17,Married,S1,ayu.hidayat826@nusantaradigital.co.id,+62 839-5217-5403,itd,ITD-L4,jakarta ,Contract,2025-09-27,,,,32810000
+EMP00827,Yoga Setiawan,Pria,11-Aug-1997,Married,SMA/SMK,yoga.setiawan827@nusantaradigital.co.id,+62 851-9024-9867,OPS,OPS-L1,jakarta ,Permanent,11-Sep-2025,,,,6860000
+EMP00828,Dewi Nugroho,female,1997-11-30,Single,S1,dewi.nugroho828@nusantaradigital.co.id,+62 829-2899-6476,Information Technology,ITD-L2,surabaya,Permanent,2025-09-09,,,,13860000
+EMP00829,  citra purnomo ,Perempuan,1997-07-17,Divorced,D3,citra.purnomo829@nusantaradigital.co.id,+62 881-1234-6858,ITD,ITD-L1,bandung ,Permanent,2025-09-19,,,,9850000
+EMP00830,Agus Rahman,Laki-laki,2003-07-05,Married,S1,agus.rahman830@nusantaradigital.co.id,+62 854-5556-5408,ITD,ITD-L1,Bandung,Permanent,2025-09-01,,,,10310000
+EMP00831,Joko Halim,L,27-Mar-1999,Single,S1,joko.halim831@nusantaradigital.co.id,+62 833-2816-7685,Marketing,MKT-L2,jakarta ,Permanent,08-Sep-2025,,,,13680000
+EMP00832,Adi Mappasessu,Pria,15-Dec-1993,Married,S1,adi.mappasessu832@nusantaradigital.co.id,+62 818-8187-8648,OPS,OPS-L2,Jakarta,Permanent,12-Sep-2025,,,,9770000
+EMP00833,Anisa Nugroho,P,1996-03-09,Married,S1,anisa.nugroho833@nusantaradigital.co.id,+62 861-4397-6951,OPS,OPS-L2,Makasar,Permanent,2025-09-19,2025-11-09,Voluntary,Personal / Family,10170000
+EMP00834,Taufik Sinaga,Pria,31-Mar-2000,Single,S1,taufik.sinaga834@nusantaradigital.co.id,+62 863-1838-3899,OPS,OPS-L2,Jakarta Selatan,Permanent,18-Sep-2025,,,,9440000
+EMP00835,Ilham Tanjung,L,2002-09-24,MARRIED,SMA/SMK,ilham.tanjung835@nusantaradigital.co.id,+62 889-3447-9990,Customer Service,CSV-L1,JKT,Permanent,2025-10-16,,,,Rp 6.430.000
+EMP00836,Lukman Sinaga,Male,30-Aug-2002,Married,S2,lukman.sinaga836@nusantaradigital.co.id,+62 837-5305-6661,Human Capital,HRD-L3,Jogja,Permanent,05-Oct-2025,,,,15830000
+EMP00837,Bunga Tanjung,female,04/12/2003,Married,S1,bunga.tanjung837@nusantaradigital.co.id,+62 873-3187-1096,CSV,CSV-L1,BDG,Permanent,05/10/2025,,,,6380000
+EMP00838,Vina Hidayat,Wanita,10/07/1996,Single,S2,vina.hidayat838@nusantaradigital.co.id,+62 855-4913-4948,OPS,OPS-L2,Yogyakarta,Permanent,13/10/2025,,,,Rp 11.040.000
+EMP00839,Joko Hidayat,Pria,15-Aug-2001,Single,D3,joko.hidayat839@nusantaradigital.co.id,+62 872-7194-2325,itd,ITD-L1,Medan,Permanent,18-Oct-2025,05-Dec-2025,Involuntary,Poor Performance,8340000
+EMP00840,Fajar Syahputra,M,2004-12-26,Married,S1,fajar.syahputra840@nusantaradigital.co.id,+62 827-4094-6060,OPS,OPS-L1,Makassar,Permanent,2025-10-02,,,,"5,740,000.00"
+EMP00841,Joko Nugroho,Laki-laki,17-Jan-1994,Married,S1,joko.nugroho841@nusantaradigital.co.id,+62 832-1824-1193,Customer Service,CSV-L2,MDN,Permanent,24-Oct-2025,,,,10320000
+EMP00842,Ayu Siregar,Perempuan,22-Oct-2002,Married,S1,ayu.siregar842@nusantaradigital.co.id,+62 858-9087-4504,Sales,SLS-L1,BDG,Contract,28-Oct-2025,,,,7130000
+EMP00843,Kartika Hakim,female,1997-08-20,Married,D3,kartika.hakim843@nusantaradigital.co.id,+62 846-7651-8242,FIN,FIN-L1,DKI Jakarta,Permanent,2025-11-10,,,,7580000
+EMP00844,Oki Santoso,male,1994-12-18,Married,S1,oki.santoso844@nusantaradigital.co.id,+62 840-1864-1825,OPS,OPS-L1,jakarta ,Permanent,2025-11-17,,,,7580000
+EMP00845,Fitri Hasibuan,P,2005-08-30,Single,S1,fitri.hasibuan845@nusantaradigital.co.id,+62 827-5844-9939,mkt,MKT-L1,SBY,Contract,2025-11-04,,,,8350000
+EMP00846,Ayu Firmansyah,Perempuan,1994-11-12,Married,S1,ayu.firmansyah846@nusantaradigital.co.id,+62 881-4441-4940,MKT,MKT-L2,JKT,Permanent,2025-11-25,,,,10850000
+EMP00847,Eka Permata,Wanita,2005-08-27,Married,S1,eka.permata847@nusantaradigital.co.id,+62 882-2249-6243,ITD,ITD-L1,Jakarta,Permanent,2025-11-23,,,,9400000
+EMP00848,Fitri Firmansyah,Wanita,1994-12-17,Single,S1,fitri.firmansyah848@nusantaradigital.co.id,+62 816-5051-1888,SLS,SLS-L1,bandung ,Contract,2025-11-08,,,,7220000
+EMP00849,Yusuf Pratama,male,1996-01-04,Single,S1,yusuf.pratama849@nusantaradigital.co.id,+62 827-8699-8585,SLS,SLS-L2,Surabaya,Permanent,2025-11-17,,,,9790000
+EMP00850,Arif Wibowo,male,2004-03-30,Divorced,S1,arif.wibowo850@nusantaradigital.co.id,+62 892-3444-9047,Customer Service,CSV-L1,JKT,Permanent,2025-11-08,,,,Rp 6.210.000
+EMP00851,Lukman Wijaya,Male,10/10/1991,MARRIED,D3,lukman.wijaya851@nusantaradigital.co.id,+62 887-9351-5780,PRD,PRD-L3,jakarta ,Contract,07/11/2025,,,,"21,860,000.00"
+EMP00852,Putri Nasution,Female,27-Jun-1995,Married,S1,putri.nasution852@nusantaradigital.co.id,+62 818-9490-4842,csv,CSV-L2,JKT,Contract,14-Nov-2025,,,,10390000
+EMP00853,Putra Maharani,L,02/04/1995,Married,S1,putra.maharani853@nusantaradigital.co.id,+62 858-1139-4414,MKT,MKT-L2,DKI Jakarta,Contract,20/11/2025,,,,11060000
+EMP00854,Fitri Susanti,Wanita,1980-09-16,Married,S2,fitri.susanti854@nusantaradigital.co.id,+62 830-7092-4208,Operations,OPS-L5,surabaya,Permanent,2025-11-30,,,,47410000
+EMP00855,Yoga Ramadhan,Male,2000-07-29,Single,S1,yoga.ramadhan855@nusantaradigital.co.id,+62 874-5605-9217,SLS,SLS-L1,SBY,Permanent,2025-12-29,,,,7010000
+EMP00856,Fitri Simanjuntak,female,2002-07-06,MARRIED,S1,fitri.simanjuntak856@nusantaradigital.co.id,+62 836-2323-6069,csv,CSV-L1,Jakarta Selatan,Contract,2025-12-25,,,,6600000
+EMP00857,Rina Firmansyah,female,1994-06-17,Married,S1,rina.firmansyah857@nusantaradigital.co.id,+62 869-8496-2462,CSV,CSV-L2,JKT,Permanent,2025-12-20,,,,Rp 9.270.000
+EMP00858,Teguh Wibowo,L,1997-03-02,Married,D3,teguh.wibowo858@nusantaradigital.co.id,+62 897-9846-8213,OPS,OPS-L1,DKI Jakarta,Permanent,2025-12-06,,,,7020000
+EMP00859,Rian Harahap,Male,2000-08-02,Single,D3,rian.harahap859@nusantaradigital.co.id,+62 874-2962-3057,ops,OPS-L1,SBY,Permanent,2025-12-20,,,,7910000
+EMP00860,Dian Wijaya,female,08-Feb-2004,Married,S1,dian.wijaya860@nusantaradigital.co.id,+62 863-2305-6779,ITD,ITD-L1,BDG,Permanent,19-Dec-2025,,,,Rp 9.630.000
+EMP00861,Maya Tanjung,P,24-Nov-2002,SINGLE,D3,maya.tanjung861@nusantaradigital.co.id,+62 869-1537-6770,Information Technology,ITD-L1,Medan,Permanent,22-Dec-2025,,,,"8,380,000.00"
+EMP00862,Dian Sinaga,P,1996-07-21,Divorced,S1,dian.sinaga862@nusantaradigital.co.id,+62 860-2253-3958,SLS,SLS-L1,JKT,Permanent,2025-12-09,,,,7750000
+EMP00863,Yoga Wibowo,Pria,2002-06-15,Married,D3,yoga.wibowo863@nusantaradigital.co.id,+62 896-4344-5965,SLS,SLS-L2,medan,Permanent,2025-12-02,,,,"12,190,000.00"
+EMP00864,Rian Susanti,Laki-laki,28-Jan-2000,Married,S1,rian.susanti864@nusantaradigital.co.id,+62 853-3550-8650,PRD,PRD-L1,Yogyakarta,Permanent,27-Dec-2025,,,,"10,400,000.00"
+EMP00751,Satria Santoso,Male,2000-12-19,Single,S1,satria.santoso751@nusantaradigital.co.id,+62 878-6703-2809,OPS,OPS-L1,surabaya,Permanent,2025-01-03,,,,6230000
+EMP00357,Sari Rahman,Wanita,20-May-1990,Married,S1,sari.rahman357@nusantaradigital.co.id,+62 832-7921-7953,Information Technology,ITD-L2,DKI Jakarta,Permanent,12-May-2015,09-Mar-2024,Voluntary,Work-Life Balance,17460000
+EMP00341,Rian Hasibuan,Laki-laki,05-Jun-1997,Married,D3,rian.hasibuan341@nusantaradigital.co.id,+62 814-8756-2953,SLS,SLS-L1,Jakarta,Permanent,26-Feb-2020,,,,"8,510,000.00"
+EMP00222,Amelia Lubis,female,11-Jan-1995,Single,S1,amelia.lubis222@nusantaradigital.co.id,+62 837-6473-6715,CSV,CSV-L1,DKI Jakarta,Permanent,09-Oct-2020,,,,6920000
+EMP00746,Gita Lubis,female,26/02/1994,Single,S1,gita.lubis746@nusantaradigital.co.id,+62 884-2257-3494,ITD,ITD-L2,JKT,Permanent,09/01/2025,,,,15180000
+EMP00192,Adi Firmansyah,L,26-Feb-1981,Married,S2,adi.firmansyah192@nusantaradigital.co.id,+62 893-5807-9088,sls,SLS-L5,Surabaya,Permanent,15-Oct-2021,12-Sep-2023,Voluntary,Better Compensation,40550000
+EMP00599,Muhammad Sinaga,Male,14/06/2000,Single,S1,muhammad.sinaga599@nusantaradigital.co.id,+62 871-1786-5124,OPS,OPS-L1,jakarta ,Permanent,21/02/2024,,,,6990000
+EMP00442,Vina Pangaribuan,Wanita,28/12/1995,MARRIED,S1,vina.pangaribuan442@nusantaradigital.co.id,+62 861-8050-6969,Customer Service,CSV-L1,surabaya,Permanent,02/05/2018,,,,5820000
+EMP00588,Adi Hidayat,Laki-laki,2003-04-29,Divorced,S1,adi.hidayat588@nusantaradigital.co.id,+62 865-8071-2744,CSV,CSV-L1,Medan,Contract,2023-12-21,2024-03-14,Voluntary,Better Compensation,5900000
+EMP00274,Amelia Harahap,Wanita,10/08/1997,Single,S1,amelia.harahap274@nusantaradigital.co.id,+62 868-7121-4790,Operations,OPS-L1,MDN,Permanent,05/03/2021,,,,6710000
+EMP00590,Teguh Susanti,Laki-laki,02/12/2000,Divorced,SMA/SMK,teguh.susanti590@nusantaradigital.co.id,+62 821-6090-3279,CSV,CSV-L1,BDG,Permanent,13/12/2023,08/02/2024,Voluntary,Better Compensation,6600000
+EMP00316,Hendra Utami,male,07-May-1985,Married,S1,hendra.utami316@nusantaradigital.co.id,+62 854-3359-9101,Product,PRD-L4,DKI Jakarta,Permanent,02-Dec-2020,,,,40610000

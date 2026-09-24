@@ -1,0 +1,20 @@
+course_key,course_code,course_name,category,provider,standard_hours
+-1,UNK,Unknown,Unknown,Unknown,
+1,TRN-C01,Kode Etik & Anti-Korupsi,Compliance,Internal,4
+2,TRN-C02,K3 & Keselamatan Kerja,Compliance,Internal,4
+3,TRN-C03,Perlindungan Data Pribadi (UU PDP),Compliance,Internal,3
+4,TRN-D01,Digital Marketing Fundamentals,Digital,Google Skillshop,16
+5,TRN-D02,Agile & Scrum,Digital,External Vendor,16
+6,TRN-L01,First-Time Manager Program,Leadership,PPM Manajemen,32
+7,TRN-L02,Coaching & Feedback,Leadership,Internal,8
+8,TRN-L03,Strategic Leadership,Leadership,Prasetiya Mulya,40
+9,TRN-P01,Product Knowledge Batch,Product Knowledge,Internal,6
+10,TRN-S01,Effective Communication,Soft Skills,Internal,8
+11,TRN-S02,Customer Service Excellence,Soft Skills,External Vendor,12
+12,TRN-S03,Negotiation Skills,Soft Skills,External Vendor,12
+13,TRN-S04,Time Management,Soft Skills,Internal,6
+14,TRN-T01,Python for Data Analysis,Technical,Dicoding,24
+15,TRN-T02,Cloud Fundamentals (AWS),Technical,AWS Training,16
+16,TRN-T03,Advanced Excel,Technical,Internal,8
+17,TRN-T04,Power BI Dashboarding,Technical,Microsoft Learn,16
+18,TRN-T05,Secure Coding Practices,Technical,External Vendor,12

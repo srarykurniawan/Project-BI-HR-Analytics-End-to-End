@@ -1,0 +1,7 @@
+pandas>=2.1
+numpy>=1.26
+openpyxl>=3.1
+SQLAlchemy>=2.0
+# Opsional, sesuai database tujuan:
+# psycopg2-binary>=2.9   # PostgreSQL
+# pyodbc>=5.0            # SQL Server

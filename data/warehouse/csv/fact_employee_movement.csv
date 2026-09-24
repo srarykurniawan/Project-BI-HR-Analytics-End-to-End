@@ -1,0 +1,693 @@
+movement_key,date_key,employee_key,department_key,position_key,location_key,movement_type,termination_type,termination_reason,tenure_months_at_event,is_voluntary,is_early_turnover,is_regrettable,last_rating
+1,20230101,315,7,33,2,Termination,Involuntary,Misconduct,25.0,0,0,0,1.0
+2,20230105,465,8,37,2,Hire,,,0.0,0,0,0,
+3,20230106,468,1,3,3,Hire,,,0.0,0,0,0,
+4,20230106,469,7,31,1,Hire,,,0.0,0,0,0,
+5,20230107,474,6,27,1,Hire,,,0.0,0,0,0,
+6,20230107,249,1,3,2,Termination,Voluntary,Work-Life Balance,8.9,1,1,0,2.0
+7,20230109,462,2,6,1,Hire,,,0.0,0,0,0,
+8,20230109,355,8,39,1,Termination,Voluntary,Better Compensation,71.0,1,0,0,3.0
+9,20230110,394,7,32,5,Termination,Voluntary,Career Growth,9.6,1,1,0,2.0
+10,20230112,466,7,31,4,Hire,,,0.0,0,0,0,
+11,20230115,117,4,16,1,Termination,Involuntary,Misconduct,87.3,0,0,0,2.0
+12,20230116,464,7,31,4,Hire,,,0.0,0,0,0,
+13,20230119,473,6,26,1,Hire,,,0.0,0,0,0,
+14,20230120,461,4,16,1,Hire,,,0.0,0,0,0,
+15,20230122,119,2,6,1,Termination,Voluntary,Work-Life Balance,52.3,1,0,0,3.0
+16,20230123,467,3,11,2,Hire,,,0.0,0,0,0,
+17,20230125,463,5,21,1,Hire,,,0.0,0,0,0,
+18,20230125,471,7,32,3,Hire,,,0.0,0,0,0,
+19,20230127,470,1,1,1,Hire,,,0.0,0,0,0,
+20,20230129,441,3,12,1,Termination,Involuntary,Poor Performance,47.4,0,0,0,2.0
+21,20230130,472,2,6,1,Hire,,,0.0,0,0,0,
+22,20230209,36,8,37,4,Termination,Involuntary,Poor Performance,5.8,0,1,0,
+23,20230212,479,2,6,6,Hire,,,0.0,0,0,0,
+24,20230214,477,1,1,3,Hire,,,0.0,0,0,0,
+25,20230217,480,5,21,6,Hire,,,0.0,0,0,0,
+26,20230218,70,7,31,1,Termination,Voluntary,Career Growth,35.6,1,0,0,3.0
+27,20230218,113,3,12,5,Termination,Involuntary,Misconduct,5.3,0,1,0,
+28,20230219,478,3,11,4,Hire,,,0.0,0,0,0,
+29,20230221,475,8,37,1,Hire,,,0.0,0,0,0,
+30,20230222,476,7,31,1,Hire,,,0.0,0,0,0,
+31,20230223,326,2,6,4,Termination,Voluntary,Management Issues,30.6,1,0,1,4.0
+32,20230228,107,1,1,1,Termination,Retirement,Retirement,13.1,0,0,0,2.0
+33,20230228,395,5,22,1,Termination,Retirement,Retirement,156.6,0,0,0,3.0
+34,20230301,483,8,37,1,Hire,,,0.0,0,0,0,
+35,20230301,484,6,26,1,Hire,,,0.0,0,0,0,
+36,20230306,485,1,1,1,Hire,,,0.0,0,0,0,
+37,20230306,486,1,1,2,Hire,,,0.0,0,0,0,
+38,20230307,468,1,3,3,Termination,Involuntary,Poor Performance,2.0,0,1,0,
+39,20230308,231,8,36,3,Termination,Voluntary,Personal / Family,24.0,1,0,1,4.0
+40,20230310,411,6,26,3,Termination,Involuntary,Restructuring,114.1,0,0,0,2.0
+41,20230316,342,8,38,1,Termination,Involuntary,Poor Performance,7.4,0,1,0,
+42,20230318,482,7,31,3,Hire,,,0.0,0,0,0,
+43,20230321,259,7,35,1,Termination,Voluntary,Better Compensation,53.7,1,0,0,3.0
+44,20230325,481,8,36,1,Hire,,,0.0,0,0,0,
+45,20230325,434,1,2,1,Termination,Voluntary,Career Growth,11.7,1,1,0,1.0
+46,20230401,498,7,32,6,Hire,,,0.0,0,0,0,
+47,20230401,68,3,12,4,Termination,Voluntary,Career Growth,10.8,1,1,0,1.0
+48,20230401,161,4,16,6,Termination,Voluntary,Work-Life Balance,157.7,1,0,0,2.0
+49,20230402,487,1,1,1,Hire,,,0.0,0,0,0,
+50,20230403,496,7,31,2,Hire,,,0.0,0,0,0,
+51,20230403,508,7,33,1,Hire,,,0.0,0,0,0,
+52,20230405,506,3,12,1,Hire,,,0.0,0,0,0,
+53,20230406,491,8,36,3,Hire,,,0.0,0,0,0,
+54,20230406,497,8,36,1,Hire,,,0.0,0,0,0,
+55,20230406,281,1,2,1,Termination,Voluntary,Career Growth,64.2,1,0,1,4.0
+56,20230407,489,8,36,1,Hire,,,0.0,0,0,0,
+57,20230408,507,2,6,1,Hire,,,0.0,0,0,0,
+58,20230408,185,7,31,3,Termination,Voluntary,Career Growth,11.6,1,1,1,4.0
+59,20230408,269,8,36,1,Termination,Voluntary,Better Compensation,54.7,1,0,1,4.0
+60,20230410,492,8,36,5,Hire,,,0.0,0,0,0,
+61,20230410,500,2,6,2,Hire,,,0.0,0,0,0,
+62,20230410,504,7,31,3,Hire,,,0.0,0,0,0,
+63,20230411,494,4,19,2,Hire,,,0.0,0,0,0,
+64,20230412,52,8,38,1,Termination,Voluntary,Better Compensation,79.1,1,0,0,1.0
+65,20230412,90,8,37,1,Termination,Voluntary,Better Compensation,19.4,1,0,1,4.0
+66,20230414,503,3,11,3,Hire,,,0.0,0,0,0,
+67,20230414,78,8,38,3,Termination,Voluntary,Better Compensation,22.5,1,0,0,3.0
+68,20230415,275,3,11,1,Termination,Voluntary,Career Growth,65.8,1,0,0,3.0
+69,20230416,499,1,2,5,Hire,,,0.0,0,0,0,
+70,20230417,493,3,11,1,Hire,,,0.0,0,0,0,
+71,20230417,163,3,11,1,Termination,Involuntary,Restructuring,16.7,0,0,0,3.0
+72,20230419,495,3,11,2,Hire,,,0.0,0,0,0,
+73,20230419,451,8,36,3,Termination,Voluntary,Career Growth,36.3,1,0,0,2.0
+74,20230420,10,1,2,1,Termination,Involuntary,Restructuring,114.7,0,0,0,2.0
+75,20230422,488,7,31,1,Hire,,,0.0,0,0,0,
+76,20230424,501,8,36,4,Hire,,,0.0,0,0,0,
+77,20230424,505,2,7,3,Hire,,,0.0,0,0,0,
+78,20230425,145,7,31,4,Termination,Voluntary,Better Compensation,67.1,1,0,1,4.0
+79,20230425,371,7,33,1,Termination,Voluntary,Career Growth,60.4,1,0,1,4.0
+80,20230426,490,3,11,4,Hire,,,0.0,0,0,0,
+81,20230427,14,8,36,2,Termination,Voluntary,Management Issues,14.8,1,0,0,3.0
+82,20230428,502,1,1,6,Hire,,,0.0,0,0,0,
+83,20230429,509,7,31,1,Hire,,,0.0,0,0,0,
+84,20230501,514,1,1,6,Hire,,,0.0,0,0,0,
+85,20230502,513,7,31,1,Hire,,,0.0,0,0,0,
+86,20230505,510,3,11,3,Hire,,,0.0,0,0,0,
+87,20230505,511,8,36,1,Hire,,,0.0,0,0,0,
+88,20230505,512,7,32,1,Hire,,,0.0,0,0,0,
+89,20230523,235,8,36,1,Termination,Voluntary,Better Compensation,9.7,1,1,0,
+90,20230527,515,2,7,1,Hire,,,0.0,0,0,0,
+91,20230531,144,3,11,1,Termination,Retirement,Retirement,15.5,0,0,0,3.0
+92,20230601,294,2,6,1,Termination,Voluntary,Relocation,8.2,1,1,0,
+93,20230602,521,7,31,2,Hire,,,0.0,0,0,0,
+94,20230606,4,7,32,1,Termination,Voluntary,Career Growth,65.1,1,0,0,3.0
+95,20230607,287,1,1,1,Termination,Voluntary,Career Growth,159.9,1,0,0,3.0
+96,20230614,517,8,36,1,Hire,,,0.0,0,0,0,
+97,20230616,516,7,31,2,Hire,,,0.0,0,0,0,
+98,20230616,522,7,31,1,Hire,,,0.0,0,0,0,
+99,20230616,20,8,36,1,Termination,Voluntary,Better Compensation,117.5,1,0,0,2.0
+100,20230616,180,8,36,2,Termination,Voluntary,Management Issues,6.0,1,1,0,
+101,20230619,518,2,6,2,Hire,,,0.0,0,0,0,
+102,20230619,348,7,32,1,Termination,Voluntary,Further Study,160.3,1,0,1,4.0
+103,20230619,382,3,11,4,Termination,Voluntary,Relocation,21.7,1,0,1,4.0
+104,20230625,519,8,36,1,Hire,,,0.0,0,0,0,
+105,20230627,110,2,6,4,Termination,Involuntary,Misconduct,69.2,0,0,0,3.0
+106,20230628,520,1,1,1,Hire,,,0.0,0,0,0,
+107,20230704,526,8,36,1,Hire,,,0.0,0,0,0,
+108,20230706,328,7,32,1,Termination,Voluntary,Better Compensation,8.2,1,1,0,
+109,20230707,437,8,36,1,Termination,Voluntary,Better Compensation,31.7,1,0,1,4.0
+110,20230708,528,7,32,3,Hire,,,0.0,0,0,0,
+111,20230708,403,3,12,1,Termination,Voluntary,Career Growth,160.9,1,0,1,4.0
+112,20230711,533,4,17,1,Hire,,,0.0,0,0,0,
+113,20230712,530,7,33,1,Hire,,,0.0,0,0,0,
+114,20230713,529,8,36,5,Hire,,,0.0,0,0,0,
+115,20230714,532,6,26,1,Hire,,,0.0,0,0,0,
+116,20230717,527,3,14,1,Hire,,,0.0,0,0,0,
+117,20230720,525,3,11,6,Hire,,,0.0,0,0,0,
+118,20230721,283,7,31,1,Termination,Involuntary,Poor Performance,9.3,0,1,0,
+119,20230722,524,7,32,1,Hire,,,0.0,0,0,0,
+120,20230722,158,8,36,1,Termination,Voluntary,Relocation,132.7,1,0,0,2.0
+121,20230726,523,8,37,1,Hire,,,0.0,0,0,0,
+122,20230727,531,1,2,1,Hire,,,0.0,0,0,0,
+123,20230729,422,7,32,2,Termination,Voluntary,Relocation,76.6,1,0,0,2.0
+124,20230731,332,8,37,4,Termination,Involuntary,Misconduct,8.0,0,1,0,
+125,20230804,544,6,26,1,Hire,,,0.0,0,0,0,
+126,20230807,261,5,21,1,Termination,Voluntary,Better Compensation,59.7,1,0,0,3.0
+127,20230809,545,4,16,2,Hire,,,0.0,0,0,0,
+128,20230810,536,3,11,1,Hire,,,0.0,0,0,0,
+129,20230810,542,8,36,4,Hire,,,0.0,0,0,0,
+130,20230812,539,2,7,4,Hire,,,0.0,0,0,0,
+131,20230813,541,8,36,1,Hire,,,0.0,0,0,0,
+132,20230814,540,3,11,1,Hire,,,0.0,0,0,0,
+133,20230814,543,3,12,1,Hire,,,0.0,0,0,0,
+134,20230814,547,1,2,2,Hire,,,0.0,0,0,0,
+135,20230814,525,3,11,6,Termination,Involuntary,Restructuring,0.8,0,1,0,
+136,20230815,537,7,31,1,Hire,,,0.0,0,0,0,
+137,20230817,448,3,12,6,Termination,Voluntary,Career Growth,81.6,1,0,1,4.0
+138,20230817,497,8,36,1,Termination,Voluntary,Better Compensation,4.4,1,1,0,
+139,20230820,538,3,11,3,Hire,,,0.0,0,0,0,
+140,20230821,535,5,21,3,Hire,,,0.0,0,0,0,
+141,20230822,297,7,33,5,Termination,Voluntary,Further Study,28.8,1,0,0,2.0
+142,20230826,263,4,16,1,Termination,Voluntary,Work-Life Balance,14.8,1,0,1,5.0
+143,20230828,1,8,36,1,Termination,Voluntary,Personal / Family,117.4,1,0,1,4.0
+144,20230830,546,2,7,1,Hire,,,0.0,0,0,0,
+145,20230831,534,8,36,1,Hire,,,0.0,0,0,0,
+146,20230902,551,8,36,2,Hire,,,0.0,0,0,0,
+147,20230908,295,1,1,1,Termination,Voluntary,Work-Life Balance,10.2,1,1,0,
+148,20230909,552,8,38,5,Hire,,,0.0,0,0,0,
+149,20230911,550,8,36,3,Hire,,,0.0,0,0,0,
+150,20230912,192,1,5,2,Termination,Voluntary,Better Compensation,22.9,1,0,0,3.0
+151,20230916,549,1,2,1,Hire,,,0.0,0,0,0,
+152,20230926,344,8,37,6,Termination,Involuntary,Poor Performance,67.7,0,0,0,2.0
+153,20230927,475,8,37,1,Termination,Voluntary,Personal / Family,7.2,1,1,0,
+154,20230929,517,8,36,1,Termination,Involuntary,Poor Performance,3.5,0,1,0,
+155,20230930,548,1,1,5,Hire,,,0.0,0,0,0,
+156,20231002,164,1,5,1,Termination,Voluntary,Career Growth,52.1,1,0,1,4.0
+157,20231004,558,6,26,1,Hire,,,0.0,0,0,0,
+158,20231006,560,8,36,1,Hire,,,0.0,0,0,0,
+159,20231010,258,1,2,1,Termination,Voluntary,Personal / Family,19.1,1,0,0,3.0
+160,20231010,550,8,36,3,Termination,Voluntary,Career Growth,1.0,1,1,0,
+161,20231011,555,8,36,2,Hire,,,0.0,0,0,0,
+162,20231011,147,8,36,3,Termination,Involuntary,Restructuring,15.1,0,0,0,
+163,20231012,557,1,1,1,Hire,,,0.0,0,0,0,
+164,20231012,130,3,11,2,Termination,Voluntary,Personal / Family,31.0,1,0,0,3.0
+165,20231014,134,3,12,1,Termination,Involuntary,Misconduct,66.4,0,0,0,1.0
+166,20231019,553,3,11,1,Hire,,,0.0,0,0,0,
+167,20231022,554,1,1,5,Hire,,,0.0,0,0,0,
+168,20231025,489,8,36,1,Termination,Involuntary,Poor Performance,6.6,0,1,0,
+169,20231028,561,2,6,1,Hire,,,0.0,0,0,0,
+170,20231028,335,6,26,1,Termination,Involuntary,Misconduct,24.0,0,0,0,3.0
+171,20231029,556,2,6,6,Hire,,,0.0,0,0,0,
+172,20231029,559,8,36,1,Hire,,,0.0,0,0,0,
+173,20231029,562,1,1,1,Hire,,,0.0,0,0,0,
+174,20231103,575,1,2,4,Hire,,,0.0,0,0,0,
+175,20231107,566,4,16,5,Hire,,,0.0,0,0,0,
+176,20231107,279,3,11,3,Termination,Voluntary,Better Compensation,48.7,1,0,1,4.0
+177,20231109,570,7,32,1,Hire,,,0.0,0,0,0,
+178,20231109,578,3,11,3,Hire,,,0.0,0,0,0,
+179,20231113,571,6,26,6,Hire,,,0.0,0,0,0,
+180,20231114,565,2,7,1,Hire,,,0.0,0,0,0,
+181,20231116,563,8,36,5,Hire,,,0.0,0,0,0,
+182,20231116,93,2,9,1,Termination,Voluntary,Career Growth,44.3,1,0,0,3.0
+183,20231117,126,8,36,1,Termination,Voluntary,Further Study,83.1,1,0,0,2.0
+184,20231118,567,8,37,6,Hire,,,0.0,0,0,0,
+185,20231118,568,3,12,5,Hire,,,0.0,0,0,0,
+186,20231118,35,1,3,6,Termination,Involuntary,Poor Performance,35.1,0,0,0,3.0
+187,20231119,484,6,26,1,Termination,Involuntary,Restructuring,8.6,0,1,0,
+188,20231122,576,7,31,1,Hire,,,0.0,0,0,0,
+189,20231124,32,8,36,3,Termination,Involuntary,Restructuring,21.2,0,0,0,2.0
+190,20231125,564,1,1,1,Hire,,,0.0,0,0,0,
+191,20231125,569,8,38,1,Hire,,,0.0,0,0,0,
+192,20231125,574,5,21,5,Hire,,,0.0,0,0,0,
+193,20231127,319,8,36,1,Termination,Involuntary,Misconduct,23.6,0,0,0,2.0
+194,20231127,368,1,1,1,Termination,Voluntary,Better Compensation,11.7,1,1,0,
+195,20231128,572,3,12,1,Hire,,,0.0,0,0,0,
+196,20231128,573,4,16,5,Hire,,,0.0,0,0,0,
+197,20231129,142,8,36,2,Termination,Voluntary,Better Compensation,31.4,1,0,0,1.0
+198,20231130,577,7,31,2,Hire,,,0.0,0,0,0,
+199,20231202,586,1,1,3,Hire,,,0.0,0,0,0,
+200,20231203,585,1,3,6,Hire,,,0.0,0,0,0,
+201,20231204,584,3,11,3,Hire,,,0.0,0,0,0,
+202,20231204,430,1,4,1,Termination,Involuntary,Restructuring,44.2,0,0,0,2.0
+203,20231206,589,1,1,1,Hire,,,0.0,0,0,0,
+204,20231207,583,6,26,5,Hire,,,0.0,0,0,0,
+205,20231207,18,8,36,1,Termination,Voluntary,Management Issues,64.3,1,0,1,5.0
+206,20231210,587,1,1,1,Hire,,,0.0,0,0,0,
+207,20231213,590,8,36,3,Hire,,,0.0,0,0,0,
+208,20231215,581,3,13,5,Hire,,,0.0,0,0,0,
+209,20231217,580,2,6,5,Hire,,,0.0,0,0,0,
+210,20231217,97,3,13,3,Termination,Voluntary,Better Compensation,14.1,1,0,0,
+211,20231218,416,1,1,1,Termination,Voluntary,Better Compensation,47.9,1,0,1,5.0
+212,20231219,177,1,1,1,Termination,Voluntary,Better Compensation,53.2,1,0,1,5.0
+213,20231221,588,8,36,5,Hire,,,0.0,0,0,0,
+214,20231222,579,8,36,6,Hire,,,0.0,0,0,0,
+215,20231223,42,2,7,4,Termination,Voluntary,Work-Life Balance,17.2,1,0,0,
+216,20231227,516,7,31,2,Termination,Voluntary,Management Issues,6.4,1,1,0,
+217,20231228,402,3,13,3,Termination,Involuntary,Poor Performance,84.9,0,0,0,1.0
+218,20231228,477,1,1,3,Termination,Voluntary,Better Compensation,10.4,1,1,0,
+219,20231230,591,1,1,2,Hire,,,0.0,0,0,0,
+220,20231231,582,1,1,1,Hire,,,0.0,0,0,0,
+221,20231231,236,6,27,1,Termination,Voluntary,Career Growth,86.6,1,0,0,3.0
+222,20240112,579,8,36,6,Termination,Voluntary,Better Compensation,0.7,1,1,0,
+223,20240114,593,7,33,3,Hire,,,0.0,0,0,0,
+224,20240119,592,7,31,6,Hire,,,0.0,0,0,0,
+225,20240131,186,7,31,2,Termination,Retirement,Retirement,20.8,0,0,0,5.0
+226,20240131,312,7,31,2,Termination,Retirement,Retirement,40.2,0,0,0,4.0
+227,20240131,565,2,7,1,Termination,Voluntary,Management Issues,2.6,1,1,0,
+228,20240201,595,7,32,4,Hire,,,0.0,0,0,0,
+229,20240201,607,3,11,5,Hire,,,0.0,0,0,0,
+230,20240202,523,8,37,1,Termination,Voluntary,Better Compensation,6.3,1,1,0,
+231,20240203,610,7,31,1,Hire,,,0.0,0,0,0,
+232,20240204,166,6,26,1,Termination,Voluntary,Relocation,53.8,1,0,0,1.0
+233,20240205,605,7,31,5,Hire,,,0.0,0,0,0,
+234,20240205,613,8,36,5,Hire,,,0.0,0,0,0,
+235,20240205,325,1,2,3,Termination,Voluntary,Work-Life Balance,23.9,1,0,1,4.0
+236,20240205,522,7,31,1,Termination,Voluntary,Management Issues,7.7,1,1,0,3.0
+237,20240206,533,4,17,1,Termination,Voluntary,Career Growth,6.9,1,1,0,
+238,20240207,512,7,32,1,Termination,Voluntary,Relocation,9.1,1,1,1,4.0
+239,20240208,590,8,36,3,Termination,Voluntary,Better Compensation,1.9,1,1,0,
+240,20240209,513,7,31,1,Termination,Voluntary,Career Growth,9.3,1,1,0,1.0
+241,20240210,596,5,21,1,Hire,,,0.0,0,0,0,
+242,20240210,103,7,31,2,Termination,Involuntary,Misconduct,151.3,0,0,0,4.0
+243,20240210,570,7,32,1,Termination,Voluntary,Career Growth,3.1,1,1,0,
+244,20240211,609,7,31,1,Hire,,,0.0,0,0,0,
+245,20240211,280,2,10,1,Termination,Voluntary,Better Compensation,40.9,1,0,0,2.0
+246,20240212,597,2,6,1,Hire,,,0.0,0,0,0,
+247,20240214,606,7,31,2,Hire,,,0.0,0,0,0,
+248,20240215,581,3,13,5,Termination,Voluntary,Career Growth,2.0,1,1,0,
+249,20240216,604,1,1,1,Hire,,,0.0,0,0,0,
+250,20240217,600,7,31,2,Hire,,,0.0,0,0,0,
+251,20240219,603,4,16,3,Hire,,,0.0,0,0,0,
+252,20240220,612,2,6,2,Hire,,,0.0,0,0,0,
+253,20240221,594,7,31,6,Hire,,,0.0,0,0,0,
+254,20240221,599,7,31,1,Hire,,,0.0,0,0,0,
+255,20240224,601,7,31,4,Hire,,,0.0,0,0,0,
+256,20240225,602,8,38,1,Hire,,,0.0,0,0,0,
+257,20240225,608,8,36,1,Hire,,,0.0,0,0,0,
+258,20240225,577,7,31,2,Termination,Involuntary,Restructuring,2.9,0,1,0,
+259,20240227,85,7,33,1,Termination,Voluntary,Personal / Family,54.1,1,0,0,2.0
+260,20240228,611,4,17,1,Hire,,,0.0,0,0,0,
+261,20240228,557,1,1,1,Termination,Voluntary,Management Issues,4.6,1,1,0,
+262,20240229,598,1,2,1,Hire,,,0.0,0,0,0,
+263,20240302,621,3,12,1,Hire,,,0.0,0,0,0,
+264,20240302,207,8,36,2,Termination,Voluntary,Work-Life Balance,35.5,1,0,0,2.0
+265,20240303,594,7,31,6,Termination,Voluntary,Further Study,0.4,1,1,0,
+266,20240306,553,3,11,1,Termination,Voluntary,Work-Life Balance,4.6,1,1,0,
+267,20240307,515,2,7,1,Termination,Voluntary,Management Issues,9.4,1,1,0,3.0
+268,20240308,617,3,11,5,Hire,,,0.0,0,0,0,
+269,20240308,618,3,11,3,Hire,,,0.0,0,0,0,
+270,20240309,626,7,31,2,Hire,,,0.0,0,0,0,
+271,20240309,357,3,12,1,Termination,Voluntary,Work-Life Balance,105.9,1,0,1,4.0
+272,20240310,624,8,37,1,Hire,,,0.0,0,0,0,
+273,20240310,407,3,12,1,Termination,Voluntary,Personal / Family,77.0,1,0,1,4.0
+274,20240312,620,2,6,3,Hire,,,0.0,0,0,0,
+275,20240313,622,8,36,1,Hire,,,0.0,0,0,0,
+276,20240313,623,7,31,1,Hire,,,0.0,0,0,0,
+277,20240314,588,8,36,5,Termination,Voluntary,Better Compensation,2.8,1,1,0,
+278,20240317,225,1,1,6,Termination,Involuntary,Misconduct,17.8,0,0,0,2.0
+279,20240317,435,8,36,3,Termination,Voluntary,Better Compensation,15.1,1,0,0,2.0
+280,20240318,616,8,37,1,Hire,,,0.0,0,0,0,
+281,20240320,615,1,2,2,Hire,,,0.0,0,0,0,
+282,20240327,627,2,6,6,Hire,,,0.0,0,0,0,
+283,20240327,356,8,36,1,Termination,Voluntary,Personal / Family,44.2,1,0,0,3.0
+284,20240330,614,8,36,1,Hire,,,0.0,0,0,0,
+285,20240330,625,2,7,1,Hire,,,0.0,0,0,0,
+286,20240331,619,8,36,2,Hire,,,0.0,0,0,0,
+287,20240401,634,3,11,2,Hire,,,0.0,0,0,0,
+288,20240402,408,3,12,4,Termination,Voluntary,Career Growth,113.5,1,0,1,4.0
+289,20240403,635,7,31,2,Hire,,,0.0,0,0,0,
+290,20240403,270,3,11,1,Termination,Involuntary,Restructuring,122.6,0,0,0,2.0
+291,20240404,629,1,2,1,Hire,,,0.0,0,0,0,
+292,20240404,642,5,21,1,Hire,,,0.0,0,0,0,
+293,20240404,627,2,6,6,Termination,Voluntary,Career Growth,0.3,1,1,0,
+294,20240407,619,8,36,2,Termination,Involuntary,Poor Performance,0.2,0,1,0,
+295,20240408,630,3,11,4,Hire,,,0.0,0,0,0,
+296,20240410,202,1,2,3,Termination,Voluntary,Career Growth,53.2,1,0,1,5.0
+297,20240411,636,8,36,3,Hire,,,0.0,0,0,0,
+298,20240412,173,7,31,1,Termination,Voluntary,Career Growth,56.1,1,0,0,3.0
+299,20240419,631,1,1,2,Hire,,,0.0,0,0,0,
+300,20240419,346,1,1,3,Termination,Voluntary,Relocation,16.8,1,0,0,2.0
+301,20240420,640,6,26,6,Hire,,,0.0,0,0,0,
+302,20240421,641,7,32,4,Hire,,,0.0,0,0,0,
+303,20240422,503,3,11,3,Termination,Voluntary,Better Compensation,12.3,1,0,0,3.0
+304,20240422,606,7,31,2,Termination,Voluntary,Career Growth,2.2,1,1,0,
+305,20240424,639,5,22,4,Hire,,,0.0,0,0,0,
+306,20240425,632,3,11,3,Hire,,,0.0,0,0,0,
+307,20240425,633,8,36,1,Hire,,,0.0,0,0,0,
+308,20240426,637,5,21,3,Hire,,,0.0,0,0,0,
+309,20240427,628,7,31,6,Hire,,,0.0,0,0,0,
+310,20240430,638,1,1,1,Hire,,,0.0,0,0,0,
+311,20240430,428,8,39,6,Termination,Voluntary,Work-Life Balance,25.6,1,0,0,2.0
+312,20240501,644,7,31,1,Hire,,,0.0,0,0,0,
+313,20240501,118,7,31,5,Termination,Voluntary,Better Compensation,46.7,1,0,0,1.0
+314,20240501,519,8,36,1,Termination,Involuntary,Misconduct,10.2,0,1,0,2.0
+315,20240504,651,4,16,1,Hire,,,0.0,0,0,0,
+316,20240505,654,1,1,1,Hire,,,0.0,0,0,0,
+317,20240505,410,8,38,1,Termination,Voluntary,Further Study,41.6,1,0,0,2.0
+318,20240506,589,1,1,1,Termination,Involuntary,Poor Performance,5.0,0,1,0,
+319,20240508,415,3,11,5,Termination,Involuntary,Poor Performance,106.6,0,0,0,3.0
+320,20240513,645,3,11,6,Hire,,,0.0,0,0,0,
+321,20240513,649,8,36,1,Hire,,,0.0,0,0,0,
+322,20240513,652,1,2,2,Hire,,,0.0,0,0,0,
+323,20240513,573,4,16,5,Termination,Involuntary,Misconduct,5.5,0,1,0,
+324,20240515,488,7,31,1,Termination,Involuntary,Misconduct,12.8,0,0,0,3.0
+325,20240518,650,8,36,3,Hire,,,0.0,0,0,0,
+326,20240519,643,3,12,1,Hire,,,0.0,0,0,0,
+327,20240520,646,8,36,1,Hire,,,0.0,0,0,0,
+328,20240521,656,7,31,2,Hire,,,0.0,0,0,0,
+329,20240521,363,3,12,1,Termination,Voluntary,Career Growth,146.4,1,0,0,3.0
+330,20240524,648,7,31,2,Hire,,,0.0,0,0,0,
+331,20240525,647,7,33,6,Hire,,,0.0,0,0,0,
+332,20240526,59,3,12,1,Termination,Involuntary,Poor Performance,82.2,0,0,0,2.0
+333,20240528,655,7,31,1,Hire,,,0.0,0,0,0,
+334,20240529,653,7,33,1,Hire,,,0.0,0,0,0,
+335,20240531,365,8,37,1,Termination,Retirement,Retirement,44.2,0,0,0,2.0
+336,20240601,124,8,36,6,Termination,Involuntary,Poor Performance,48.3,0,0,0,3.0
+337,20240603,660,8,36,5,Hire,,,0.0,0,0,0,
+338,20240603,667,8,36,3,Hire,,,0.0,0,0,0,
+339,20240604,555,8,36,2,Termination,Voluntary,Further Study,7.8,1,1,0,
+340,20240607,526,8,36,1,Termination,Voluntary,Management Issues,11.1,1,1,0,
+341,20240610,666,8,36,5,Hire,,,0.0,0,0,0,
+342,20240610,505,2,7,3,Termination,Voluntary,Better Compensation,13.6,1,0,0,2.0
+343,20240612,657,7,31,2,Hire,,,0.0,0,0,0,
+344,20240615,663,6,26,4,Hire,,,0.0,0,0,0,
+345,20240616,658,1,1,5,Hire,,,0.0,0,0,0,
+346,20240616,41,7,31,1,Termination,Voluntary,Better Compensation,46.5,1,0,0,2.0
+347,20240616,655,7,31,1,Termination,Voluntary,Work-Life Balance,0.6,1,1,0,
+348,20240618,661,8,36,1,Hire,,,0.0,0,0,0,
+349,20240618,351,6,26,1,Termination,Involuntary,Misconduct,48.9,0,0,0,1.0
+350,20240620,659,3,11,1,Hire,,,0.0,0,0,0,
+351,20240621,664,7,31,1,Hire,,,0.0,0,0,0,
+352,20240624,464,7,31,4,Termination,Voluntary,Better Compensation,17.2,1,0,0,2.0
+353,20240625,187,8,36,3,Termination,Voluntary,Better Compensation,39.6,1,0,1,4.0
+354,20240627,86,3,13,1,Termination,Voluntary,Work-Life Balance,105.9,1,0,0,3.0
+355,20240628,662,7,31,3,Hire,,,0.0,0,0,0,
+356,20240628,668,7,31,3,Hire,,,0.0,0,0,0,
+357,20240629,665,2,8,3,Hire,,,0.0,0,0,0,
+358,20240630,60,3,11,1,Termination,Retirement,Retirement,46.9,0,0,0,3.0
+359,20240630,195,7,32,1,Termination,Retirement,Retirement,73.3,0,0,0,2.0
+360,20240703,675,7,31,6,Hire,,,0.0,0,0,0,
+361,20240704,680,7,32,6,Hire,,,0.0,0,0,0,
+362,20240704,682,1,5,1,Hire,,,0.0,0,0,0,
+363,20240706,677,2,6,1,Hire,,,0.0,0,0,0,
+364,20240706,546,2,7,1,Termination,Voluntary,Management Issues,10.2,1,1,0,
+365,20240708,683,8,36,3,Hire,,,0.0,0,0,0,
+366,20240708,618,3,11,3,Termination,Voluntary,Better Compensation,4.0,1,1,0,
+367,20240710,676,3,12,1,Hire,,,0.0,0,0,0,
+368,20240711,670,7,33,3,Hire,,,0.0,0,0,0,
+369,20240713,189,3,13,1,Termination,Voluntary,Management Issues,37.7,1,0,0,3.0
+370,20240713,586,1,1,3,Termination,Involuntary,Poor Performance,7.4,0,1,0,
+371,20240717,672,2,7,4,Hire,,,0.0,0,0,0,
+372,20240718,678,7,32,2,Hire,,,0.0,0,0,0,
+373,20240720,669,3,12,4,Hire,,,0.0,0,0,0,
+374,20240720,673,2,7,2,Hire,,,0.0,0,0,0,
+375,20240721,679,8,38,3,Hire,,,0.0,0,0,0,
+376,20240723,671,8,36,5,Hire,,,0.0,0,0,0,
+377,20240723,684,8,38,6,Hire,,,0.0,0,0,0,
+378,20240723,246,8,37,1,Termination,Voluntary,Career Growth,104.0,1,0,0,3.0
+379,20240724,238,7,31,1,Termination,Voluntary,Further Study,32.6,1,0,0,2.0
+380,20240725,681,1,1,1,Hire,,,0.0,0,0,0,
+381,20240725,443,2,6,1,Termination,Voluntary,Career Growth,173.5,1,0,0,3.0
+382,20240725,608,8,36,1,Termination,Voluntary,Career Growth,5.0,1,1,0,
+383,20240728,674,1,1,1,Hire,,,0.0,0,0,0,
+384,20240804,687,7,32,1,Hire,,,0.0,0,0,0,
+385,20240805,602,8,38,1,Termination,Voluntary,Career Growth,5.3,1,1,0,
+386,20240808,688,1,1,2,Hire,,,0.0,0,0,0,
+387,20240809,691,8,37,3,Hire,,,0.0,0,0,0,
+388,20240809,262,7,31,1,Termination,Voluntary,Work-Life Balance,22.9,1,0,0,3.0
+389,20240811,685,7,34,4,Hire,,,0.0,0,0,0,
+390,20240813,658,1,1,5,Termination,Involuntary,Misconduct,1.9,0,1,0,
+391,20240814,689,2,8,1,Hire,,,0.0,0,0,0,
+392,20240815,389,7,31,2,Termination,Voluntary,Career Growth,73.2,1,0,0,3.0
+393,20240817,690,2,6,1,Hire,,,0.0,0,0,0,
+394,20240818,121,3,11,1,Termination,Voluntary,Work-Life Balance,174.3,1,0,0,3.0
+395,20240818,323,1,2,1,Termination,Voluntary,Career Growth,22.4,1,0,0,2.0
+396,20240818,567,8,37,6,Termination,Voluntary,Better Compensation,9.0,1,1,0,
+397,20240819,539,2,7,4,Termination,Voluntary,Career Growth,12.3,1,0,0,
+398,20240826,686,7,31,4,Hire,,,0.0,0,0,0,
+399,20240826,598,1,2,1,Termination,Voluntary,Better Compensation,5.9,1,1,0,
+400,20240827,284,7,32,5,Termination,Voluntary,Career Growth,100.3,1,0,1,4.0
+401,20240905,352,7,32,1,Termination,Involuntary,Restructuring,41.5,0,0,0,4.0
+402,20240905,571,6,26,6,Termination,Voluntary,Career Growth,9.8,1,1,0,
+403,20240906,698,6,27,3,Hire,,,0.0,0,0,0,
+404,20240906,514,1,1,6,Termination,Involuntary,Contract End,16.2,0,0,0,4.0
+405,20240908,692,3,13,1,Hire,,,0.0,0,0,0,
+406,20240914,696,2,6,3,Hire,,,0.0,0,0,0,
+407,20240915,459,7,31,1,Termination,Voluntary,Better Compensation,39.6,1,0,0,3.0
+408,20240916,694,7,32,1,Hire,,,0.0,0,0,0,
+409,20240922,697,8,36,1,Hire,,,0.0,0,0,0,
+410,20240922,569,8,38,1,Termination,Involuntary,Poor Performance,9.9,0,1,0,
+411,20240923,699,7,31,1,Hire,,,0.0,0,0,0,
+412,20240925,568,3,12,5,Termination,Voluntary,Work-Life Balance,10.3,1,1,0,
+413,20240926,695,1,4,1,Hire,,,0.0,0,0,0,
+414,20240928,693,7,32,4,Hire,,,0.0,0,0,0,
+415,20240929,6,1,1,1,Termination,Voluntary,Work-Life Balance,38.5,1,0,0,2.0
+416,20241001,140,8,36,1,Termination,Voluntary,Better Compensation,30.9,1,0,0,3.0
+417,20241004,705,1,1,1,Hire,,,0.0,0,0,0,
+418,20241006,719,1,1,5,Hire,,,0.0,0,0,0,
+419,20241007,711,1,2,1,Hire,,,0.0,0,0,0,
+420,20241010,718,3,11,1,Hire,,,0.0,0,0,0,
+421,20241011,702,7,31,5,Hire,,,0.0,0,0,0,
+422,20241015,703,7,31,6,Hire,,,0.0,0,0,0,
+423,20241015,104,2,6,1,Termination,Voluntary,Work-Life Balance,75.4,1,0,0,2.0
+424,20241016,701,8,36,2,Hire,,,0.0,0,0,0,
+425,20241016,674,1,1,1,Termination,Involuntary,Misconduct,2.6,0,1,0,
+426,20241018,707,8,37,3,Hire,,,0.0,0,0,0,
+427,20241018,712,8,37,1,Hire,,,0.0,0,0,0,
+428,20241018,715,4,16,1,Hire,,,0.0,0,0,0,
+429,20241019,716,2,8,1,Hire,,,0.0,0,0,0,
+430,20241019,172,7,31,1,Termination,Voluntary,Better Compensation,22.1,1,0,0,2.0
+431,20241020,709,7,31,2,Hire,,,0.0,0,0,0,
+432,20241021,717,6,26,3,Hire,,,0.0,0,0,0,
+433,20241021,638,1,1,1,Termination,Involuntary,Restructuring,5.7,0,1,0,
+434,20241022,688,1,1,2,Termination,Involuntary,Poor Performance,2.5,0,1,0,
+435,20241023,713,3,11,2,Hire,,,0.0,0,0,0,
+436,20241023,542,8,36,4,Termination,Voluntary,Relocation,14.5,1,0,0,
+437,20241024,714,3,14,3,Hire,,,0.0,0,0,0,
+438,20241024,405,3,12,1,Termination,Voluntary,Work-Life Balance,69.0,1,0,0,3.0
+439,20241024,520,1,1,1,Termination,Voluntary,Better Compensation,15.9,1,0,0,3.0
+440,20241025,706,8,36,5,Hire,,,0.0,0,0,0,
+441,20241025,267,1,2,1,Termination,Voluntary,Further Study,44.0,1,0,0,1.0
+442,20241027,560,8,36,1,Termination,Involuntary,Poor Performance,12.7,0,0,0,
+443,20241028,708,1,1,1,Hire,,,0.0,0,0,0,
+444,20241028,644,7,31,1,Termination,Voluntary,Better Compensation,5.9,1,1,0,
+445,20241029,704,3,11,1,Hire,,,0.0,0,0,0,
+446,20241030,700,2,7,2,Hire,,,0.0,0,0,0,
+447,20241030,681,1,1,1,Termination,Voluntary,Career Growth,3.2,1,1,0,
+448,20241031,710,1,1,1,Hire,,,0.0,0,0,0,
+449,20241103,721,7,31,1,Hire,,,0.0,0,0,0,
+450,20241104,725,1,1,1,Hire,,,0.0,0,0,0,
+451,20241108,511,8,36,1,Termination,Involuntary,Restructuring,18.2,0,0,0,4.0
+452,20241109,730,1,1,3,Hire,,,0.0,0,0,0,
+453,20241111,732,7,31,2,Hire,,,0.0,0,0,0,
+454,20241114,731,3,13,1,Hire,,,0.0,0,0,0,
+455,20241116,62,2,6,4,Termination,Involuntary,Poor Performance,35.0,0,0,0,4.0
+456,20241117,722,2,6,5,Hire,,,0.0,0,0,0,
+457,20241117,88,1,1,5,Termination,Voluntary,Better Compensation,61.0,1,0,0,3.0
+458,20241120,720,7,31,2,Hire,,,0.0,0,0,0,
+459,20241120,726,3,12,4,Hire,,,0.0,0,0,0,
+460,20241121,733,7,32,2,Hire,,,0.0,0,0,0,
+461,20241122,727,8,36,6,Hire,,,0.0,0,0,0,
+462,20241123,133,1,3,1,Termination,Voluntary,Career Growth,161.5,1,0,1,4.0
+463,20241123,490,3,11,4,Termination,Voluntary,Better Compensation,19.0,1,0,1,5.0
+464,20241124,45,7,31,1,Termination,Involuntary,Misconduct,114.2,0,0,0,2.0
+465,20241125,728,1,1,3,Hire,,,0.0,0,0,0,
+466,20241126,723,7,32,1,Hire,,,0.0,0,0,0,
+467,20241127,615,1,2,2,Termination,Involuntary,Restructuring,8.3,0,1,0,
+468,20241128,729,8,37,1,Hire,,,0.0,0,0,0,
+469,20241128,122,7,32,5,Termination,Voluntary,Career Growth,51.4,1,0,0,3.0
+470,20241128,438,1,2,2,Termination,Voluntary,Career Growth,71.0,1,0,0,3.0
+471,20241129,636,8,36,3,Termination,Involuntary,Misconduct,7.6,0,1,0,
+472,20241130,724,1,1,2,Hire,,,0.0,0,0,0,
+473,20241202,742,8,36,1,Hire,,,0.0,0,0,0,
+474,20241204,737,7,32,1,Hire,,,0.0,0,0,0,
+475,20241205,706,8,36,5,Termination,Involuntary,Restructuring,1.3,0,1,0,
+476,20241206,735,3,11,1,Hire,,,0.0,0,0,0,
+477,20241209,738,1,1,4,Hire,,,0.0,0,0,0,
+478,20241209,695,1,4,1,Termination,Voluntary,Work-Life Balance,2.4,1,1,0,
+479,20241211,436,3,13,3,Termination,Voluntary,Better Compensation,58.1,1,0,0,3.0
+480,20241212,616,8,37,1,Termination,Voluntary,Better Compensation,8.8,1,1,0,
+481,20241215,740,2,6,1,Hire,,,0.0,0,0,0,
+482,20241216,744,4,16,6,Hire,,,0.0,0,0,0,
+483,20241216,561,2,6,1,Termination,Involuntary,Poor Performance,13.6,0,0,0,
+484,20241217,739,8,36,1,Hire,,,0.0,0,0,0,
+485,20241218,585,1,3,6,Termination,Voluntary,Better Compensation,12.5,1,0,0,
+486,20241220,734,3,11,1,Hire,,,0.0,0,0,0,
+487,20241221,743,1,1,6,Hire,,,0.0,0,0,0,
+488,20241226,741,7,32,2,Hire,,,0.0,0,0,0,
+489,20241226,554,1,1,5,Termination,Involuntary,Misconduct,14.2,0,0,0,
+490,20241227,736,1,1,1,Hire,,,0.0,0,0,0,
+491,20241228,646,8,36,1,Termination,Involuntary,Poor Performance,7.3,0,1,0,
+492,20241231,390,3,13,1,Termination,Voluntary,Work-Life Balance,74.5,1,0,0,2.0
+493,20250101,392,8,37,1,Termination,Voluntary,Better Compensation,49.6,1,0,0,1.0
+494,20250102,745,8,37,3,Hire,,,0.0,0,0,0,
+495,20250103,751,7,31,2,Hire,,,0.0,0,0,0,
+496,20250104,750,7,31,1,Hire,,,0.0,0,0,0,
+497,20250104,704,3,11,1,Termination,Involuntary,Restructuring,2.2,0,1,0,
+498,20250105,753,3,11,2,Hire,,,0.0,0,0,0,
+499,20250108,277,3,11,1,Termination,Voluntary,Work-Life Balance,73.5,1,0,0,1.0
+500,20250108,414,3,11,2,Termination,Voluntary,Better Compensation,140.3,1,0,0,3.0
+501,20250109,746,3,12,1,Hire,,,0.0,0,0,0,
+502,20250110,314,3,14,1,Termination,Involuntary,Poor Performance,42.8,0,0,0,2.0
+503,20250112,748,8,40,6,Hire,,,0.0,0,0,0,
+504,20250114,752,8,36,3,Hire,,,0.0,0,0,0,
+505,20250116,732,7,31,2,Termination,Voluntary,Further Study,2.2,1,1,0,
+506,20250123,754,7,33,1,Hire,,,0.0,0,0,0,
+507,20250124,444,1,1,1,Termination,Voluntary,Better Compensation,31.0,1,0,1,4.0
+508,20250125,749,8,37,1,Hire,,,0.0,0,0,0,
+509,20250125,755,7,31,1,Hire,,,0.0,0,0,0,
+510,20250126,661,8,36,1,Termination,Involuntary,Poor Performance,7.3,0,1,0,1.0
+511,20250128,482,7,31,3,Termination,Voluntary,Better Compensation,22.4,1,0,0,2.0
+512,20250131,747,3,11,5,Hire,,,0.0,0,0,0,
+513,20250131,98,8,36,1,Termination,Retirement,Retirement,30.9,0,0,0,2.0
+514,20250201,771,3,11,3,Hire,,,0.0,0,0,0,
+515,20250202,767,8,37,1,Hire,,,0.0,0,0,0,
+516,20250203,724,1,1,2,Termination,Voluntary,Career Growth,2.1,1,1,0,
+517,20250204,412,1,1,1,Termination,Voluntary,Better Compensation,60.9,1,0,0,2.0
+518,20250205,758,1,1,6,Hire,,,0.0,0,0,0,
+519,20250207,760,1,2,1,Hire,,,0.0,0,0,0,
+520,20250209,764,1,1,2,Hire,,,0.0,0,0,0,
+521,20250209,769,3,12,1,Hire,,,0.0,0,0,0,
+522,20250209,184,8,36,1,Termination,Voluntary,Better Compensation,35.5,1,0,0,3.0
+523,20250213,766,7,31,1,Hire,,,0.0,0,0,0,
+524,20250213,770,8,36,5,Hire,,,0.0,0,0,0,
+525,20250215,759,8,36,6,Hire,,,0.0,0,0,0,
+526,20250216,508,7,33,1,Termination,Voluntary,Relocation,22.5,1,0,0,2.0
+527,20250219,761,7,34,1,Hire,,,0.0,0,0,0,
+528,20250219,772,1,1,1,Hire,,,0.0,0,0,0,
+529,20250219,670,7,33,3,Termination,Voluntary,Work-Life Balance,7.3,1,1,0,
+530,20250220,23,1,2,6,Termination,Voluntary,Better Compensation,75.0,1,0,0,3.0
+531,20250220,614,8,36,1,Termination,Voluntary,Personal / Family,10.7,1,1,0,3.0
+532,20250223,757,3,11,3,Hire,,,0.0,0,0,0,
+533,20250223,768,7,31,1,Hire,,,0.0,0,0,0,
+534,20250225,762,8,36,1,Hire,,,0.0,0,0,0,
+535,20250225,773,3,11,2,Hire,,,0.0,0,0,0,
+536,20250225,169,1,1,1,Termination,Involuntary,Poor Performance,36.6,0,0,0,3.0
+537,20250226,756,1,1,1,Hire,,,0.0,0,0,0,
+538,20250226,763,7,31,2,Hire,,,0.0,0,0,0,
+539,20250228,765,1,2,1,Hire,,,0.0,0,0,0,
+540,20250228,132,3,12,1,Termination,Involuntary,Poor Performance,82.8,0,0,0,3.0
+541,20250228,653,7,33,1,Termination,Involuntary,Restructuring,9.0,0,1,0,2.0
+542,20250301,775,6,26,3,Hire,,,0.0,0,0,0,
+543,20250310,778,3,12,3,Hire,,,0.0,0,0,0,
+544,20250311,774,6,26,5,Hire,,,0.0,0,0,0,
+545,20250315,657,7,31,2,Termination,Voluntary,Better Compensation,9.1,1,1,0,3.0
+546,20250319,152,6,26,1,Termination,Voluntary,Relocation,44.3,1,0,0,2.0
+547,20250320,776,8,36,2,Hire,,,0.0,0,0,0,
+548,20250325,777,7,31,3,Hire,,,0.0,0,0,0,
+549,20250329,87,6,26,1,Termination,Voluntary,Management Issues,47.0,1,0,0,3.0
+550,20250331,233,8,36,2,Termination,Retirement,Retirement,61.6,0,0,0,3.0
+551,20250407,666,8,36,5,Termination,Voluntary,Relocation,9.9,1,1,0,3.0
+552,20250408,784,8,36,1,Hire,,,0.0,0,0,0,
+553,20250411,780,8,38,4,Hire,,,0.0,0,0,0,
+554,20250416,782,7,33,1,Hire,,,0.0,0,0,0,
+555,20250418,781,5,21,4,Hire,,,0.0,0,0,0,
+556,20250420,779,2,6,5,Hire,,,0.0,0,0,0,
+557,20250420,399,2,6,1,Termination,Involuntary,Poor Performance,182.3,0,0,0,3.0
+558,20250427,783,7,31,4,Hire,,,0.0,0,0,0,
+559,20250501,730,1,1,3,Termination,Voluntary,Better Compensation,5.7,1,1,0,
+560,20250503,785,3,11,1,Hire,,,0.0,0,0,0,
+561,20250508,792,7,31,1,Hire,,,0.0,0,0,0,
+562,20250508,299,7,31,3,Termination,Voluntary,Personal / Family,67.9,1,0,0,3.0
+563,20250509,788,1,1,5,Hire,,,0.0,0,0,0,
+564,20250515,787,7,31,5,Hire,,,0.0,0,0,0,
+565,20250517,790,8,36,1,Hire,,,0.0,0,0,0,
+566,20250518,786,2,7,2,Hire,,,0.0,0,0,0,
+567,20250521,212,3,12,6,Termination,Voluntary,Career Growth,37.1,1,0,0,1.0
+568,20250521,227,2,6,4,Termination,Voluntary,Career Growth,88.4,1,0,0,2.0
+569,20250525,789,1,1,1,Hire,,,0.0,0,0,0,
+570,20250531,791,2,6,6,Hire,,,0.0,0,0,0,
+571,20250531,456,1,1,3,Termination,Retirement,Retirement,32.0,0,0,0,3.0
+572,20250603,801,8,37,5,Hire,,,0.0,0,0,0,
+573,20250603,680,7,32,6,Termination,Voluntary,Better Compensation,11.0,1,1,0,
+574,20250606,388,7,31,1,Termination,Voluntary,Career Growth,31.3,1,0,0,2.0
+575,20250608,803,8,39,1,Hire,,,0.0,0,0,0,
+576,20250608,575,1,2,4,Termination,Voluntary,Work-Life Balance,19.2,1,0,0,2.0
+577,20250610,175,8,38,3,Termination,Involuntary,Poor Performance,72.2,0,0,0,1.0
+578,20250615,793,8,36,3,Hire,,,0.0,0,0,0,
+579,20250616,795,7,32,4,Hire,,,0.0,0,0,0,
+580,20250618,799,7,31,2,Hire,,,0.0,0,0,0,
+581,20250619,802,4,18,1,Hire,,,0.0,0,0,0,
+582,20250620,79,8,39,1,Termination,Voluntary,Personal / Family,37.2,1,0,0,3.0
+583,20250620,685,7,34,4,Termination,Involuntary,Restructuring,10.3,0,1,0,
+584,20250621,797,1,2,3,Hire,,,0.0,0,0,0,
+585,20250623,796,1,1,1,Hire,,,0.0,0,0,0,
+586,20250623,604,1,1,1,Termination,Voluntary,Better Compensation,16.2,1,0,0,2.0
+587,20250626,794,3,11,1,Hire,,,0.0,0,0,0,
+588,20250626,798,7,31,3,Hire,,,0.0,0,0,0,
+589,20250626,800,8,36,4,Hire,,,0.0,0,0,0,
+590,20250701,582,1,1,1,Termination,Voluntary,Career Growth,18.0,1,0,0,3.0
+591,20250702,804,8,36,5,Hire,,,0.0,0,0,0,
+592,20250706,794,3,11,1,Termination,Voluntary,Better Compensation,0.3,1,1,0,
+593,20250707,806,7,31,3,Hire,,,0.0,0,0,0,
+594,20250707,812,7,31,5,Hire,,,0.0,0,0,0,
+595,20250708,810,1,1,1,Hire,,,0.0,0,0,0,
+596,20250709,700,2,7,2,Termination,Voluntary,Better Compensation,8.3,1,1,0,
+597,20250710,506,3,12,1,Termination,Voluntary,Better Compensation,27.2,1,0,0,2.0
+598,20250711,702,7,31,5,Termination,Involuntary,Poor Performance,9.0,0,1,0,
+599,20250713,811,2,6,1,Hire,,,0.0,0,0,0,
+600,20250714,814,3,12,1,Hire,,,0.0,0,0,0,
+601,20250716,809,1,2,1,Hire,,,0.0,0,0,0,
+602,20250716,813,7,31,4,Hire,,,0.0,0,0,0,
+603,20250716,26,8,37,4,Termination,Voluntary,Better Compensation,98.1,1,0,0,3.0
+604,20250717,796,1,1,1,Termination,Voluntary,Work-Life Balance,0.8,1,1,0,
+605,20250718,808,7,32,6,Hire,,,0.0,0,0,0,
+606,20250720,531,1,2,1,Termination,Voluntary,Career Growth,23.8,1,0,0,2.0
+607,20250721,807,3,11,1,Hire,,,0.0,0,0,0,
+608,20250724,150,7,32,5,Termination,Involuntary,Poor Performance,134.9,0,0,0,2.0
+609,20250726,815,1,1,3,Hire,,,0.0,0,0,0,
+610,20250726,524,7,32,1,Termination,Involuntary,Restructuring,24.1,0,0,0,1.0
+611,20250729,43,5,21,1,Termination,Voluntary,Better Compensation,37.8,1,0,1,4.0
+612,20250730,805,5,23,3,Hire,,,0.0,0,0,0,
+613,20250731,750,7,31,1,Termination,Involuntary,Poor Performance,6.8,0,1,0,
+614,20250804,818,6,27,1,Hire,,,0.0,0,0,0,
+615,20250805,816,1,1,5,Hire,,,0.0,0,0,0,
+616,20250806,784,8,36,1,Termination,Voluntary,Career Growth,3.9,1,1,0,
+617,20250807,819,8,36,3,Hire,,,0.0,0,0,0,
+618,20250808,822,1,1,1,Hire,,,0.0,0,0,0,
+619,20250809,421,1,4,1,Termination,Voluntary,Management Issues,94.2,1,0,0,3.0
+620,20250813,825,3,11,1,Hire,,,0.0,0,0,0,
+621,20250816,817,1,1,1,Hire,,,0.0,0,0,0,
+622,20250816,820,6,26,1,Hire,,,0.0,0,0,0,
+623,20250825,823,8,36,5,Hire,,,0.0,0,0,0,
+624,20250827,708,1,1,1,Termination,Voluntary,Better Compensation,10.0,1,1,0,
+625,20250828,821,1,1,3,Hire,,,0.0,0,0,0,
+626,20250828,824,3,11,4,Hire,,,0.0,0,0,0,
+627,20250829,774,6,26,5,Termination,Voluntary,Better Compensation,5.6,1,1,0,
+628,20250901,830,3,11,3,Hire,,,0.0,0,0,0,
+629,20250908,831,2,7,1,Hire,,,0.0,0,0,0,
+630,20250908,478,3,11,4,Termination,Voluntary,Better Compensation,30.6,1,0,0,2.0
+631,20250909,828,3,12,2,Hire,,,0.0,0,0,0,
+632,20250911,827,7,31,1,Hire,,,0.0,0,0,0,
+633,20250912,832,7,32,1,Hire,,,0.0,0,0,0,
+634,20250912,33,3,11,3,Termination,Involuntary,Misconduct,43.7,0,0,0,2.0
+635,20250915,811,2,6,1,Termination,Involuntary,Poor Performance,2.1,0,1,0,
+636,20250918,834,7,32,1,Hire,,,0.0,0,0,0,
+637,20250919,829,3,11,3,Hire,,,0.0,0,0,0,
+638,20250919,833,7,32,6,Hire,,,0.0,0,0,0,
+639,20250927,826,3,14,1,Hire,,,0.0,0,0,0,
+640,20250929,102,7,32,1,Termination,Involuntary,Misconduct,49.9,0,0,0,2.0
+641,20250929,726,3,12,4,Termination,Involuntary,Poor Performance,10.3,0,1,0,
+642,20250929,769,3,12,1,Termination,Involuntary,Poor Performance,7.6,0,1,0,
+643,20251002,840,7,31,6,Hire,,,0.0,0,0,0,
+644,20251003,660,8,36,5,Termination,Voluntary,Management Issues,16.0,1,0,0,2.0
+645,20251005,836,6,28,4,Hire,,,0.0,0,0,0,
+646,20251005,837,8,36,3,Hire,,,0.0,0,0,0,
+647,20251006,771,3,11,3,Termination,Voluntary,Better Compensation,8.1,1,1,0,
+648,20251012,663,6,26,4,Termination,Voluntary,Better Compensation,15.9,1,0,0,3.0
+649,20251013,838,7,32,4,Hire,,,0.0,0,0,0,
+650,20251016,835,8,36,1,Hire,,,0.0,0,0,0,
+651,20251016,795,7,32,4,Termination,Involuntary,Poor Performance,4.0,0,1,0,
+652,20251018,839,3,11,5,Hire,,,0.0,0,0,0,
+653,20251019,755,7,31,1,Termination,Involuntary,Poor Performance,8.8,0,1,0,
+654,20251024,841,8,37,5,Hire,,,0.0,0,0,0,
+655,20251024,729,8,37,1,Termination,Involuntary,Misconduct,10.8,0,1,0,
+656,20251025,801,8,37,5,Termination,Voluntary,Career Growth,4.7,1,1,0,
+657,20251028,842,1,1,3,Hire,,,0.0,0,0,0,
+658,20251101,690,2,6,1,Termination,Involuntary,Poor Performance,14.5,0,0,0,
+659,20251104,845,2,6,2,Hire,,,0.0,0,0,0,
+660,20251105,821,1,1,3,Termination,Voluntary,Work-Life Balance,2.3,1,1,0,
+661,20251107,851,4,18,1,Hire,,,0.0,0,0,0,
+662,20251108,848,1,1,3,Hire,,,0.0,0,0,0,
+663,20251108,850,8,36,1,Hire,,,0.0,0,0,0,
+664,20251109,833,7,32,6,Termination,Voluntary,Personal / Family,1.7,1,1,0,
+665,20251110,843,5,21,1,Hire,,,0.0,0,0,0,
+666,20251114,852,8,37,1,Hire,,,0.0,0,0,0,
+667,20251117,844,7,31,1,Hire,,,0.0,0,0,0,
+668,20251117,849,1,2,2,Hire,,,0.0,0,0,0,
+669,20251120,853,2,7,1,Hire,,,0.0,0,0,0,
+670,20251121,779,2,6,5,Termination,Involuntary,Restructuring,7.1,0,1,0,
+671,20251122,781,5,21,4,Termination,Voluntary,Better Compensation,7.2,1,1,0,
+672,20251123,847,3,11,1,Hire,,,0.0,0,0,0,
+673,20251125,846,2,7,1,Hire,,,0.0,0,0,0,
+674,20251129,72,5,21,1,Termination,Voluntary,Career Growth,98.8,1,0,1,5.0
+675,20251130,854,7,35,2,Hire,,,0.0,0,0,0,
+676,20251130,143,7,31,4,Termination,Retirement,Retirement,67.4,0,0,0,3.0
+677,20251202,863,1,2,5,Hire,,,0.0,0,0,0,
+678,20251205,839,3,11,5,Termination,Involuntary,Poor Performance,1.6,0,1,0,
+679,20251206,858,7,31,1,Hire,,,0.0,0,0,0,
+680,20251209,862,1,1,1,Hire,,,0.0,0,0,0,
+681,20251210,727,8,36,6,Termination,Voluntary,Better Compensation,12.6,1,0,0,
+682,20251211,754,7,33,1,Termination,Voluntary,Work-Life Balance,10.6,1,1,0,
+683,20251212,780,8,38,4,Termination,Involuntary,Poor Performance,8.0,0,1,0,
+684,20251219,860,3,11,3,Hire,,,0.0,0,0,0,
+685,20251220,857,8,37,1,Hire,,,0.0,0,0,0,
+686,20251220,859,7,31,2,Hire,,,0.0,0,0,0,
+687,20251222,861,3,11,5,Hire,,,0.0,0,0,0,
+688,20251222,491,8,36,3,Termination,Voluntary,Better Compensation,32.6,1,0,1,5.0
+689,20251225,856,8,36,1,Hire,,,0.0,0,0,0,
+690,20251226,374,1,1,5,Termination,Voluntary,Personal / Family,107.3,1,0,1,4.0
+691,20251227,864,4,16,4,Hire,,,0.0,0,0,0,
+692,20251229,855,1,1,2,Hire,,,0.0,0,0,0,

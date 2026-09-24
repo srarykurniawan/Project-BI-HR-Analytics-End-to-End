@@ -1,0 +1,8 @@
+location_key,location_code,city,province,region,office_type
+-1,UNK,Unknown,Unknown,Unknown,Unknown
+1,JKT,Jakarta,DKI Jakarta,Jawa,Head Office
+2,SBY,Surabaya,Jawa Timur,Jawa,Branch Office
+3,BDG,Bandung,Jawa Barat,Jawa,Branch Office
+4,YGY,Yogyakarta,DI Yogyakarta,Jawa,Branch Office
+5,MDN,Medan,Sumatera Utara,Sumatera,Branch Office
+6,MKS,Makassar,Sulawesi Selatan,Sulawesi,Branch Office

@@ -1,0 +1,37 @@
+kpi_code,kpi_name,year,target_value,direction,unit
+TURNOVER,Annual Turnover Rate,2023,0.15,lower,%
+VOL_TURNOVER,Voluntary Turnover Rate,2023,0.11,lower,%
+ABSENT,Absenteeism Rate,2023,0.025,lower,%
+LATE,Late Arrival Rate,2023,0.05,lower,%
+TTF,Avg Time to Fill (days),2023,40.0,lower,days
+CPH,Cost per Hire (IDR),2023,4500000.0,lower,IDR
+ENPS,eNPS,2023,10.0,higher,score
+ENGAGE,Engagement Score,2023,3.6,higher,score
+TRAIN_HRS,Training Hours per Employee,2023,20.0,higher,hours
+HEADCOUNT,Headcount (End of Year),2023,500.0,higher,people
+OFFER_ACC,Offer Acceptance Rate,2023,0.8,higher,%
+HIGH_PERF,% High Performer (rating 4-5),2023,0.3,higher,%
+TURNOVER,Annual Turnover Rate,2024,0.15,lower,%
+VOL_TURNOVER,Voluntary Turnover Rate,2024,0.11,lower,%
+ABSENT,Absenteeism Rate,2024,0.025,lower,%
+LATE,Late Arrival Rate,2024,0.05,lower,%
+TTF,Avg Time to Fill (days),2024,40.0,lower,days
+CPH,Cost per Hire (IDR),2024,4500000.0,lower,IDR
+ENPS,eNPS,2024,18.0,higher,score
+ENGAGE,Engagement Score,2024,3.6,higher,score
+TRAIN_HRS,Training Hours per Employee,2024,20.0,higher,hours
+HEADCOUNT,Headcount (End of Year),2024,540.0,higher,people
+OFFER_ACC,Offer Acceptance Rate,2024,0.8,higher,%
+HIGH_PERF,% High Performer (rating 4-5),2024,0.3,higher,%
+TURNOVER,Annual Turnover Rate,2025,0.15,lower,%
+VOL_TURNOVER,Voluntary Turnover Rate,2025,0.11,lower,%
+ABSENT,Absenteeism Rate,2025,0.025,lower,%
+LATE,Late Arrival Rate,2025,0.05,lower,%
+TTF,Avg Time to Fill (days),2025,40.0,lower,days
+CPH,Cost per Hire (IDR),2025,4500000.0,lower,IDR
+ENPS,eNPS,2025,18.0,higher,score
+ENGAGE,Engagement Score,2025,3.6,higher,score
+TRAIN_HRS,Training Hours per Employee,2025,20.0,higher,hours
+HEADCOUNT,Headcount (End of Year),2025,580.0,higher,people
+OFFER_ACC,Offer Acceptance Rate,2025,0.8,higher,%
+HIGH_PERF,% High Performer (rating 4-5),2025,0.3,higher,%
